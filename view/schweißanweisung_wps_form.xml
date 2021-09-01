@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+    <notebook>
+        <page string="" id="schweissprozess1" col="6">
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name=" " />
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <field name="logo_company" />
+             </group>
+             <newline/>
+             <label name="erzeugnis"/>
+             <field name="erzeugnis"/>
+             <label name="bereich"/>
+             <field name="bereich"/>
+             <label name="intern_nr"/>
+             <field name="intern_nr"/>
+             <newline/>
+             <label name="projekt_nr"/>
+             <field name="projekt_nr"/>
+             <label name="belegnr"/>
+             <field name="belegnr"/>
+             <newline/>
+             <label name="zeichn_nr"/>
+             <field name="zeichn_nr"/>
+             <label name="geeigneter_schweisser"/>
+             <field name="geeigneter_schweisser"/>
+             <label name="formular"/>
+             <field name="formular"/>
+        </page>
+    </notebook>
+    <newline/>
+    <notebook>
+        <page string="" id="schweissprozess1" col="6">
+
+             <label name="nahtform"/>
+             <field name="nahtform"/>
+             <field name="title" colspan="2"/>
+             <label name="wps_nr"/>
+             <field name="wps_nr"/>
+             <newline/>
+             <label name="nahtnr"/>
+             <field name="nahtnr"/>
+             <label name="revision"/>
+             <field name="revision"/>
+             <label name="erzeugnis"/>
+             <field name="erzeugnis"/>
+             <newline/>
+             <label  name=" " colspan="2"/>
+             <label name="clss"/>
+             <field name="clss"/>
+             <label name="projekt_nr"/>
+             <field name="projekt_nr"/>
+             <newline/>
+             <label name="" colspan="4"/>
+             <label name="zeichn_nr"/>
+             <field name="zeichn_nr"/>
+
+        </page>
+    </notebook>
+    <newline/>
+    <notebook>
+        <page string="" id="schweissprozess" col="8">
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="ort" />
+                  <field name="ort" />
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name=" " colspan="4"/>
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                  <label name="prüfer_oder_prüfstelle"/>
+                  <field name="prüfer_oder_prüfstelle" />
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="wpqnr"/>
+                  <field name="wpqnr"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name=" " colspan="4"/>
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                  <label name="fugenbearbeitung1"/>
+                  <field name="fugenbearbeitung1" />
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="belegnr"/>
+                  <field name="belegnr"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name=" " colspan="4"/>
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                  <label name=" " colspan="4"/>
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="hersteller"/>
+                  <field name="hersteller"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name=" "/>
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                  <label name="grundwerkstoff1"/>
+                  <field name="grundwerkstoff1" colspan="-1"/>
+                  <field name="grundwerkstoff1_nummer" colspan="-1"/>
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="prozess"/>
+                  <field name="prozess"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name="tropfenübergang1" />
+                  <field name="tropfenübergang1" />
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                  <label name="grundwerkstoff2" />
+                  <field name="grundwerkstoff2" colspan="-1"/>
+                  <field name="grundwerkstoff2_nummer" colspan="-1"/>
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="mechanisierungsgrad"/>
+                  <field name="mechanisierungsgrad"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name="werkstuckdicke1"/>
+                  <field name="werkstuckdicke1"/>
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                  <label name="werkstuckdicke2"/>
+                  <field name="werkstuckdicke2"/>
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="produktform"/>
+                  <field name="produktform"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name="nahtart"/>
+                  <field name="nahtart"/>
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name=""/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name="aussendurchmesser1" />
+                  <field name="aussendurchmesser1" colspan="-1"/>
+                  <label name="aussendurchmesser2"/>
+                  <field name="aussendurchmesser2" colspan="-1"/>
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="einzelheiten"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name="dike_des_schweißgutes"/>
+                  <field name="dike_des_schweißgutes"/>
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                  <label name="kehlnahtdicke"/>
+                  <field name="kehlnahtdicke"/>
+             </group>
+             <newline/>
+             <group id="right" string="" colspan="2" col="2" yfill="1">
+                  <label name="skizze_info"/>
+                  <field name="skizze_info"/>
+             </group>
+             <group id="center" string="" colspan="2" col="2" yfill="1">
+                  <label name="schweißposition"/>
+                  <field name="schweißposition"/>
+             </group>
+             <group id="left" string="" colspan="2" col="2" yfill="1">
+                <label name=" " />
+             </group>
+        </page>
+    </notebook>
+    <newline/>
+    <notebook>
+        <page string="" id="schweissvolgen" col = "6">
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="gestaltung"/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <label name="schweissfolgen"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <field name="bild" widget="image"/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <field name="photo" widget="image"/>
+            </group>
+        </page>
+    </notebook>
+    <newline/>
+    <notebook>
+        <page string="" id="schweissprozess4" col="6" >
+            <label name="naht_nr"/>
+            <field name="naht_nr"/>
+            <field name="bild_name"/>
+            <field name="rechts_bild"/>
+            <label name="empfehlung"/>
+            <field name="empfehlung"/>
+        </page>
+    </notebook>
+    <newline/>
+    <field name="lines" colspan="6"
+       view_ids="welding_certification.einzelheiten_view_tree_sequence"/>
+    <newline/>
+    <notebook>
+        <page string="" id="Infos" col="6" >
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name=" "/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <field name="prozess_iso4063_info"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="schweißzusatz_info"/>
+                 <field name="schweißzusatz_info"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name="fm0"/>
+                 <label name=" "/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <label name="fabrikat0"/>
+                 <label name="zulassung"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="szi_1"/>
+                 <field name="szi_1"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <field name="fm"/>
+                 <label name=" "/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <field name="fabrikat"/>
+                 <field name="bemerkung"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="szi_2"/>
+                 <field name="szi_2"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <field name="fm1"/>
+                 <label name=" "/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <field name="fabrikat1"/>
+                 <field name="bemerkung1"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="szi_3"/>
+                 <field name="szi_3"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <field name="fm2"/>
+                 <label name=" "/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <field name="fabrikat2"/>
+                 <field name="bemerkung2"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="sondervorschriften_info"/>
+                 <field name="sondervorschriften_info"/>
+            </group>
+        </page>
+    </notebook>
+    <newline/>
+    <notebook>
+        <page string="" id="schweissprozess" col="6">
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="schutzgas_info1"/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <label name="weitere_info"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name=" " colspan="2"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="schutzgas_info"/>
+                 <field name="list_gas"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name="pendeh"/>
+                 <field name="pendeh" colspan ="1"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="wurzelschutz_info"/>
+                 <field name="list_gas1"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name="amplit"/>
+                 <field name="amplit"/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <field name="amplit1"/>
+                 <field name="amplit2"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="gasdurchflussmenge"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="schutzgas_info"/>
+                 <field name="list_gas2"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name="einzelheiten_pulsschweissen"/>
+                 <field name="einzelheiten_pulsschweissen" colspan ="1"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="wurzelschutz_info"/>
+                 <field name="list_gas3"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name="stromkontaktrohrabstand"/>
+                 <field name="stromkontaktrohrabstand" colspan ="1"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="wolframelektrodenart_info"/>
+                 <field name="wolframelektrodenart"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <field name="wolframelektrodenart2"/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <label name="einzelheiten_pulsschweissen"/>
+                 <field name="einzelheiten_pulsschweissen"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="einzelheiten_info"/>
+                 <field name="einzelheiten_info"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name="brenneranstellwinkel"/>
+                 <field name="brenneranstellwinkel" colspan ="1"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="vorwärmtemperatur_info"/>
+                 <field name="vorwärmtemperatur_info"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="zwischenlagentemperatur_info"/>
+                 <field name="zwischenlagentemperatur_info"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="wasserstoffarm_info"/>
+                 <field name="wasserstoffarm_info"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="haltetemperatur"/>
+                 <field name="haltetemperatur"/>
+           </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="wärmenachbehandlung"/>
+                 <field name="wärmenachbehandlung"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="zeit"/>
+                 <field name="zeit"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="aufheiz"/>
+                 <field name="aufheiz"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <label name="hersteller"/>
+
+             </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <label name="prüfer_oder_prüfstelle"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name=" " colspan="2"/>
+            </group>
+            <newline/>
+            <group id="right" string="" colspan="2" col="2" yfill="1">
+                 <field name="hersteller"/>
+            </group>
+            <group id="left" string="" colspan="2" col="2" yfill="1">
+                 <field name="prüfer_oder_prüfstelle"/>
+            </group>
+            <group id="center" string="" colspan="2" col="2" yfill="1">
+                 <label name=" " colspan="4"/>
+            </group>
+        </page>
+   </notebook>
+</form>
+
+

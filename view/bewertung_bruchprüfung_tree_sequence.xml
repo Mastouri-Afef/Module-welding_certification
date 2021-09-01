@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree sequence="sequence" editable="1">
+    <field name="prob_nr"/>
+    <field name="bw_fw"/>
+    <field name="bezeichnung"/>       
+    <field name="schw_position"/>
+    <field name="biegerichtung"/>
+    <field name="bruchlage"/>
+    <field name="befund_100e"/>
+    <field name="befund_2011"/>
+    <field name="befund_2013"/>
+    <field name="befund_2016"/>
+    <field name="befund_300"/>
+    <field name="befund_401"/>
+    <field name="befund_402"/>
+    <field name="ohne_befund"/>
+    <field name="bewertung1"/>
+</tree>
+

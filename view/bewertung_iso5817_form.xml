@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col ="6">
+    <notebook  colspan ="2" >
+        <page string="Bewerten von Schmelzschweißverbindungen an stahl, Nickel Titan nach EN ISO 5817:2014" id="schweiss_data">
+    <notebook  colspan ="2" >
+        <page string=" " id="schweiss_data" col ="5">
+            <label name="stahl"/>
+            <field name="stahl"/>
+            <label name="rohrwand"/>
+            <field name="rohrwand"/>
+            <newline/>
+            <label name="aliminium"/>
+            <field name="aliminium"/>
+            <label name="nennmaß_stumpfnahtdicke"/>
+            <field name="nennmaß_stumpfnahtdicke"/>
+            <newline/>
+            <label name=" "/>
+            <label name=" "/>
+            <label name="nenmaß_kehlnahtdicke"/>
+            <field name="nenmaß_kehlnahtdicke"/>
+            <field name="result"/>
+            <newline/>
+            <label name="bw_stumpfnaht"/>
+            <field name="bw_stumpfnaht"/>
+            <label name="breite_nahtüberhöhung"/>
+            <field name="breite_nahtüberhöhung"/>
+            <newline/>
+            <label name="fw_kehlnaht"/>
+            <field name="fw_kehlnaht"/>
+            <label name="breite_wurzelüberhöhung"/>
+            <field name="breite_wurzelüberhöhung"/>
+            <button name="compute" string="Berechne"/>
+        </page>
+    </notebook>    
+        </page>
+    </notebook>
+    <newline/>
+    <notebook colspan = "2">
+        <page string="Grenzwerte für Unregelmäßigkeiten bei  Bewertungsgruppen-------------------------------------------------------------------------------------------------------------------------------|--Bemerkungen " 
+        id="schweiss_data" col="5">
+        <newline/>
+        <notebook  colspan ="2" >
+            <page string=" " id="schweiss_data3" col ="7">
+                <newline/>
+                <label name="number"/>
+                <label name="ordn_nr"/>
+                <label name="unregelmäßigkeit_benennung"/>
+                <label name="niedrig"/>
+                <label name="mittel"/>
+                <label name="hoch"/>
+                <field name="bemerkung"/>
+                <newline/>
+                <label name=""/>                
+                <label name="oberflächenunregelmäßigkeiten"/>
+                <newline/>                                
+                <label name="number_val1"/>
+                <label name="ordn_nr_val1"/>
+                <label name="unregelmäßigkeit_benennung_val1"/>
+                <field name="d1"/>
+                <field name="c1"/>
+                <field name="b1"/>
+                <field name="bemerkung1"/>
+                <newline/>
+                <label name="number_val2"/>
+                <label name="ordn_nr_val2"/>
+                <label name="unregelmäßigkeit_benennung_val2"/>
+                <field name="d2"/>
+                <field name="c2"/>
+                <field name="b2"/>
+                <field name="bemerkung2"/>
+                <newline/>
+                <label name="number_val3"/>
+                <label name="ordn_nr_val3"/>
+                <label name="unregelmäßigkeit_benennung_val3"/>
+                <field name="d3"/>
+                <field name="c3"/>
+                <field name="b3"/>
+                <field name="bemerkung3"/>
+                <newline/>
+                <label name="number_val4"/>
+                <label name="ordn_nr_val4"/>
+                <label name="unregelmäßigkeit_benennung_val4"/>
+                <field name="d4"/>
+                <field name="c4"/>
+                <field name="b4"/>
+                <field name="bemerkung4"/>
+                <newline/>
+                <label name="number_val5"/>
+                <label name="ordn_nr_val5"/>
+                <label name="unregelmäßigkeit_benennung_val5"/>
+                <field name="d5"/>
+                <field name="c5"/>
+                <field name="b5"/>
+                <field name="bemerkung5"/>
+                <newline/>
+                <label name=" "/>
+                <label name="ordn_nr_val5"/>
+                <label name="unregelmäßigkeit_benennung_val6"/>
+                <field name="d6"/>
+                <field name="c6"/>
+                <field name="b6"/>
+                <field name="bemerkung6"/>
+                <newline/>
+                <label name="number_val6"/>
+                <label name="ordn_nr_val6"/>
+                <label name="unregelmäßigkeit_benennung_val7"/>
+                <field name="d7"/>
+                <field name="c7"/>
+                <field name="b7"/>
+                <field name="bemerkung7"/>
+                <newline/>
+                <label name="number_val7"/>
+                <label name="ordn_nr_val7"/>
+                <label name="unregelmäßigkeit_benennung_val8"/>
+                <field name="d8"/>
+                <field name="c8"/>
+                <field name="b8"/>
+                <field name="bemerkung8"/>
+                <newline/>
+                <label name=" "/>
+                <label name="ordn_nr_val8"/>
+                <label name="unregelmäßigkeit_benennung_val9"/>
+                <field name="d9"/>
+                <field name="c9"/>
+                <field name="b9"/>
+                <field name="bemerkung9"/>
+                <newline/>
+                <label name="number_val8"/>
+                <label name="ordn_nr_val9"/>
+                <label name="unregelmäßigkeit_benennung_val10"/>
+                <field name="d10"/>
+                <field name="c10"/>
+                <field name="b10"/>
+                <field name="bemerkung10"/>
+                <newline/> 
+                <label name="number_val9"/>
+                <label name="ordn_nr_val10"/>
+                <label name="unregelmäßigkeit_benennung_val11"/>
+                <field name="d11"/>
+                <field name="c11"/>
+                <field name="b11"/>
+                <field name="bemerkung11"/>
+                <newline/>
+                <label name="number_val10"/>
+                <label name="ordn_nr_val11"/>
+                <label name="unregelmäßigkeit_benennung_val12"/>
+                <field name="d12"/>
+                <field name="c12"/>
+                <field name="b12"/>
+                <field name="bemerkung12"/>
+                <newline/>
+                <label name="number_val11"/>
+                <label name="ordn_nr_val12"/>
+                <label name="unregelmäßigkeit_benennung_val13"/>
+                <field name="d13"/>
+                <field name="c13"/>
+                <field name="b13"/>
+                <field name="bemerkung12"/>
+                <newline/>
+                <label name="number_val12"/>
+                <label name="ordn_nr_val13"/>
+                <label name="unregelmäßigkeit_benennung_val14"/>
+                <field name="d14"/>
+                <field name="c14"/>
+                <field name="b14"/>
+                <field name="bemerkung14"/>
+                <newline/>
+                <label name="number_val13"/>
+                <label name="ordn_nr_val14"/>
+                <label name="unregelmäßigkeit_benennung_val15"/>
+                <field name="d15"/>
+                <field name="c15"/>
+                <field name="b15"/>
+                <field name="bemerkung15"/>
+                <newline/>
+                <label name="number_val14"/>
+                <label name="ordn_nr_val15"/>
+                <label name="unregelmäßigkeit_benennung_val16"/>
+                <field name="d16"/>
+                <field name="c16"/>
+                <field name="b16"/>
+                <field name="bemerkung16"/>
+                <newline/>
+                <label name=" "/>
+                <label name="ordn_nr_val16"/>
+                <label name="unregelmäßigkeit_benennung_val17"/>
+                <field name="d17"/>
+                <field name="c17"/>
+                <field name="b17"/>
+                <field name="bemerkung17"/>
+                <newline/>
+                <label name="number_val15"/>
+                <label name="ordn_nr_val17"/>
+                <label name="unregelmäßigkeit_benennung_val18"/>
+                <field name="d18"/>
+                <field name="c18"/>
+                <field name="b18"/>
+                <field name="bemerkung18"/>
+                <newline/>
+                <label name="number_val16"/>
+                <label name="ordn_nr_val18"/>
+                <label name="unregelmäßigkeit_benennung_val19"/>
+                <field name="d19"/>
+                <field name="c19"/>
+                <field name="b19"/>
+                <field name="bemerkung19"/>
+                <newline/>
+                <label name="number_val17"/>
+                <label name="ordn_nr_val19"/>
+                <label name="unregelmäßigkeit_benennung_val20"/>
+                <field name="d20"/>
+                <field name="c20"/>
+                <field name="b20"/>
+                <field name="bemerkung20"/>
+                <newline/>
+                <label name="number_val18"/>
+                <label name="ordn_nr_val20"/>
+                <label name="unregelmäßigkeit_benennung_val21"/>
+                <field name="d21"/>
+                <field name="c21"/>
+                <field name="b21"/>
+                <field name="bemerkung21"/>
+                <newline/>
+                <label name="number_val19"/>
+                <label name="ordn_nr_val21"/>
+                <label name="unregelmäßigkeit_benennung_val22"/>
+                <field name="d22"/>
+                <field name="c22"/>
+                <field name="b22"/>
+                <field name="bemerkung22"/>
+                <newline/>
+                <label name="number_val20"/>
+                <label name="ordn_nr_val22"/>
+                <label name="unregelmäßigkeit_benennung_val23"/>
+                <field name="d23"/>
+                <field name="c23"/>
+                <field name="b23"/>
+                <field name="bemerkung23"/>
+                <newline/>
+                <label name="number_val21"/>
+                <label name="ordn_nr_val23"/>
+                <label name="unregelmäßigkeit_benennung_val24"/>
+                <field name="d24"/>
+                <field name="c24"/>
+                <field name="b24"/>
+                <field name="bemerkung24"/>
+                <newline/>
+                <label name="number_val22"/>
+                <label name="ordn_nr_val24"/>
+                <label name="unregelmäßigkeit_benennung_val25"/>
+                <field name="d25"/>
+                <field name="c25"/>
+                <field name="b25"/>
+                <field name="bemerkung25"/>
+                <newline/>
+                <label name="number_val23"/>
+                <label name="ordn_nr_val25"/>
+                <label name="unregelmäßigkeit_benennung_val26"/>
+                <field name="d26"/>
+                <field name="c26"/>
+                <field name="b26"/>
+                <field name="bemerkung26"/>
+            </page>
+        </notebook>
+        <newline/>
+        <notebook  colspan ="2" >
+            <page string="2 Innere Unregelmäßigkeiten" id="schweiss_data4" col ="8">
+                <label name="number"/>
+                <label name="ordn_nr"/>
+                <label name="unregelmäßigkeit_benennung"/>
+                <label name="niedrig"/>
+                <label name="mittel"/>
+                <label name="hoch"/>
+                <label name="data_bemerkung"/>
+                <newline/>
+                <label name="nr_1"/>
+                <label name="nr_14"/>
+                <label name="risse"/>
+                <field name="d1_innere"/>
+                <field name="c1_innere"/>
+                <field name="b1_innere"/>
+                <field name="bemerkung_innere"/>
+                <newline/>
+                <label name="nr_2"/>
+                <label name="nr_15"/>
+                <label name="mikrorisse"/>
+                <field name="d2_innere"/>
+                <field name="c2_innere"/>
+                <field name="b2_innere"/>
+                <field name="bemerkung_innere2"/>
+                <newline/>
+                <label name="nr_3"/>
+                <label name="nr_16"/>
+                <label name="pore"/>
+                <field name="d3_innere"/>
+                <field name="c3_innere"/>
+                <field name="b3_innere"/>
+                <field name="bemerkung_innere3"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_17"/>
+                <label name="porosität"/>
+                <field name="d4_innere"/>
+                <field name="c4_innere"/>
+                <field name="b4_innere"/>
+                <field name="bemerkung_innere4"/>
+                <newline/>
+                <label name="nr_4"/>
+                <label name="nr_18"/>
+                <label name="porennest"/>
+                <field name="d5_innere"/>
+                <field name="c5_innere"/>
+                <field name="b5_innere"/>
+                <field name="bemerkung_innere5"/>
+                <newline/>
+                <label name="nr_5"/>
+                <label name="nr_19"/>
+                <label name="porenzeile"/>
+                <field name="d6_innere"/>
+                <field name="c6_innere"/>
+                <field name="b6_innere"/>
+                <field name="bemerkung_innere6"/>
+                <newline/>
+                <label name="nr_6"/>
+                <label name="nr_20"/>
+                <label name="gaskanal"/>
+                <field name="d7_innere"/>
+                <field name="c7_innere"/>
+                <field name="b7_innere"/>
+                <field name="bemerkung_innere7"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_21"/>
+                <label name="schlauchpore"/>
+                <field name="d8_innere"/>
+                <field name="c8_innere"/>
+                <field name="b8_innere"/>
+                <field name="bemerkung_innere8"/>
+                <newline/>
+                <label name="nr_7"/>
+                <label name="nr_22"/>
+                <label name="lunker"/>
+                <field name="d9_innere"/>
+                <field name="c9_innere"/>
+                <field name="b9_innere"/>
+                <field name="bemerkung_innere9"/>
+                <newline/>
+                <label name="nr_8"/>
+                <label name="nr_23"/>
+                <label name="endkraterlunker"/>
+                <field name="d10_innere"/>
+                <field name="c10_innere"/>
+                <field name="b10_innere"/>
+                <field name="bemerkung_innere10"/>
+                <newline/>
+                <label name="nr_9"/>
+                <label name="nr_24"/>
+                <label name="fester_einschluss"/>
+                <field name="d11_innere"/>
+                <field name="c11_innere"/>
+                <field name="b11_innere"/>
+                <field name="bemerkung_innere11"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_25"/>
+                <label name="schlackeneinschluss"/>
+                <field name="d12_innere"/>
+                <field name="c12_innere"/>
+                <field name="b12_innere"/>
+                <field name="bemerkung_innere12"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_26"/>
+                <label name="flussmitteleinschluss"/>
+                <field name="d13_innere"/>
+                <field name="c13_innere"/>
+                <field name="b13_innere"/>
+                <field name="bemerkung_innere13"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_27"/>
+                <label name="oxideinschluss"/>
+                <field name="d14_innere"/>
+                <field name="c14_innere"/>
+                <field name="b14_innere"/>
+                <field name="bemerkung_innere14"/>
+                <newline/>
+                <label name="nr_10"/>
+                <label name="nr_28"/>
+                <label name="metallischer"/>
+                <field name="d15_innere"/>
+                <field name="c15_innere"/>
+                <field name="b15_innere"/>
+                <field name="bemerkung_innere15"/>
+                <newline/>
+                <label name="nr_11"/>
+                <label name="nr_29"/>
+                <label name="kupfereinschluss"/>
+                <field name="d16_innere"/>
+                <field name="c16_innere"/>
+                <field name="b16_innere"/>
+                <field name="bemerkung_innere16"/>
+                <newline/>
+                <label name="nr_12"/>
+                <label name="nr_30"/>
+                <label name="bindefehler"/>
+                <field name="d17_innere"/>
+                <field name="c17_innere"/>
+                <field name="b17_innere"/>
+                <field name="bemerkung_innere17"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_31"/>
+                <label name="flankenbindefehler"/>
+                <field name="d18_innere"/>
+                <field name="c18_innere"/>
+                <field name="b18_innere"/>
+                <field name="bemerkung_innere18"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_32"/>
+                <label name="lagenbindefehler"/>
+                <field name="d19_innere"/>
+                <field name="c19_innere"/>
+                <field name="b19_innere"/>
+                <field name="bemerkung_innere19"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_33"/>
+                <label name="wurzelbindefehler"/>
+                <field name="d20_innere"/>
+                <field name="c20_innere"/>
+                <field name="b20_innere"/>
+                <field name="bemerkung_innere20"/>
+                <newline/>
+                <label name="nr_13"/>
+                <label name="nr_34"/>
+                <label name="ungenügende_durchschweißung"/>
+                <field name="d21_innere"/>
+                <field name="c21_innere"/>
+                <field name="b21_innere"/>
+                <label name="voll_durchgeschweißt"/>
+                <field name="voll_durchgeschweißt"/>
+            </page>
+        </notebook>
+        <newline/>
+        <notebook  colspan ="2" >
+            <page string="3 Unregelmäßigkeiten in der Nahtgeometrie" id="schweiss_data5" col ="7">
+                <label name="number"/>
+                <label name="ordn_nr"/>
+                <label name="unregelmäßigkeit_benennung"/>
+                <label name="niedrig"/>
+                <label name="mittel"/>
+                <label name="hoch"/>
+                <label name="data_bemerkung"/>
+                <newline/>
+                <label name="nr_35"/>
+                <label name="nr_37"/>
+                <label name="kantenversatz_blechen"/>
+                <field name="d1_unregel"/>
+                <field name="c1_unregel"/>
+                <field name="b1_unregel"/>
+                <field name="bemerkung_unregel"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_38"/>
+                <label name="kantenversatz_rohren"/>
+                <field name="d2_unregel"/>
+                <field name="c2_unregel"/>
+                <field name="b2_unregel"/>
+                <field name="bemerkung_unregel2"/>
+                <newline/>
+                <label name=" "/>
+                <label name="nr_39"/>
+                <label name="winkelversatz"/>
+                <field name="d3_unregel"/>
+                <field name="c3_unregel"/>
+                <field name="b3_unregel"/>
+                <field name="bemerkung_unregel3"/>
+                <newline/>
+                <label name="nr_36"/>
+                <label name="nr_40"/>
+                <label name="schlechte_kehlnähten"/>
+                <field name="d4_unregel"/>
+                <field name="c4_unregel"/>
+                <field name="b4_unregel"/>
+                <field name="bemerkung_unregel4"/>
+            </page>
+        </notebook>
+        <newline/>
+        <notebook  colspan ="2" >
+            <page string="4 Mehrfachunregelmäßigkeiten" id="schweiss_data5" col ="7">
+                <label name="nr_41"/>
+                <label name="keine"/>
+                <label name="mehrfachunregelmäßigkeit"/>
+                <field name="d1_mahrfachunregelmäßigkeit"/>
+                <field name="c1_mahrfachunregelmäßigkeit"/>
+                <field name="b1_mahrfachunregelmäßigkeit"/>
+                <field name="bemerkung_mahrfachunregelmäßigkeit_1"/>
+                <newline/>
+                <label name="nr_42"/>
+                <label name="keine"/>
+                <label name="abbildungsfläche"/>
+                <field name="d2_mahrfachunregelmäßigkeit"/>
+                <field name="c2_mahrfachunregelmäßigkeit"/>
+                <field name="b2_mahrfachunregelmäßigkeit"/>
+                <field name="bemerkung_mahrfachunregelmäßigkeit_2"/>
+            </page>
+        </notebook>
+        <newline/>
+        <notebook  colspan ="2" >
+            <page string=" " id="schweiss_data6" col ="6">
+                <field  name="bewertungsgrundlage" colspan ="2.5"/>    
+                <label name="index2"/>   
+                <newline/>
+                <field name="rohwand_nennmaß" colspan ="2.5"/>    
+                <label name="index5"/>   
+                <newline/>
+                <field name="breite_der_nahtüberhöhung" colspan ="2.5"/>    
+                <label name="index6"/>   
+                <newline/> 
+                <button name="print" string="Drucken"/>
+            </page>
+        </notebook>
+            </page>
+        </notebook>
+    <group col="4" colspan="6" id="state_buttons">
+        <label name="state"/>
+        <field name="state"/>
+        <group col="5" colspan="2" id="buttons">
+            <button name="cancel"/>
+            <button name="draft"/>
+            <button name="confirm"/>
+            <button name="done"/>
+        </group>
+    </group>           
+</form>
+
+

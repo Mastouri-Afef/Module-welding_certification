@@ -1,0 +1,167 @@
+<!--
+ The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. 
+-->
+<tryton>
+<data>
+
+<record model="ir.ui.view" id="party_view_form">
+<field name="model">party.party</field>
+<field name="inherit" ref="party.party_view_form"/>
+<field name="name">party_form</field>
+</record>
+<record model="ir.ui.view" id="schutzgas_view_tree">
+<field name="model">party.schutzgas</field>
+<field name="type">tree</field>
+<field name="name">schutzgas_tree</field>
+</record>
+<record model="ir.ui.view" id="party_pruf_view_tree">
+<field name="model">party.prufer_prufstelle_beleg</field>
+<field name="type">tree</field>
+<field name="name">prufer_prufstelle_beleg_tree</field>
+</record>
+<record model="ir.ui.view" id="uns_view_tree">
+<field name="model">party.uns</field>
+<field name="type">tree</field>
+<field name="name">uns_tree</field>
+</record>
+<record model="ir.ui.view" id="fm1_view_tree">
+<field name="model">party.fm1</field>
+<field name="type">tree</field>
+<field name="name">fm1_tree</field>
+</record>
+<record model="ir.ui.view" id="matrial_view_tree">
+<field name="model">party.matrial1</field>
+<field name="type">tree</field>
+<field name="name">matrial_tree</field>
+</record>
+<record model="ir.ui.view" id="pnumber_view_tree">
+<field name="model">party.pnumber</field>
+<field name="type">tree</field>
+<field name="name">pnumber_tree</field>
+</record>
+<record model="ir.ui.view" id="sfa_view_tree">
+<field name="model">party.sfa</field>
+<field name="type">tree</field>
+<field name="name">sfa_tree</field>
+</record>
+<record model="ir.ui.view" id="hubzundungs_view_tree_sequence">
+<field name="model">party.hubzundungs</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">hubzundungs_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="tensile_view_tree_sequence">
+<field name="model">party.tensile</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">tensile_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="guided_view_tree_sequence">
+<field name="model">party.bend</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">guide_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="toughness_view_tree_sequence">
+<field name="model">party.toughness</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">toughness_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="Datums_9_2_view_tree_sequence">
+<field name="model">party.datumms9.2</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">Datum_9_2_tree_sequence</field>
+</record>
+
+<record model="ir.ui.view" id="ergebnisse_view_tree_sequence">
+<field name="model">party.pruf.ergebnisse</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">ergebnisse_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="wpqr_biege_view_tree_sequence">
+<field name="model">party.wpqr.biegeprufung1</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">wpqr_biege_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="kerbschlabiegeversuch_view_tree_sequence">
+<field name="model">party.kerbschlabiegeversuch1</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">kerbschlabiegeversuch_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="harte_view_tree_sequence">
+<field name="model">party.harteprufung</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">harte_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="harte1_view_tree_sequence">
+<field name="model">party.harteprufung1</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">harte_1_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="querzugversuch_view_tree_sequence">
+<field name="model">party.querzugversuch</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">querzugversuch_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="Datums_9_3_view_tree_sequence">
+<field name="model">party.datumms9.3</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">Datum_9_3_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="Datums_5_3_view_tree_sequence">
+<field name="model">party.datumms5.3</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">Datum_5_3_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="Datums_5_view_tree_sequence">
+<field name="model">party.datumms5</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">Datum_5_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="wpq_results_view_tree_sequence">
+<field name="model">wpq.results</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">wpq_results_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="wopq_results_view_tree_sequence">
+<field name="model">wopq.results</field>
+<field name="type">tree</field>
+<field name="priority" eval="20"/>
+<field name="name">wopq_results_tree_sequence</field>
+</record>
+<record model="ir.ui.view" id="party_prozesss2_view_tree">
+<field name="model">party.process</field>
+<field name="type">tree</field>
+<field name="name">processs_tree</field>
+</record>
+<record model="ir.ui.view" id="party_briefing_view_tree">
+<field name="model">party.briefing</field>
+<field name="type">tree</field>
+<field name="name">party_briefing_tree</field>
+</record>
+<record model="ir.ui.view" id="print_iso_cert_start_view_form">
+<field name="model">party.print_iso_96061.start</field>
+<field name="type">form</field>
+<field name="name">print_iso_96061_start_form</field>
+</record>
+<record model="ir.action.wizard" id="wizard_print_iso_96061">
+<field name="name">Drucken des Zertifikats</field>
+<field name="wiz_name">party.print_iso_96061</field>
+</record>
+
+<!--   fin   -->
+</data>
+</tryton>

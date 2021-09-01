@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form >
+    <label name="prob_nr"/>
+    <field name="prob_nr"/>
+    <label name="bw_fw"/>
+    <field name="bw_fw"/>  
+    <label name="bezeichnung"/>
+    <field name="bezeichnung"/>   
+    <label name="schw_position"/>
+    <field name="schw_position"/>
+    <label name="biegerichtung"/>
+    <field name="biegerichtung"/>
+    <label name="bruchlage"/>
+    <field name="bruchlage"/>
+    <label name="befund_100e"/>
+    <field name="befund_100e"/>
+    <label name="befund_2011"/>
+    <field name="befund_2011"/>
+    <label name="befund_2013"/>
+    <field name="befund_2013"/>
+    <label name="befund_2016"/>
+    <field name="befund_2016"/>
+    <label name="befund_300"/>
+    <field name="befund_300"/>
+    <label name="befund_401"/>
+    <field name="befund_401"/>
+    <label name="befund_402"/>
+    <field name="befund_402"/>
+    <label name="ohne_befund"/>
+    <field name="ohne_befund"/>
+    <label name="bewertung1"/>
+    <field name="bewertung1"/>
+</form>

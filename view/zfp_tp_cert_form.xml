@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+<label name="zertifikat_art"/>
+<field name="zertifikat_art" colspan ="3"/>
+<newline/>
+<label name="bezeichnung"/>
+<field name="bezeichnung" colspan ="3"/>
+<newline/>
+<label name="prufbescheinigung"/>
+<field name="prufbescheinigung" colspan ="1"/>
+<label name="weitere_beleg"/>
+<field name="weitere_beleg"/>
+<label name="space"/>
+<newline/>
+<label name="prufer"/>
+<field name="prufer" colspan ="2"/>
+<field name="image" widget="image"/>
+<newline/>
+<label name="leg"/>
+<field name="leg" colspan ="2"/>
+<newline/>
+<label name="art_leg"/>
+<field name="art_leg" colspan ="2"/>
+<newline/>
+<label name="geburtsdatum_ort"/>
+<field name="geburtsdatum_ort" colspan ="2"/>
+<newline/>
+<label name="arbeitgeber"/>
+<field name="arbeitgeber" colspan ="2"/>
+<newline/>
+<label name="pruf_norm"/>
+<field name="pruf_norm" colspan ="2"/>
+<newline/>
+<label name="pruf_verfahren"/>
+<field name="pruf_verfahren" colspan ="2"/>
+<field name="verfahren_1" colspan ="1"/>
+<newline/>
+<label name="Qualifizierungs_stufe2"/>
+<field name="Qualifizierungs_stufe2" colspan ="2"/>
+<field name="Qualifizierungs_stufe_1" colspan ="1"/>
+<newline/>
+<label name="produkt_sector"/>
+<field name="produkt_sector" colspan ="1"/>
+<field name="produktsektor2" colspan ="1"/>
+<button name="Actualiser" string="aktualisieren"/>
+<newline/>
+<label name="industriesektor"/>
+<field name="industriesektor" colspan ="1"/>
+<field name="industriesektor2" colspan ="1"/>
+<button name="Actualiser2" string="aktualisieren"/>
+<newline/>
+<label name="besonderheiten"/>
+<field name="besonderheiten" colspan ="3"/>
+<newline/>
+<label name="weitere_bemerkungen"/>
+<field name="weitere_bemerkungen"/>
+<field name="Bemerkungen" colspan ="2"/>
+<newline/>
+<label name="prufer_prufstelle"/>
+<field name="prufer_prufstelle"/>
+<label name="ort"/>
+<field name="ort"/>
+<newline/>
+<label name="unterschrift"/>
+<field name="unterschrift"/>
+<label name="formular"/>
+<field name="formular"/>
+<newline/>
+<label name="gultigkeit_dauer"/>
+<field name="gultigkeit_dauer"/>
+<newline/>
+<label name="datum_prufung"/>
+<field name="datum_prufung"/>
+<label name="gultigkeit_bis"/>
+<field name="gultigkeit_bis"/>
+<newline/>
+<label name="datum_ausgabe"/>
+<field name="datum_ausgabe"/>
+<label name="ruhende_pruf"/>
+<field name="ruhende_pruf"/>
+<newline/>
+<label name="next_termin"/>
+<field name="next_termin"/>
+<label name="pruf_archiv"/>
+<field name="pruf_archiv"/>
+
+</form>

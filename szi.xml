@@ -1,0 +1,447 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.szi_data" id="welding_szi_data_1">
+            <field name="bezeichnung">G 18 8 Mn</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">INERTFIL 307</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_2">
+            <field name="bezeichnung">G 19 12 3 Nb Si</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">Thermanit A Si</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_3">
+            <field name="bezeichnung">G 19 12 3 Nb Si</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">OK Autrod 318Si</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_4">
+            <field name="bezeichnung">G 19 9 H</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">Thermanit ATS 4</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_5">
+            <field name="bezeichnung">G 19 9 L M 12</field>
+            <field name="norm">DIN EN 12072</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">A 1120 M</field>
+            <field name="hersteller">FONTARGEN</field>
+            <field name="eignung">MIG,MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_6">
+            <field name="bezeichnung">G 19 9 L Si</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">OK Autrod 308L Si</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_7">
+            <field name="bezeichnung">G 19 9 L Si</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">Thermanit JE-308L Si</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_8">
+            <field name="bezeichnung">G 19 9 Nb Si</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">OK Autrod 347Si</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_9">
+            <field name="bezeichnung">G 19 9 Nb Si</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">Thermanit H Si</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_10">
+            <field name="bezeichnung">G 19 9 Nb Si</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">INERTFIL 347Si</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_11">
+            <field name="bezeichnung">G 20 16 3 Mn N L</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">INERTFIL 20 16 L(DE)</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_12">
+            <field name="bezeichnung">G 42 2 C G3Si1</field>
+            <field name="norm">DIN EN 440</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">A 100 M</field>
+            <field name="hersteller">FONTARGEN</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_13">
+            <field name="bezeichnung">G 42 2/4 C/M G3Si1</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">Union Rob 2</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_14">
+            <field name="bezeichnung">G 42 2/4 C/M G3Si1</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">Union K 52</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_15">
+            <field name="bezeichnung">G 42 3 M G4Si1</field>
+            <field name="norm">DIN EN 440</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">LNM 27</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG,WIG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_16">
+            <field name="bezeichnung">G 42 3/4 C1/M21 3Si1</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">CARBOFIL 1</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_17">
+            <field name="bezeichnung">G 42/38 4/2 M/C G3Si1</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">OK AristoRod 12.50</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_18">
+            <field name="bezeichnung">G 46 2 C/M G4Si1</field>
+            <field name="norm">DIN EN 440</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">CastoMag 45250</field>
+            <field name="hersteller">castolin</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_19">
+            <field name="bezeichnung">G 46 2/4 C/M G4Si1</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">Union SG 3-H</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_20">
+            <field name="bezeichnung">G 46 3/4 C1/M21 4Si1</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">CARBOFIL 1A</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_21">
+            <field name="bezeichnung">G 46 4 M G2Mo</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">Union I Mo</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_22">
+            <field name="bezeichnung">G 46 5 M G3Ni1</field>
+            <field name="norm">DIN EN 440</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">LNM Ni 1</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_23">
+            <field name="bezeichnung">G 46 6 M21 2Ni2</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">CARBOFIL Ni2</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_24">
+            <field name="bezeichnung">G 46 6 M21 2Ni2</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">OK Autrod 13.28</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_25">
+            <field name="bezeichnung">G 46/12 2/0 M/C G0</field>
+            <field name="norm">EN ISO 14341</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">OK AristoRod 13.26</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_26">
+            <field name="bezeichnung">G 62 4 M Mn3Ni1Mo</field>
+            <field name="norm">EN ISO 16834</field>
+            <field name="werkstoffgruppe">FM2</field>
+            <field name="handelsname">CARBOFIL NiMo1</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_27">
+            <field name="bezeichnung">G 69 4 M Mn3Ni1CrMo</field>
+            <field name="norm">EN ISO 16834</field>
+            <field name="werkstoffgruppe">FM2</field>
+            <field name="handelsname">OK AristoRod 69</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_28">
+            <field name="bezeichnung">G 69 4 M Mn3Ni1CrMo</field>
+            <field name="norm">EN ISO 16834</field>
+            <field name="werkstoffgruppe">FM2</field>
+            <field name="handelsname">CARBOFIL NiMoCr</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_29">
+            <field name="bezeichnung">G 89 4 M Mn4Ni2.5CrMo</field>
+            <field name="norm">EN ISO 16834</field>
+            <field name="werkstoffgruppe">FM2</field>
+            <field name="handelsname">UNION X96</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_30">
+            <field name="bezeichnung">G CrMo1Si</field>
+            <field name="norm">EN ISO 21952</field>
+            <field name="werkstoffgruppe">FM3</field>
+            <field name="handelsname">OK AristoRod 13.12</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_31">
+            <field name="bezeichnung">G CrMo1Si</field>
+            <field name="norm">EN ISO 21952</field>
+            <field name="werkstoffgruppe">FM3</field>
+            <field name="handelsname">Union I CrMo</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_32">
+            <field name="bezeichnung">G CrMo91</field>
+            <field name="norm">EN ISO 21952</field>
+            <field name="werkstoffgruppe">FM4</field>
+            <field name="handelsname">Thermanit MTS 3</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_33">
+            <field name="bezeichnung">G CrMoWV12Si</field>
+            <field name="norm">EN ISO 21952</field>
+            <field name="werkstoffgruppe">FM4</field>
+            <field name="handelsname">Thermanit MTS 4 Si</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_34">
+            <field name="bezeichnung">G Z 17 Ti</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">Ok Autrod 430Ti</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_35">
+            <field name="bezeichnung">G Z21 33 Nb</field>
+            <field name="norm">EN ISO 14343</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">Thermanit 21/33 So</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_36">
+            <field name="bezeichnung">S Ni 6082 (NiCr20Mn3Nb)</field>
+            <field name="norm">EN ISO 18274</field>
+            <field name="werkstoffgruppe">FM6</field>
+            <field name="handelsname">A 521 M</field>
+            <field name="hersteller">FONTARGEN</field>
+            <field name="eignung">MIG,MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_37">
+            <field name="bezeichnung">S Ni 6082 (NiCr20Mn3Nb)</field>
+            <field name="norm">EN ISO 18274</field>
+            <field name="werkstoffgruppe">FM6</field>
+            <field name="handelsname">OK Autrod 19.85</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_38">
+            <field name="bezeichnung">S Ni 6617 (NiCr22Co12Mo9)</field>
+            <field name="norm">EN ISO 18274</field>
+            <field name="werkstoffgruppe">FM6</field>
+            <field name="handelsname">Thermanit 617</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_39">
+            <field name="bezeichnung">S Ni 6625 (NiCr22Mo9Nb)</field>
+            <field name="norm">EN ISO 18274</field>
+            <field name="werkstoffgruppe">FM6</field>
+            <field name="handelsname">Thermanit 625</field>
+            <field name="hersteller">T-PUT Böhler</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_40">
+            <field name="bezeichnung">S Ni 6625 (NiCr22Mo9Nb)</field>
+            <field name="norm">EN ISO 18274</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">LNT/LNM NiCro 60/20</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG,WIG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_41">
+            <field name="bezeichnung">T 22 9 3 N L M M 2</field>
+            <field name="norm">EN ISO 17633</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">OK Tubrod 15.37</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MF,MIG,MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_42">
+            <field name="bezeichnung">T 22 9 3 N L R C/M 3</field>
+            <field name="norm">EN ISO 17633</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">FLUXINOX 22 9 3 L</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_43">
+            <field name="bezeichnung">T 25 20 R C/M 3</field>
+            <field name="norm">EN ISO 17633</field>
+            <field name="werkstoffgruppe">FM5</field>
+            <field name="handelsname">FLUXINOX 310</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_44">
+            <field name="bezeichnung">T 42 4 B C/M 2 H5</field>
+            <field name="norm">EN ISO 17632</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">FLUXINOX 31</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_45">
+            <field name="bezeichnung">T 42 6 1Ni B M 1 H5</field>
+            <field name="norm">EN ISO 17632</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">OK Tubrod 15.06</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MF,MIG,MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_46">
+            <field name="bezeichnung">T 46 3 P C 1 H5</field>
+            <field name="norm">EN ISO 17632</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">FLUXOFIL 19 HD</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_47">
+            <field name="bezeichnung">T 46 3 P M C 1 H10</field>
+            <field name="norm">DIN EN 758</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">Outershield® 71E</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_48">
+            <field name="bezeichnung">T 50 6 1Ni P M 1 H5</field>
+            <field name="norm">EN ISO 17632</field>
+            <field name="werkstoffgruppe">FM1</field>
+            <field name="handelsname">PZ 6138</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MF,MIG,MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_49">
+            <field name="bezeichnung">T 55 6/4 1NiMo B C/M 2 H5</field>
+            <field name="norm">EN ISO 18276</field>
+            <field name="werkstoffgruppe">FM2</field>
+            <field name="handelsname">FLUXOFIL 41</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_50">
+            <field name="bezeichnung">T 69 4Mn2NiMo M M 2 H5</field>
+            <field name="norm">EN ISO 18276</field>
+            <field name="werkstoffgruppe">FM2</field>
+            <field name="handelsname">OK Tubrod 14.03</field>
+            <field name="hersteller">ESAB</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_51">
+            <field name="bezeichnung">T 89 4 Z B M 2 H5</field>
+            <field name="norm">EN ISO 18276</field>
+            <field name="werkstoffgruppe">FM2</field>
+            <field name="handelsname">FLUXOFIL 45</field>
+            <field name="hersteller">OERLIKON</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_52">
+            <field name="bezeichnung">W 19 12 3 L</field>
+            <field name="norm">DIN EN 12072</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">LNT 316L</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG,WIG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_53">
+            <field name="bezeichnung">W/G 18 16 5 N L</field>
+            <field name="norm">DIN EN 12072</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">LNT/LNM 4439 Mn</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG,WIG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_54">
+            <field name="bezeichnung">W/G 19 9 L</field>
+            <field name="norm">DIN EN 12072</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">LNT/LNM 304L</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG,WIG</field>
+        </record>
+        <record model="welding.szi_data" id="welding_szi_data_55">
+            <field name="bezeichnung">W/G 25 20</field>
+            <field name="norm">DIN EN 12072</field>
+            <field name="werkstoffgruppe"> </field>
+            <field name="handelsname">LNT/LNM 310</field>
+            <field name="hersteller">Lincoln Electric</field>
+            <field name="eignung">MAG,WIG</field>
+        </record>
+ </data>
+</tryton>

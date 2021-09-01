@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree sequence="sequence">
+<field name="schweißraupee" expand="1"/>
+<field name="schweissprozess"/>
+<field name="schweiszusaetze_1"/>
+<field name="schweiszusaetze_2"/>
+<field name="stromst"/>
+<field name="Spannung"/>
+<field name="stromart_Polung"/>
+<field name="drahtvorschub"/>
+<field name="vorschub_geschwindigkeit"/>
+<field name="waermeeinbringung"/>
+
+</tree>
+
+

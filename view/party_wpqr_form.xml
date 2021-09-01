@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+<label name="wpqr"/>
+<newline/>
+<label name="wpqr_nr_1"/>
+<field name="wpqr_nr_1"/>
+<label name="prufer_prufstelle1"/>
+<field name="prufer_prufstelle1"/>
+<label name="space"/>
+<newline/>
+<label name="hersteller"/>
+<field name="hersteller"/>
+<label name="beleg_nr"/>
+<field name="beleg_nr"/>
+<newline/>
+<label name="anschrift"/>
+<field name="anschrift"/>
+<label name="auftrag_nr"/>
+<field name="auftrag_nr"/>
+<newline/>
+<label name="regel"/>
+<field name="regel"/>
+<label name="datum_schweissen"/>
+<field name="datum_schweissen"/>
+<newline/>
+<label name="datum_ausstellung"/>
+<field name="datum_ausstellung"/>
+<label name="datum_bis"/>
+<field name="datum_bis"/>
+<newline/>
+<label name="prufumfang2"/>
+<field name="prufumfang2" colspan="3"/>
+<newline/>
+<label name="prufumfang1"/>
+<field name="prufumfang1" colspan="3"/>
+<newline/>
+<label name="schweißprocess"/>
+<field name="schweißprocess"/>
+<field name="schweißprocess_gel"/>
+<newline/>
+<label name="Stossart"/>
+<field name="Stossart"/>
+<label name="hartegrad"/>
+<field name="hartegrad"/>
+
+<newline/>
+<label name="Einlagig"/>
+<field name="Einlagig"/>
+<label name="schweiss_nahteinzelheiten"/>
+<field name="schweiss_nahteinzelheiten"/>
+<newline/>
+<label name="grundwerkstoffe"/>
+<label name="gruppen1"/>
+<label name="bezeich1"/>
+<label name="nummer1"/>
+<newline/>
+<field name="grundwerkstoffe"/>
+<field name="gruppen1"/>
+<field name="bezeich1"/>
+<field name="nummer1"/>
+<newline/>
+<field name="grundwerkstoffe1"/>
+<field name="gruppen2"/>
+<field name="bezeich2"/>
+<field name="nummer2"/>
+<newline/>
+<label name="dicke_des_grundwerkstoff"/>
+<field name="dicke_des_grundwerkstoff_value1"/>
+<field name="dicke_des_grundwerkstoff" colspan="2"/>
+<newline/>
+<label name="dicke_des_schweissgutes"/>
+<field name="dicke_des_schweissgutes"/>
+<newline/>
+<label name="prozess1"/>
+<field name="prozess1"/>
+<label name="prozess2"/>
+<field name="prozess2"/>
+<newline/>
+<label name="Kehlnahtdicke"/>
+<field name="Kehlnahtdicke"/>
+<field name="Kehlnahtdicke_geltungs" colspan="2"/>
+<newline/>
+<label name="rohraussendurchmesser"/>
+<field name="rohraussendurchmesser"/>
+<field name="rohrauss_geltungs" colspan="2"/>
+<newline/>
+<label name="zusatzwerkstoff"/>
+<label name="fabrikat"/>
+<label name="o1"/>
+<label name="stromart_polung"/> 
+<newline/>
+<field name="zusatzwerkstoff"/>
+<field name="fabrikat"/>
+<field name="o1"/>
+<field name="stromart_polung"/>
+<newline/>
+<field name="zusatzwerkstoff2"/>
+<field name="fabrikat2"/>
+<field name="o2"/>
+<field name="stromart_polung2"/>
+<newline/>
+<label name="pulver"/>
+<field name="pulver" colspan="3"/>
+<newline/>
+<label name="pulver1"/>
+<field name="pulver1" colspan="3"/>
+<newline/>
+<label name="formiergases"/>
+<field name="formiergases" colspan="3"/>
+<newline/>
+<label name="tropfenuebergande"/>
+<field name="tropfenuebergande" colspan="3"/>
+<newline/>
+<label name="warmeeinbringung"/>
+<field name="warmeeinbringung" colspan="3"/>
+<newline/>
+<label name="schweissposition"/>
+<field name="schweissposition"/>
+<field name="schweissgeltung" colspan="2"/>
+<newline/>
+<label name="vorwarmungtemperatur"/>
+<field name="vorwarmungtemperatur" colspan="3"/>
+<newline/>
+<label name="zwischenlagentemperatur"/>
+<field name="zwischenlagentemperatur" colspan="3"/>
+<newline/>
+<label name="wasserstoffarmgluhen"/>
+<field name="wasserstoffarmgluhen" colspan="3"/>
+<newline/>
+<label name="warmenachbehandlung"/>
+<field name="warmenachbehandlung" colspan="3"/>
+<newline/>
+<label name="sonstige"/>
+<field name="sonstige" colspan="3"/>
+<label name="index" colspan="3"/>
+<newline/>
+<label name="pericht1"/>
+<field name="pericht1"/>
+<field name="pericht2"/>
+</form>

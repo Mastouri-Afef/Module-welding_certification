@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+
+<label name="wpqr_"/>
+<field name="wpqr_"/>
+<label name="prufer_prufstelle1"/>
+<field name="prufer_prufstelle1"/>
+<newline/>
+<label name="hersteller"/>
+<field name="hersteller"/>
+<label name="beleg_nr"/>
+<field name="beleg_nr"/>
+<label name="space"/>
+<newline/>
+<label name="anschrift"/>
+<field name="anschrift"/>
+<label name="regel"/>
+<field name="regel"/>
+<newline/>
+<label name="wps"/>
+<field name="wps"/>
+<label name="datum_schweissen"/>
+<field name="datum_schweissen"/>
+<newline/>
+<label name="name_bediener"/>
+<field name="name_bediener"/>
+<label name="prufumfang1"/>
+<field name="prufumfang1"/>
+<newline/>
+<label name="prufumfang2"/>
+<field name="prufumfang2" colspan="3"/>
+<newline/>
+<label name="title1"/>
+<newline/>
+<label name="prozess"/>
+<field name="prozess"/>
+<field name="prozess_gel" colspan="2"/>
+<newline/>
+<label name="bolzenwerkstoff"/>
+<field name="bolzenwerkstoff"/>
+<label name="bolzendurchmesser"/>
+<field name="bolzendurchmesser"/>
+<newline/>
+<label name="grundwerkstoff"/>
+<field name="grundwerkstoff"/>
+<label name="bolzenlange"/>
+<field name="bolzenlange"/>
+<newline/>
+<label name="werkstoffgrup"/>
+<field name="werkstoffgrup"/>
+<label name="wst_nummer"/>
+<field name="wst_nummer"/>
+<newline/>
+<label name="dicke_des_werkstoff"/>
+<field name="dicke_des_werkstoff"/>
+<label name="bolzenbezeichnung"/>
+<field name="bolzenbezeichnung"/>
+<newline/>
+<newline/>
+<label name="keramikringes"/>
+<field name="keramikringes"/>
+<label name="schweissposition2"/>
+<field name="schweissposition2"/>
+<newline/>
+<label name="handelsname" colspan="1"/>
+<field name="handelsname" colspan="1"/>
+
+<newline/>
+<label name="invendung1" colspan="1"/>
+<field name="invendung1" colspan="1"/>
+<label name="invendung2" colspan="1"/>
+<field name="invendung2" colspan="1"/>
+<newline/>
+<label name="dampfung_title" colspan="1"/>
+<newline/>
+<label name="dampfung1" colspan="1"/>
+<field name="dampfung1" colspan="1"/>
+<label name="dampfung2" colspan="1"/>
+<field name="dampfung2" colspan="1"/>
+<newline/>
+<label name="temperatur" colspan="1"/>
+<field name="temperatur" colspan="1"/>
+<label name="stromquel" colspan="1"/>
+<field name="stromquel" colspan="1"/>
+<newline/>
+<label name="schutzgas" colspan="1"/>
+<field name="schutzgas" colspan="1"/>
+<label name="schweisspistole" colspan="1"/>
+<field name="schweisspistole" colspan="1"/>
+<newline/>
+<label name="durchflussmenge" colspan="1"/>
+<field name="durchflussmenge" colspan="1"/>
+<newline/>
+<label name="andere_angaben" />
+<field name="andere_angaben" colspan="3"/>
+<newline/>
+<field name="hubzundung" colspan = "4"
+                view_ids="welding_certification.hubzundungs_view_tree_sequence"/>
+<newline/>
+<label name="index" colspan = "4"/>
+<newline/>
+<label name="ort" colspan="1"/>
+<field name="ort" colspan="1"/>
+<label name="ausstelleung" colspan="1"/>
+<field name="ausstelleung" colspan="1"/>
+
+</form>

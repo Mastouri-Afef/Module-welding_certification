@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+<label name="title1"/>
+<newline/>
+<label name="wpqr"/>
+<field name="wpqr"/>
+<label name="prufer_prufstelle1"/>
+<field name="prufer_prufstelle1"/>
+<newline/>
+<label name="hersteller"/>
+<field name="hersteller"/>
+<label name="beleg_nr"/>
+<field name="beleg_nr"/>
+<label name="space"/>
+<newline/>
+<label name="anschrift"/>
+<field name="anschrift"/>
+<label name="regel"/>
+<field name="regel"/>
+<newline/>
+<label name="wps"/>
+<field name="wps"/>
+<label name="schweissen"/>
+<field name="schweissen"/>
+<newline/>
+<label name="prufumfang1"/>
+<field name="prufumfang1" colspan ="3"/>
+<newline/>
+<label name="bediener"/>
+<field name="bediener"/>
+<label name="prufumfang2"/>
+<field name="prufumfang2"/>
+<newline/>
+<label name="title"/>
+<newline/>
+<label name="prozess"/>
+<field name="prozess"/>
+<field name="prozess_gel" colspan ="2"/>
+<newline/>
+<label name="bolzenwerkstoff"/>
+<field name="bolzenwerkstoff"/>
+<label name="bolzendurchmesser"/>
+<field name="bolzendurchmesser"/>
+<newline/>
+<label name="grundwerkstoff"/>
+<field name="grundwerkstoff"/>
+<label name="bolzenlange"/>
+<field name="bolzenlange"/>
+<newline/>
+<label name="grup"/>
+<field name="grup"/>
+<label name="nummer"/>
+<field name="nummer"/>
+<newline/>
+<label name="dicke"/>
+<field name="dicke"/>
+<label name="bolzenbezeichnung"/>
+<field name="bolzenbezeichnung"/>
+<newline/>
+<label name="schweiss"/>
+<newline/>
+<label name="schweiss1"/>
+<field name="schweiss1"/>
+<label name="schweiss2"/>
+<field name="schweiss2"/>
+<newline/>
+<label name="schutzgas"/>
+<field name="schutzgas"/>
+<label name="stromquel"/>
+<field name="stromquel"/>
+<newline/>
+<label name="durch"/>
+<field name="durch"/>
+<label name="schweißpistole"/>
+<field name="schweißpistole"/>
+<newline/>
+<label name="andere"/>
+<field name="andere" colspan ="3"/>
+<newline/>
+<field name="kondersatorentladungs" colspan = "4"
+                view_ids="welding_certification.kondersatorentladungs_view_tree_sequence"/>
+
+<newline/>
+<label name="index1"/>
+<newline/>
+<label name="index2"/>
+<newline/>
+<label name="ort"/>
+<label name="ausstelleung"/> 
+<label name="unterschrift"/>
+<newline/>
+<field name="ort"/>
+<field name="ausstelleung"/>
+<field name="unterschrift"/>
+</form>

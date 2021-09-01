@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+
+    <field name="title" colspan="4"/>
+<newline/>
+    <field name="subtitle1" colspan="4"/>
+<newline/>
+    <field name="subtitle" colspan="4"/>
+<newline/>
+    <label name="operator_name"/>
+    <field name="operator_name"/>
+    <label name="identification_no"/>
+    <field name="identification_no"/>
+<newline/>
+    <label name="stamp_no"/>
+    <field name="stamp_no"/>
+    <label name="bezeichnung"/>
+    <field name="bezeichnung"/>
+
+<notebook colspan="4">
+        <page string="Test Description" id="schweissprozess1" col = "6">
+    <label name="wps"/>
+    <field name="wps"/>
+    <label name="test_coupon"/>
+    <field name="test_coupon"/>
+    <label name="production_weld"/>
+    <field name="production_weld"/>
+<newline/>
+    <label name="specification"/>
+    <field name="specification" colspan="2"/>
+    <label name="thickness"/>
+    <field name="thickness" colspan="2"/>
+
+<newline/>
+    <label name="blech_rohr"/>
+    <field name="blech_rohr" colspan="2"/>
+    <label name="nahtart"/>
+    <field name="nahtart" colspan="2"/>
+
+        </page>
+</notebook>
+    <label name="space"/>
+<newline/>
+<notebook colspan="4">
+        <page string="" id="schweissprozess1" col = "6">
+
+    <label name="subtitle3"/>
+    <label name="subtitle4"/>
+    <label name="subtitle5"/>
+<newline/>
+    <label name="welding_process"/>
+    <field name="welding_process" colspan ="2"/>
+    <field name="welding_process_geltungs" colspan ="3"/>
+<newline/>
+    <label name="type_used"/>
+    <field name="type_used" colspan ="2"/>
+    <field name="type_used_geltungs" colspan ="3"/>
+<newline/>
+    <label name="backing"/>
+    <field name="backing" colspan ="2"/>
+    <field name="backing_geltungs" colspan ="3"/>
+<newline/>
+    <label name="plate"/>
+    <field name="plate"/>
+    <label name="pipe"/>
+    <field name="pipe"/>
+<newline/>
+    <label name="space1"/>
+    <label name="space1"/>
+    <field name="pipe21"/>
+    <field name="plate_geltungs" colspan ="3"/>
+<newline/>
+    <label name="base_metal"/>
+    <field name="base_metal"/>
+    <label name="p_number"/>
+    <field name="p_number"  colspan ="3"/>
+<newline/>
+    <label name="space1"/>
+    <label name="space1"/>
+    <label name="space1"/>
+    <field name="base_geltungs"  colspan ="3"/>
+<newline/>
+    <label name="filler_metal_1"/>
+    <field name="filler_metal_1" colspan ="5"/>
+<newline/>
+    <label name="filler_metal_2"/>
+    <field name="filler_metal_2" colspan ="2"/>
+    <field name="filler_metal_geltungs2" colspan ="3"/>
+<newline/>
+    <label name="filler_metal"/>
+    <field name="filler_metal" colspan ="2"/>
+    <field name="filler_metal_geltungs" colspan ="3"/>
+<newline/>
+    <label name="consumable_insert"/>
+    <field name="consumable_insert" colspan ="2"/>
+    <field name="consumable_insert_gesltungs" colspan ="3"/>
+<newline/>
+    <label name="filler_mettal_product"/>
+    <field name="filler_mettal_product" colspan ="2"/>
+    <field name="filler_mettal_product_gel" colspan ="3"/>
+<newline/>
+    <label name="deposit"/>
+    <field name="deposit" colspan ="2"/>
+    <field name="deposit_geltungs" colspan ="3"/>
+<newline/>
+    <label name="process1"/>
+    <field name="process1"/>
+    <label name="layer_min1"/>
+    <field name="layer_min1"/>
+    <label name="layer_min3"/>
+    <field name="layer_min3"/>
+<newline/>
+    <label name="space1"/>
+    <field name="process1_val"/>
+<newline/>
+    <label name="process2"/>
+    <field name="process2"/>
+    <label name="layer_min2"/>
+    <field name="layer_min2"/>
+    <label name="layer_min4"/>
+    <field name="layer_min4"/>
+<newline/>
+    <label name="space1"/>
+    <field name="process2_val"/>
+<newline/>
+    <label name="position1"/>
+    <field name="position1" colspan ="3"/>
+<newline/>
+    <label name="groove1"/>
+    <field name="groove1" colspan ="5"/>
+<newline/>
+    <label name="groove2"/>
+    <field name="groove2" colspan ="5"/>
+<newline/>
+    <label name="fillet1"/>
+    <field name="fillet1" colspan ="5"/>
+<newline/>
+    <label name="vertical_progression"/>
+    <field name="vertical_progression" colspan ="2"/>
+    <field name="vertical_progression_gel" colspan ="3"/>
+<newline/>
+    <label name="type_fuelgaz"/>
+    <field name="type_fuelgaz" colspan ="2"/>
+
+<newline/>
+    <label name="inert_gaz"/>
+    <field name="inert_gaz" colspan ="2"/>
+    <field name="inert_gaz_gel" colspan ="3"/>
+<newline/>
+    <label name="transfert_mode"/>
+    <field name="transfert_mode" colspan ="2"/>
+    <field name="transfert_mode_gel" colspan ="3"/>
+<newline/>
+    <label name="current_type"/>
+    <field name="current_type" colspan ="2"/>
+    <field name="current_type_gel" colspan ="3"/>
+        </page>
+</notebook>
+<newline/>
+<notebook colspan="4">
+        <page string="Results" id="resultat" col = "6">
+
+    <label name="visual_examination"/>
+    <field name="visual_examination" colspan = "2"/>
+    <label name="side_bends"/>
+    <field name="side_bends"/>
+<newline/>
+    <label name="transverse_face"/>
+    <field name="transverse_face"/>
+    <label name="longitudinal_bends"/>
+    <field name="longitudinal_bends"/>
+<newline/>
+    <label name="pipe_bends"/>
+    <field name="pipe_bends"/>
+    <label name="pipe_specimen"/>
+    <field name="pipe_specimen"/>
+<newline/>
+    <label name="plate_bends"/>
+    <field name="plate_bends"/>
+    <label name="plate_specimen"/>
+    <field name="plate_specimen"/>
+<newline/>
+<field name="Tab_res" colspan = "4"
+                view_ids="welding_certification.wpq_results_view_tree_sequence"/>
+
+<newline/>
+    <label name="alternativ_volumetric"/>
+    <field name="alternativ_volumetric" colspan = "2"/>
+    <label name="r_t"/>
+    <field name="r_t"/>
+<newline/>
+    <label name="Fillet_welt"/>
+    <field name="Fillet_welt" colspan = "2"/>
+    <label name="u_t"/>
+    <field name="u_t"/>
+<newline/>
+    <label name="fillet_weld_plate"/>
+    <field name="fillet_weld_plate"/>
+    <label name="fillet_weld_pipe"/>
+    <field name="fillet_weld_pipe"/>
+<newline/>
+    <label name="macro_exam"/>
+    <field name="macro_exam" colspan = "3"/>
+<newline/>
+    <label name="fillet_size"/>
+    <field name="fillet_size" colspan = "3"/>
+<newline/>
+    <label name="convacity"/>
+    <field name="convacity" colspan = "3"/>
+<newline/>
+    <label name="other_test"/>
+    <field name="other_test" colspan = "3"/>
+<newline/>
+    <label name="film_evaluated"/>
+    <field name="film_evaluated" colspan = "3"/>
+<newline/>
+    <label name="company"/>
+    <field name="company" colspan = "3"/>
+<newline/>
+    <label name="mecanical_test"/>
+    <field name="mecanical_test" colspan = "3"/>
+<newline/>
+    <label name="labo_no"/>
+    <field name="labo_no" colspan = "3"/>
+<newline/>
+    <label name="supervised_by"/>
+    <field name="supervised_by" colspan = "3"/>
+<newline/>
+    <label name="index" colspan = "3"/>
+<newline/>
+    <label name="index1" colspan = "3"/>
+<newline/>
+    <label name="organization"/>
+    <field name="organization" colspan = "3"/>
+<newline/>
+    <label name="certified_by"/>
+    <field name="certified_by" colspan = "2"/>
+    <label name="date"/>
+    <field name="date"/>
+<newline/>
+        </page>
+</notebook>
+<label name="line_index" colspan = "4"/>
+<label name="index2" colspan = "4"/>
+<label name="index3" colspan = "4"/>
+
+</form>

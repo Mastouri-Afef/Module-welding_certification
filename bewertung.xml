@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data> 
+        <record model="ir.ui.view" id="iso96061_bewertung_view_tree">
+            <field name="model">bewertung.bewertung</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="10"/>
+            <field name="name">iso96061_bewertung_tree</field>
+        </record>
+        <record model="ir.ui.view" id="iso96061_bewertung_view_form">
+            <field name="model">bewertung.bewertung</field>
+            <field name="type">form</field>
+            <field name="name">iso96061_bewertung_form</field>
+        </record>
+        <record model="ir.action.act_window" id="act_iso96061_bewertung_form">
+            <field name="name">Bewertung</field>
+            <field name="res_model">bewertung.bewertung</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_iso96061_bewertung_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="iso96061_bewertung_view_tree"/>
+            <field name="act_window" ref="act_iso96061_bewertung_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_iso96061_bewertung_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="iso96061_bewertung_view_form"/>
+            <field name="act_window" ref="act_iso96061_bewertung_form"/>
+        </record>        
+        <record model="ir.action.act_window.domain" id="act_iso96061_bewertung_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_iso96061_bewertung_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_iso96061_bewertung_domain_confirmed">
+            <field name="name">Confirmed</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'confirmed')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_iso96061_bewertung_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_iso96061_bewertung_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="act_window" ref="act_iso96061_bewertung_form"/>
+        </record>
+        <record model="ir.model.button" id="iso96061_bewertung_cancel_button">
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+            <field name="confirm">Are you sure you want to cancel the Bewertung?</field>
+            <field name="help">Cancel the Bewertung</field>
+            <field name="model" search="[('model', '=', 'bewertung.bewertung')]"/>
+        </record>
+        <record model="ir.model.button" id="iso96061_bewertung_confirm_button">
+            <field name="name">confirm</field>
+            <field name="string">Validate</field>
+            <field name="help">confirm you data?</field>
+            <field name="model" search="[('model', '=', 'bewertung.bewertung')]"/>
+        </record>       
+                  <!-- DRUCKEN Bewertung ISO_96061 FORMULAR -->        
+        <record model="ir.action.report" id="report_bewertung">
+            <field name="name">Bewertung</field>
+            <field name="model">bewertung.bewertung</field>
+            <field name="report_name">welding_certification.bewertung.zertifikat_bewertung_iso96061</field>
+            <field name="report">welding_certification/reports/bewertung_iso96061_report.pdf</field>
+            <field name="extension">pdf</field>            
+        </record>                
+        <record model="ir.ui.view" id="bewertung_sichtprüfung_decklage_view_form">
+            <field name="model">bewertung.bewertung.sichtprüfung_decklage</field>
+            <field name="type">form</field> 
+            <field name="name">bewertung_sichtprüfung_decklage_form</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_sichtprüfung_decklage_view_tree">
+            <field name="model">bewertung.bewertung.sichtprüfung_decklage</field>
+            <field name="type">tree</field>
+            <field name="name">bewertung_sichtprüfung_decklage_tree</field>
+        </record>        
+        <record model="ir.ui.view" id="bewertung_sichtprüfung_decklage_view_tree_sequence">
+            <field name="model">bewertung.bewertung.sichtprüfung_decklage</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">bewertung_sichtprüfung_decklage_tree_sequence</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_sichtprüfung_kehlnaht_view_form">
+            <field name="model">bewertung.bewertung.sichtprüfung_kehlnaht</field>
+            <field name="type">form</field>
+            <field name="name">bewertung_sichtprüfung_kehlnaht_form</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_sichtprüfung_kehlnaht_view_tree">
+            <field name="model">bewertung.bewertung.sichtprüfung_kehlnaht</field>
+            <field name="type">tree</field>
+            <field name="name">bewertung_sichtprüfung_kehlnaht_tree</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_sichtprüfung_kehlnaht_view_tree_sequence">
+            <field name="model">bewertung.bewertung.sichtprüfung_kehlnaht</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">bewertung_sichtprüfung_kehlnaht_tree_sequence</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_durchstrahlungsprüfung_view_form">
+            <field name="model">bewertung.bewertung.durchstrahlungsprüfung</field>
+            <field name="type">form</field>
+            <field name="name">bewertung_durchstrahlungsprüfung_form</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_durchstrahlungsprüfung_view_tree">
+            <field name="model">bewertung.bewertung.durchstrahlungsprüfung</field>
+            <field name="type">tree</field>
+            <field name="name">bewertung_durchstrahlungsprüfung_tree</field>
+        </record>        
+        <record model="ir.ui.view" id="bewertung_durchstrahlungsprüfung_view_tree_sequence">
+            <field name="model">bewertung.bewertung.durchstrahlungsprüfung</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">bewertung_durchstrahlungsprüfung_tree_sequence</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_bruchprüfung_view_form">
+            <field name="model">bewertung.bewertung.bruchprüfung</field>
+            <field name="type">form</field>
+            <field name="name">bewertung_bruchprüfung_form</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_bruchprüfung_view_tree">
+            <field name="model">bewertung.bewertung.bruchprüfung</field>
+            <field name="type">tree</field>
+            <field name="name">bewertung_bruchprüfung_tree</field>
+        </record>        
+        <record model="ir.ui.view" id="bewertung_bruchprüfung_view_tree_sequence">
+            <field name="model">bewertung.bewertung.bruchprüfung</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">bewertung_bruchprüfung_tree_sequence</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_weitere_prufüng_view_form">
+            <field name="model">bewertung.bewertung.weitere_prüfung</field>
+            <field name="type">form</field>
+            <field name="name">bewertung_weitere_prufüng_form</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_weitere_prufüng_view_tree">
+            <field name="model">bewertung.bewertung.weitere_prüfung</field>
+            <field name="type">tree</field>
+            <field name="name">bewertung_weitere_prufüng_tree</field>
+        </record>        
+        <record model="ir.ui.view" id="bewertung_weitere_prufüng_view_tree_sequence">
+            <field name="model">bewertung.bewertung.weitere_prüfung</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">bewertung_weitere_prufüng_tree_sequence</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_biegeprüfung_view_form">
+            <field name="model">bewertung.bewertung.biegeprüfung</field>
+            <field name="type">form</field>
+            <field name="name">bewertung_biegeprüfung_form</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_biegeprüfung_view_tree">
+            <field name="model">bewertung.bewertung.biegeprüfung</field>
+            <field name="type">tree</field>
+            <field name="name">bewertung_biegeprüfung_tree</field>
+        </record>        
+        <record model="ir.ui.view" id="bewertung_biegeprüfung_view_tree_sequence">
+            <field name="model">bewertung.bewertung.biegeprüfung</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">bewertung_biegeprüfung_tree_sequence</field>
+        </record>
+        <!-- ISO Normes -->
+        <record model="ir.ui.view" id="bewertung_iso5817_view_form">
+            <field name="model">bewertung.iso5817</field>
+            <field name="type">form</field>
+            <field name="name">bewertung_iso5817_form</field>
+        </record>
+        <record model="ir.ui.view" id="bewertung_iso5817_view_tree">
+            <field name="model">bewertung.iso5817</field>
+            <field name="type">tree</field>
+            <field name="name">bewertung_iso5817_tree</field>
+        </record>        
+        <record model="ir.action.act_window" id="act_bewertung_iso5817_form">
+            <field name="name">Bewerten von Schmelzschweißverbindungen an Stahl, Nickel, Titan nach EN ISO 5817</field>
+            <field name="res_model">bewertung.iso5817</field>
+        </record>  
+        <record model="ir.action.act_window.view" id="act_bewertung_iso5817_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="bewertung_iso5817_view_tree"/>
+            <field name="act_window" ref="act_iso96061_bewertung_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_bewertung_iso5817_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="bewertung_iso5817_view_form"/>
+            <field name="act_window" ref="act_bewertung_iso5817_form"/>
+        </record>        
+        --------
+        <record model="ir.action.act_window.domain" id="act_bewertung_iso5817_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_bewertung_iso5817_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_bewertung_iso5817iso96061_bewertung_domain_confirmed">
+            <field name="name">Confirmed</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'confirmed')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_bewertung_iso5817_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_bewertung_iso5817_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="act_window" ref="act_bewertung_iso5817_form"/>
+        </record>
+        <record model="ir.model.button" id="bewertung_iso5817_cancel_button">
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+            <field name="confirm">Are you sure you want to cancel the Bewerten von Schmelzschweißverbindungen an stahl, Nickel Titan nach EN ISO 5817:2014?</field>
+            <field name="help">Cancel the Bewerten von Schmelzschweißverbindungen an stahl, Nickel Titan nach EN ISO 5817:2014</field>
+            <field name="model" search="[('model', '=', 'bewertung.iso5817')]"/>
+        </record>
+        <record model="ir.model.button" id="bewertung_iso5817_confirm_button">
+            <field name="name">confirm</field>
+            <field name="string">Validate</field>
+            <field name="help">confirm you data?</field>
+            <field name="model" search="[('model', '=', 'bewertung.iso5817')]"/>
+        </record>                          
+        <record model="ir.action.report" id="report_bewertung_iso5817">
+            <field name="name">EN ISO 5817/10042</field>
+            <field name="model">bewertung.iso5817</field>
+            <field name="report_name">welding_certification.bewertung.zertifikat_bewertung_iso5817</field>            
+            <field name="report">welding_certification/reports/iso_5817_10042_report.pdf</field>
+            <field name="extension">pdf</field>                        
+        </record>              
+    </data>
+</tryton>

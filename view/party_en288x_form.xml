@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+
+<label name="schweissverfahren"/>
+<field name="schweissverfahren"/>
+<label name="prufer1"/>
+<field name="prufer1"/>
+<label name="space"/>
+<newline/>
+<label name="beleg1"/>
+<field name="beleg1"/>
+<label name="beleg2"/>
+<field name="beleg2"/>
+<newline/>
+<label name="hersteller"/>
+<field name="hersteller" colspan ="3"/>
+<newline/>
+<label name="anschrift"/>
+<field name="anschrift" colspan ="3"/>
+<newline/>
+<label name="regel"/>
+<field name="regel" colspan ="3"/>
+<newline/>
+<label name="datum_schweissen"/>
+<field name="datum_schweissen"/>
+<label name="hartegrade"/>
+<field name="hartegrade"/>
+<newline/>
+<label name="prufumfang"/>
+<field name="prufumfang" colspan ="3"/>
+<newline/>
+<label name="schweißprocess"/>
+<field name="schweißprocess"/>
+<field name="schweiss_gel" colspan ="2"/>
+<newline/>
+<label name="nahtart"/>
+<field name="nahtart" colspan ="3"/>
+<newline/>
+<label name="grundwerkstoffe"/>
+<field name="grundwerkstoffe"/>
+<field name="grup1"/>
+<field name="nummer1"/>
+
+<newline/>
+<label name="grundwerkstoffe2"/>
+<field name="grundwerkstoffe2"/>
+<field name="grup2"/>
+<field name="nummer2"/>
+<newline/>
+<label name="dicke"/>
+<field name="dicke"/>
+<field name="dicke_gel"  colspan ="2"/>
+<newline/>
+<label name="aussendurchmesser"/>
+<field name="aussendurchmesser"/>
+<field name="aussendurchmesser_gel"  colspan ="2"/>
+<newline/>
+<label name="zusatzwerkstoff"/>
+<field name="zusatzwerkstoff" colspan ="3"/>
+<newline/>
+<label name="pulver"/>
+<field name="pulver" colspan ="3"/>
+<newline/>
+<label name="stromart"/>
+<field name="stromart" colspan ="3"/>
+<newline/>
+<label name="schweissposition"/>
+<field name="schweissposition"/>
+<field name="schweissposition_gel" colspan ="2"/>
+<newline/>
+<label name="vorwarmung"/>
+<field name="vorwarmung" colspan ="3"/>
+<newline/>
+<label name="warmenachbehandlung"/>
+<field name="warmenachbehandlung" colspan ="3"/>
+<newline/>
+<label name="sonstige"/>
+<field name="sonstige" colspan ="3"/>
+<newline/>
+<label name="index" colspan ="3"/>
+<newline/>
+<label name="index2" colspan ="3"/>
+<newline/>
+<field name="ort" colspan ="2"/>
+<field name="prufer_prufstelle1" colspan ="2"/>
+<newline/>
+<label name="ort" colspan ="2"/>
+<label name="prufer_prufstelle1" colspan ="2"/>
+<newline/>
+<field name="datum_ausstellung" colspan ="2"/>
+<field name="unterschrift" colspan ="2"/>
+<newline/>
+<label name="datum_ausstellung" colspan ="2"/>
+<label name="unterschrift" colspan ="2"/>
+
+</form>

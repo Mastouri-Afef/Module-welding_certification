@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="10">
+<label name="schweißraupee"/>
+<field name="schweißraupee"/>
+<label name="schweissprozess"/>
+<field name="schweissprozess"/>
+<label name="schweiszusaetze_1"/>
+<field name="schweiszusaetze_1"/>
+<label name="schweiszusaetze_2"/>
+<field name="schweiszusaetze_2"/>
+<label name="stromst"/>
+<field name="stromst"/>
+<label name="spannung"/>
+<field name="spannung"/>
+<label name="stromart_polung"/>
+<field name="stromart_polung"/>
+<label name="drahtvorschub"/>
+<field name="drahtvorschub"/>
+<label name="vorschub_geschwindigkeit"/>
+<field name="vorschub_geschwindigkeit"/>
+<label name="waermeeinbringung"/>
+<field name="waermeeinbringung"/>
+</form>

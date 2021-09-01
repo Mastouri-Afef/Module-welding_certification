@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+   <label name="hersteller"/>
+    <field name="hersteller"/>
+   <label name="wps"/>
+    <field name="wps"/>
+<label name="space"/>
+<newline/>
+   <label name="wpqr_nr"/>
+    <field name="wpqr_nr"/>
+   <label name="beleg_nr"/>
+    <field name="beleg_nr"/>
+<newline/>
+   <label name="regel"/>
+    <field name="regel"/>
+<newline/>
+   <label name="prufer"/>
+    <field name="prufer"/>
+   <label name="datum_schweissen"/>
+    <field name="datum_schweissen"/>
+<newline/>
+   <label name="anschrift"/>
+    <field name="anschrift"/>
+<newline/>
+<field name="hartpruf1" colspan="4"
+                view_ids="welding_certification.harte_view_tree_sequence"/>
+<newline/>
+<field name="hartpruf2" colspan="3"
+                view_ids="welding_certification.harte1_view_tree_sequence"/>
+
+ <field name="Bild" widget="image"/>
+<newline/>
+   <label name="sonstige"/>
+<newline/>
+   <label name="bemerkungen"/>
+    <field name="bemerkungen" colspan="3"/>
+<newline/>
+   <label name="requirememt"/>
+    <field name="requirememt" colspan="3"/>
+<newline/>
+   <label name="labor_bericht"/>
+    <field name="labor_bericht" colspan="3"/>
+<newline/>
+   <label name="prufergebnisse"/>
+    <field name="prufergebnisse" colspan="3"/>
+<newline/>
+   <label name="anwesenheit"/>
+    <field name="anwesenheit" colspan="3"/>
+
+<newline/>
+<button name="Print" string="Drucken"/>
+
+</form>

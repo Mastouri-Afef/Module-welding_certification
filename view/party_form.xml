@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath
+        expr="/form/notebook/page[@id='general']/group[@id='lang']"
+        position="replace_attributes">
+        <group col="8" colspan="6" id="lang"/>
+    </xpath>
+    <xpath
+        expr="/form/notebook/page[@id='general']/group[@id='lang']"
+        position="inside">
+        <label name="employer"/>
+        <field name="employer"/>
+        <newline/>
+        <label name="last_occupational_checkup"/>
+        <field name="last_occupational_checkup"/>
+        <label name="vision_aid_required"/>
+        <field name="vision_aid_required"/>
+    </xpath>
+    <xpath expr="/form/notebook" position="inside">
+        <page string="Employment Master Data" id="employment_master_data">
+            <label name="employer"/>
+	    <field name="employer"/>
+            <label name="profession"/>
+	    <field name="profession"/>
+            <label name="birthday"/>
+	    <field name="birthday" widget="date"/>
+            <label name="country_of_birth"/>
+	    <field name="country_of_birth"/>
+            <label name="ort_birthday"/>
+            <field name="ort_birthday"/>
+            <label name="legitimation"/>
+	    <field name="legitimation"/>
+            <label name="legitimation_type"/>
+	    <field name="legitimation_type"/>
+	    <field name="briefings" colspan="4"/>
+	    <field name="occupational_checkups" colspan="4"/>
+        </page>
+    </xpath>
+</data>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree sequence="sequence" editable="1">
+    <field name="prob_nr"/>
+    <field name="bezeichnung"/>        
+    <field name="position"/>
+    <field name="sollmass"/>
+    <field name="kehlnahtdicke_grenzwerte"/>
+    <field name="kehlnahtdicke_istwert"/>
+    <field name="schenkligkeit_grenzwerte"/>
+    <field name="schenkligkeit_grenzwerte_istwert"/>
+    <field name="anzätze"/>
+    <field name="nahtüber"/>
+    <field name="bewertung1"/>
+</tree>
+
+

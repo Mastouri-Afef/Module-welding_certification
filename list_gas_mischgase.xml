@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_1">
+            <field name="bezeichung">ISO 14175-C1-C</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname"> </field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_2">
+            <field name="bezeichung">ISO 14175-M12-ArC-2</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">ARCAL 121</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_3">
+            <field name="bezeichung">ISO 14175-M12-ArHeC-18/1</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">CARGAL 121</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_4">
+            <field name="bezeichung">ISO 14175-M13-ArO-2</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">CARGAL</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_5">
+            <field name="bezeichung">ISO 14175-M14-ArCO-3/1</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">ARCAL 14</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_6">
+            <field name="bezeichung">ISO 14175-M20-ArC-8</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">ARCAL 21</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_7">
+            <field name="bezeichung">ISO 14175-M21-ArC-18</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">ATAL, ARCAL 5</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_8">
+            <field name="bezeichung">ISO 14175-M22-ArO-8</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">CARGAL 4</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_9">
+            <field name="bezeichung">ISO 14175-M23-ArCO-5/5</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">TERAL</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_10">
+            <field name="bezeichung">ISO 14175-M24-ArCO-12/2</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">ARCAL 24</field>
+            <field name="eignung">MAG</field>
+        </record>
+        <record model="welding.list_gas_mischgase" id="welding_list_gas_mischgase_11">
+            <field name="bezeichung">ISO 14175-N5-NH-20</field>
+            <field name="norm">EN ISO 14175</field>
+            <field name="handelsname">Formiergas 80/20</field>
+            <field name="eignung"> </field>
+        </record>
+    </data>
+</tryton>
+

@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+<label name="title" colspan ="2"/>
+<separator name="comment" colspan="2"/>
+<notebook colspan="3">
+        <page string="" id="schweissprozess1">
+<label name="erzeugniss"/>
+<field name="erzeugniss"/>
+<label name="bereich"/>
+<field name="bereich"/>
+<label name="intern_nr"/>
+<field name="intern_nr"/>
+<label name="Projekt_Nr"/>
+<field name="Projekt_Nr"/>
+<label name="formular"/>
+<field name="formular"/>
+<label name="Zeichn_Nr"/>
+<field name="Zeichn_Nr"/>
+<label name="Geigneter_Schweisser"/>
+<field name="Geigneter_Schweisser"/>
+</page>
+</notebook>
+<newline/>
+<notebook colspan="3">
+        <page string="" id="schweissprozess1">
+
+<label name="Nahtform"/>
+<field name="Nahtform"/>
+<label name="Revision"/>
+<field name="Revision"/>
+<label name="wps_nr"/>
+<field name="wps_nr"/>
+<label name="Nahtart"/>
+<field name="Nahtart"/>
+<label name="Projekt_Nr"/>
+<field name="Projekt_Nr"/>
+<newline/>
+<label name="clss"/>
+<field name="clss"/>
+<label name="erzeugniss"/>
+<field name="erzeugniss"/>
+
+
+</page>
+</notebook>
+<newline/>
+<notebook colspan="3">
+        <page string="" id="schweissprozess">
+<label name="Ort"/>
+<field name="Ort"/>
+<label name="wpqnr"/>
+<field name="wpqnr"/>
+<label name="Fugenbearbeitung1"/>
+<field name="Fugenbearbeitung1"/>
+<label name="Beleg_Nr"/>
+<field name="Beleg_Nr"/>
+<label name="grundwerkstoffe"/>
+<field name="grundwerkstoffe"/>
+<label name="grundwerkstoffe2"/>
+<field name="grundwerkstoffe2"/>
+<label name="prozess"/>
+<field name="prozess"/>
+<label name="tropfenubergang"/>
+<field name="tropfenubergang"/>
+<label name="Werkstuckdicke_1"/>
+<field name="Werkstuckdicke_1"/>
+<label name="Werkstuckdicke_2_"/>
+<field name="Werkstuckdicke_2_"/>
+<label name="Aussendurchmesser_1"/>
+<field name="Aussendurchmesser_1"/>
+<label name="Aussendurchmesser_2_"/>
+<field name="Aussendurchmesser_2_"/>
+<newline/>
+<label name="Mechanisierungsgrad"/>
+<field name="Mechanisierungsgrad"/>
+<label name="Produktform"/>
+<field name="Produktform"/>
+<label name="Nahtart"/>
+<field name="Nahtart"/>
+<label name="Kehlnahtdicke"/>
+<field name="Kehlnahtdicke"/>
+<label name="sweissposition"/>
+<field name="sweissposition"/>
+<newline/>
+<label name="Einzelheiten"/>
+<newline/>
+<label name="Billds"/>
+<field name="Billds"/>
+</page>
+</notebook>
+<newline/>
+<notebook colspan="3">
+        <page string="" id="schweissvolgen" col = "6">
+<label name="Gestaltung"/>
+<label name="Schweissfolgen"/>
+<newline/>
+ <field name="tesst_bild" widget="image"/> 
+ <field name="photo" widget="image"/> 
+</page>
+</notebook>
+<newline/>
+<notebook colspan = "3">
+        <page string="" id="schweissprozess4" col="6" >
+<label name="naht_nr"/>
+<field name="naht_nr"/>
+<field name="bild_name"/> 
+ <field name="rechts_bild_name"/>
+ <label name="Empfehlumg"/> 
+ <field name="Empfehlumg"/> 
+<newline/>
+
+<field name="Einzelheiten_Schweißen" colspan = "6"
+                view_ids="welding_certification.Einzelheiten_Schweissen_view_tree_sequence"/>
+<newline/>
+<label name="sweisszusatz"/>
+<field name="sweisszusatz"/>
+<label name="WIG_E_UP_0"/>
+<label name="FM_0"/>
+<label name="Fabrikat_0"/>
+<label name="Zulassung"/>
+<label name="szi_1"/>
+<field name="szi_1"/>
+<field name="WIG_E_UP"/>
+<field name="FM"/>
+<field name="Fabrikat"/>
+<field name="Bemerkung"/>
+
+
+<label name="szi_2"/>
+<field name="szi_2"/>
+<field name="WIG_E_UP_1"/>
+<field name="FM_1"/>
+<field name="Fabrikat_1"/>
+<field name="Bemerkung_1"/>
+
+
+<label name="szi_3"/>
+<field name="szi_3"/>
+<field name="WIG_E_UP_2"/>
+<field name="FM_2"/>
+<field name="Fabrikat_2"/>
+<field name="Bemerkung_2"/>
+
+</page>
+</notebook>
+
+<newline/>
+
+<notebook colspan="3">
+        <page string="Weitere Informationen" id="sschweissprozess">
+<label name="space"/>
+<label name="weitere_info"/>
+<newline/>
+<label name="Sonderforschriften_info"/>
+<field name="Sonderforschriften_info"/>
+<newline/>
+<label name="Schutzgas_info1"/>
+<newline/>
+<label name="Schutzgas_info"/>
+<field name="liste_gase"/>
+<newline/>
+<label name="Wurzelschutz_info"/>
+<field name="liste_gase1"/>
+<newline/>
+<label name="Gasdurchflussmenge"/>
+<newline/>
+<label name="Schutzgas_info"/>
+<field name="liste_gase2"/>
+<newline/>
+<label name="Wurzelschutz_info"/>
+<field name="liste_gase3"/>
+<newline/>
+<label name="Wolframelektrodenar_info"/>
+<field name="wolframelektrodenart"/>
+<field name="wolframelektrodenart2"/>
+<newline/>
+<label name="Einzelheiten_info"/>
+<field name="Einzelheiten_info"/>
+<newline/>
+<label name="Vorwaermtemperatur_info"/>
+<field name="Vorwaermtemperatur_info"/>
+<newline/>
+<label name="Zwichenlagetemperatur_info"/>
+<field name="Zwichenlagetemperatur_info"/>
+<newline/>
+<label name="Wasserstoffarm_info"/>
+<field name="Wasserstoffarm_info"/>
+<newline/>
+<label name="Haltetemperatur"/>
+<field name="Haltetemperatur"/>
+<newline/>
+<label name="Waermenachbehandlung"/>
+<field name="Waermenachbehandlung"/>
+<newline/>
+<label name="Aufheiz"/>
+<field name="Aufheiz"/>
+<newline/>
+<label name="Zeit"/>
+<field name="Zeit"/>
+<newline/>
+<label name="z_b"/>
+<field name="z_b"/>
+<newline/>
+<label name="Amplit"/>
+<field name="Amplit"/>
+<field name="Amplit_1"/>
+<field name="Amplit_2"/>
+<newline/>
+<label name="Einzelheiten_pulsschweissen"/>
+<field name="Einzelheiten_pulsschweissen"/>
+<newline/>
+<label name="Stromkontakt"/>
+<field name="Stromkontakt"/>
+<newline/>
+<label name="Einzelheiten_plasmaschweissen"/>
+<field name="Einzelheiten_plasmaschweissen"/>
+<newline/>
+<label name="Brenne"/>
+<field name="Brenne"/>
+</page>
+</notebook>
+<notebook colspan="3">
+        <page string="Datei Hochladen" id="hochladen">
+
+<label name="Herstellere"/>
+<label name="prufer_oder_prufsteller"/>
+<newline/>
+<field name="Herstellere"/>
+<field name="prufer_oder_prufsteller"/>
+<newline/>
+<button name="upload_cls" string ="Aktualisierung der SZI Liste " colspan="1"/>
+<button name="upload_erz" string ="Upload Erzeugnis XLS" colspan="1"/>
+</page>
+</notebook>
+
+</form>
+
+

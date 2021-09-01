@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form >
+    <label name="prob_nr "/>
+    <field name="prob_nr "/>
+    <label name="bezeichnung"/>
+    <field name="bezeichnung"/>    
+    <label name="position"/>
+    <field name="position"/>
+    <label name="sollmass"/>
+    <field name="sollmass"/>
+    <label name="kehlnahtdicke_grenzwerte"/>
+    <field name="kehlnahtdicke_grenzwerte"/>
+    <label name="kehlnahtdicke_istwert"/>
+    <field name="kehlnahtdicke_istwert"/>
+    <label name="schenkligkeit_grenzwerte"/>
+    <field name="schenkligkeit_grenzwerte"/>
+    <label name="schenkligkeit_grenzwerte_istwert"/>
+    <field name="schenkligkeit_grenzwerte_istwert"/>
+    <label name="anzätze"/>
+    <field name="anzätze"/>
+    <label name="nahtüber"/>
+    <field name="nahtüber"/>
+    <label name="bewertung1"/>
+    <field name="bewertung1"/>
+</form>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="party.profession" id="party_profession_1">
+            <field name="name">Gas- und Wasserinstallateur</field>
+        </record>
+        <record model="party.profession" id="party_profession_2">
+            <field name="name">Industriemechaniker</field>
+        </record>
+        <record model="party.profession" id="party_profession_3">
+            <field name="name">Karosserie- und Fahrzeugbauer</field>
+        </record>
+        <record model="party.profession" id="party_profession_4">
+            <field name="name">Klempner</field>
+        </record>
+        <record model="party.profession" id="party_profession_5">
+            <field name="name">Kraftfahrzeugmechaniker</field>
+        </record>
+        <record model="party.profession" id="party_profession_6">
+            <field name="name">Kraftfahrzeugschlosser</field>
+        </record>
+        <record model="party.profession" id="party_profession_7">
+            <field name="name">Kupferschmied</field>
+        </record>
+        <record model="party.profession" id="party_profession_8">
+            <field name="name">Landmaschinenmechaniker</field>
+        </record>
+        <record model="party.profession" id="party_profession_9">
+            <field name="name">Landmaschinenschlosser</field>
+        </record>
+        <record model="party.profession" id="party_profession_10">
+            <field name="name">Machinenbaumechaniker</field>
+        </record>
+        <record model="party.profession" id="party_profession_11">
+            <field name="name">Maschinen- und Anlagenmonteur</field>
+        </record>
+        <record model="party.profession" id="party_profession_12">
+            <field name="name">Metallbauer</field>
+        </record>
+        <record model="party.profession" id="party_profession_13">
+            <field name="name">Schmied</field>
+        </record>
+        <record model="party.profession" id="party_profession_14">
+            <field name="name">Schlosser</field>
+        </record>
+        <record model="party.profession" id="party_profession_15">
+            <field name="name">Schweißer</field>
+        </record>
+        <record model="party.profession" id="party_profession_16">
+            <field name="name">Zentralheizungs- und Lüftungsbauer</field>
+        </record>
+        <record model="party.profession" id="party_profession_17">
+            <field name="name">Zweiradmechaniker</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_1">
+            <field name="code">111</field>
+            <field name="name">111:Lichtbogenhandschweißen </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_2">
+            <field name="code">111/121</field>
+            <field name="name">111/121:Wurzel E, Auffüllen mit UP (Stahl)</field>
+            </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_3">
+            <field name="code">111/135</field>
+            <field name="name">111/135:Wurzel E, Auffüllen mit  MAG (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_4">
+            <field name="code">114</field>
+            <field name="name">114:Metall-Lichtbogenschweißen mit Fülldrahtelektrode ohne Schutzgas </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_5">
+            <field name="code">121</field>
+            <field name="name">121:Unterpulverschweißen mit Massivdrahtelektrode </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_6">
+            <field name="code">125</field>
+            <field name="name">125:Unterpulverschweißen mit Fülldrahtelektrode </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_7">
+            <field name="code">131</field>
+            <field name="name">131:Metall-Inertgasschweißen mit Massivdrahtelektrode </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_8">
+            <field name="code">135</field>
+            <field name="name">135:Metall-Aktivgasschweißen mit Massivdrahtelektrode </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_9">
+            <field name="code">135/111</field>
+            <field name="name">135/111:Wurzel MAG, Auffüllen mit  E (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_10">
+            <field name="code">135/121</field>
+            <field name="name">135/121:Wurzel MAG, Auffüllen mit  UP (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_11">
+            <field name="code">135/136</field>
+            <field name="name">135/136:Wurzel MAG Massiv, Auffüllen mit  MAG (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_12">
+            <field name="code">136</field>
+            <field name="name">136:Metall-Aktivgasschweißen mit schweißpulvergefüllter Drahtelektrode </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_13">
+            <field name="code">136/121</field>
+            <field name="name">136/121:Wurzel MAG, Auffüllen mit  UP (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_14">
+            <field name="code">138</field>
+            <field name="name">138:Metall-Aktivgasschweißen mit metallpulvergefüllter Drahtelektrode </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_15">
+            <field name="code">141</field>
+            <field name="name">141:Wolfram-Inertgasschweißen mit Massivdraht- oder Massivstabzusatz; WIG-Schweißen </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_16">
+            <field name="code">141/111</field>
+            <field name="name">141/111:Wurzel WIG, Auffüllen mit  E (Stahl, Cu, Ni) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_17">
+            <field name="code">141/121</field>
+            <field name="name">141/121:Wurzel WIG, Auffüllen mit  UP (Stahl, Ni) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_18">
+            <field name="code">141/131</field>
+            <field name="name">141/131   Wurzel WIG, Auffüllen mit  MIG (Al, Cu, Ni, Ti) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_19">
+            <field name="code">141/135</field>
+            <field name="name">141/135:Wurzel WIG, Auffüllen mit  MAG (Stahl, Ni) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_20">
+            <field name="code">141/136</field>
+            <field name="name">141/136:Wurzel WIG, Auffüllen mit  MAG (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_21">
+            <field name="code">142/111</field>
+            <field name="name">142/111:Wurzel WIG nm , Ausfüllen mit E (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_22">
+            <field name="code">142/131</field>
+            <field name="name">142/131:Wurzel WIG nm , Ausfüllen mit MIG (Stahl)  </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_23">
+            <field name="code">142/135</field>
+            <field name="name">142/131:Wurzel WIG nm , Ausfüllen mit MAG (Stahl) </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_24">
+            <field name="code">142</field>
+            <field name="name">142:Wolfram-Inertgasschweißen ohne Schweißzusatz </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_25">
+            <field name="code">143</field>
+            <field name="name">143:Wolfram-Inertgasschweißen mit Fülldraht- oder Füllstabzusatz </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_26">
+            <field name="code">145</field>
+            <field name="name">145:Wolfram-Schutzgas-schweißen mit reduzierenden Gasanteilen im ansonsten inerten Schutzgas und Massivdraht- oder Massivstabzusatz </field>
+        </record>
+         <record model="welding.schweißprozesse" id="welding_schweißprozesse_27">
+             <field name="code">15</field>
+            <field name="name">15:Plasmaschweißen </field>
+        </record>
+        <record model="welding.schweißprozesse" id="welding_schweißprozesse_28">
+            <field name="code">311</field>
+            <field name="name">311:Gasschweißen mit Sauerstoff-Acetylen-Flamme </field>
+        </record>
+ </data>
+</tryton>
+

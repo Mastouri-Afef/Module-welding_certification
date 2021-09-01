@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form >
+    <label name="prob_nr"/>
+    <field name="prob_nr"/>
+    <label name="bezeichnung"/>
+    <field name="bezeichnung"/>      
+    <label name="schweissposition"/>
+    <field name="schweissposition"/>
+    <label name="film_nr"/>
+    <field name="film_nr"/>
+    <label name="bildgüte"/>
+    <field name="bildgüte"/>
+    <label name="befund_100e"/>
+    <field name="befund_100e"/>
+    <label name="befund_2011"/>
+    <field name="befund_2011"/>
+    <label name="befund_2013"/>
+    <field name="befund_2013"/>
+    <label name="befund_2016"/>
+    <field name="befund_2016"/>
+    <label name="befund_300"/>
+    <field name="befund_300"/>
+    <label name="befund_401c"/>
+    <field name="befund_401c"/>
+    <label name="befund_402d"/>
+    <field name="befund_402d"/>
+    <label name="befund_5011f"/>
+    <field name="befund_5011f"/>
+    <label name="befund_5013f"/>
+    <field name="befund_5013f"/>
+    <label name="befund_507h"/>
+    <field name="befund_507h"/>
+    <label name="ohne_befund"/>
+    <field name="ohne_befund"/>
+    <label name="bewertung1"/>
+    <field name="bewertung1"/>
+</form>

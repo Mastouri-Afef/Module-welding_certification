@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_1">
+            <field name="code">PA</field>
+            <field name="name">Wannenposition</field>
+            <field name="beschreibung">waagerecht</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_2">
+            <field name="code">PB</field>
+            <field name="name">Horizontalposition</field>
+            <field name="beschreibung">horizontal</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_3">
+            <field name="code">PC</field>
+            <field name="name">Querposition</field>
+            <field name="beschreibung">quer</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_4">
+            <field name="code">PD</field>
+            <field name="name">Horizontal-Überkopfposition</field>
+            <field name="beschreibung">horizontal-überkopf</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_5">
+            <field name="code">PE</field>
+            <field name="name">Überkopposition</field>
+            <field name="beschreibung">überkopf</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_6">
+            <field name="code">PF</field>
+            <field name="name">Steigposition</field>
+            <field name="beschreibung">steigend</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_7">
+            <field name="code">PG</field>
+            <field name="name">Fallposition</field>
+            <field name="beschreibung">fallend</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_8">
+            <field name="code">PH</field>
+            <field name="name">Rohrposition für Steigendschweißen</field>
+            <field name="beschreibung">neu in DIN EN ISO 6947:2011-08</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_9">
+            <field name="code">PJ</field>
+            <field name="name">Rohrposition für Fallendschweißen</field>
+            <field name="beschreibung">neu in DIN EN ISO 6947:2011-08</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_10">
+            <field name="code">PK</field>
+            <field name="name">Rohrposition für Orbitalschweißen</field>
+            <field name="beschreibung">neu in DIN EN ISO 6947:2011-08</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_11">
+            <field name="code">H-L045</field>
+            <field name="name">Steigend am Rohr, Neigungswinkel 45°</field>
+            <field name="beschreibung">Rohrachse 45° steigend</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_12">
+            <field name="code">J-L045</field>
+            <field name="name">Fallend am Rohr, Neigungswinkel 45°</field>
+            <field name="beschreibung">Rohrachse 45° fallend</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_13">
+            <field name="code">H-L030</field>
+            <field name="name">Steigend am Rohr, Neigungswinkel 30°</field>
+            <field name="beschreibung">nach Abschnitt 4 der DIN EN ISO 6947</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_14">
+            <field name="code">H-L060</field>
+            <field name="name">Steigend am Rohr, Neigungswinkel 60°</field>
+            <field name="beschreibung">nach Abschnitt 4 der DIN EN ISO 6947</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_15">
+            <field name="code">J-L030</field>
+            <field name="name">Fallend am Rohr, Neigungswinkel 30°</field>
+            <field name="beschreibung">nach Abschnitt 4 der DIN EN ISO 6947</field>
+        </record>
+        <record model="welding.schweissposition_iso6947" id="welding_schweissposition_iso6947_16">
+            <field name="code">J-L060</field>
+            <field name="name">Fallend am Rohr, Neigungswinkel 60°</field>
+            <field name="beschreibung">nach Abschnitt 4 der DIN EN ISO 6947</field>
+        </record>
+ </data>
+</tryton>
+

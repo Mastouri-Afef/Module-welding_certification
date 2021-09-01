@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+<notebook colspan ="4">
+     <page string="QW-483(Back) Sheet 2 of 2" id="qw_back" col = "8">
+
+   <label name="pqr"/>
+    <field name="pqr"/>
+
+<newline/>
+<field name="tensile" colspan = "8"
+                view_ids="welding_certification.tensile_view_tree_sequence"/>
+
+<newline/>
+<field name="guide" colspan = "8"
+                view_ids="welding_certification.guided_view_tree_sequence"/>
+<newline/>
+<field name="toughness" colspan = "8"
+                view_ids="welding_certification.toughness_view_tree_sequence"/>
+
+<newline/>
+   <label name="comment"/>
+    <field name="comment" colspan = "7"/>
+<newline/>
+<label name="titre1"/>
+<newline/>
+   <label name="result_satisfactory_yes"/>
+    <field name="result_satisfactory_yes"/>
+   <label name="result_satisfactory_no"/>
+    <field name="result_satisfactory_no"/>
+ <label name="penetration_yes"/>
+    <field name="penetration_yes"/>
+   <label name="penetration_no"/>
+    <field name="penetration_no"/>
+<newline/>
+   <label name="makro_res"/>
+    <field name="makro_res" colspan = "7"/>
+<newline/>
+<label name="titre2"/>
+<newline/>
+   <label name="type_test"/>
+    <field name="type_test" colspan = "7"/>
+<newline/>
+   <label name="deposit_analysis"/>
+    <field name="deposit_analysis" colspan = "7"/>
+<newline/>
+   <label name="other"/>
+    <field name="other" colspan = "7"/>
+<newline/>
+   <label name="welds_name"/>
+    <field name="welds_name" colspan = "3"/>
+  <label name="clock_num"/>
+    <field name="clock_num"/>
+  <label name="stamp_num"/>
+    <field name="stamp_num"/>
+<newline/>
+   <label name="test_conducted"/>
+    <field name="test_conducted" colspan = "3"/>
+  <label name="laboratory"/>
+    <field name="laboratory" colspan = "3"/>
+<newline/>
+   <label name="title3" colspan = "7"/>
+<newline/>
+  <label name="certified_by"/>
+    <field name="certified_by" colspan = "3"/>
+   <label name="date"/>
+    <field name="date" colspan = "3"/>
+<newline/>
+   <label name="organisation"/>
+    <field name="organisation" colspan = "3"/>
+<newline/>
+   <label name="detail" colspan = "5"/>
+   <button name="Print" string="Drucken" colspan = "3"/>
+ </page>
+</notebook>
+   <label name="space"/>
+</form>

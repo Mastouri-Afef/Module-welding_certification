@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_1">
+            <field name="code1">111</field>
+            <field name="code2">E</field>
+            <field name="beschreibung">Lichtbogenhandschweißen</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_2">
+            <field name="code1">111/121</field>
+            <field name="code2">E/UP</field>
+            <field name="beschreibung">Wurzel E, auffüllen mit UP (Stahl)</field>
+            </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_3">
+            <field name="code1">111/135</field>
+            <field name="code2">E/MAG</field>
+            <field name="beschreibung">Wurzel E, auffüllen mit MAG (Stahl)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_4">
+            <field name="code1">112</field>
+            <field name="code2">SK</field>
+            <field name="beschreibung">Schwerkraft-Lichtbogenschweißen</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_5">
+            <field name="code1">114</field>
+            <field name="code2">MF</field>
+            <field name="beschreibung">Metall-Lichtbogenschweißen mit Fülldrahtelektrode ohne Schutzgas</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_6">
+            <field name="code1">12</field>
+            <field name="code2">UP</field>
+            <field name="beschreibung">Unterpulverschweißen</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_7">
+            <field name="code1">121</field>
+            <field name="code2">UP</field>
+            <field name="beschreibung">Unterpulverschweißen mit Massivdrahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_8">
+            <field name="code1">122</field>
+            <field name="code2">UP</field>
+            <field name="beschreibung">Unterpulverschweißen mit Massivdrahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_9">
+            <field name="code1">124</field>
+            <field name="code2">UP</field>
+            <field name="beschreibung">Unterpulverschweißen mit Metallpulverzusatz</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_10">
+            <field name="code1">125</field>
+            <field name="code2">UP</field>
+            <field name="beschreibung">Unterpulverschweißen mit Fülldrahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_11">
+            <field name="code1">126</field>
+            <field name="code2">UP</field>
+            <field name="beschreibung">Unterpulverschweißen mit Fülldrahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_12">
+            <field name="code1">131</field>
+            <field name="code2">MIG</field>
+            <field name="beschreibung">Metall-Inertgasschweißen mit Massivdrahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_13">
+            <field name="code1">132</field>
+            <field name="code2">MIG</field>
+            <field name="beschreibung">Metall-Inertgasschweißen mit schweißpulvergefüllter Drahtelektrode</field>
+        </record>
+                <record model="welding.process_iso4063" id="welding_process_iso4063_14">
+            <field name="code1">133</field>
+            <field name="code2">MIG</field>
+            <field name="beschreibung">Metall-Inertgasschweißen mit metallpulvergefüllter Drahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_15">
+            <field name="code1">135</field>
+            <field name="code2">MAG</field>
+            <field name="beschreibung">Metall-Aktivgasschweißen mit Massivdrahtelektrode </field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_16">
+            <field name="code1">135/111</field>
+            <field name="code2">MAG/E</field>
+            <field name="beschreibung">Wurzel MAG, Auffüllen mit E (Stahl)</field>
+        </record>
+        
+       <record model="welding.process_iso4063" id="welding_process_iso4063_17">
+            <field name="code1">135/121</field>
+            <field name="code2">MAG/UP</field>
+            <field name="beschreibung">Wurzel MAG, Auffüllen mit UP (Stahl)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_18">
+            <field name="code1">136</field>
+            <field name="code2">MAG</field>
+            <field name="beschreibung">Metall-Aktivgasschweißen mit schweißpulvergefüllter Drahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_19">
+            <field name="code1">136/121</field>
+            <field name="code2">MAG/UP</field>
+            <field name="beschreibung">Wurzel MAG, Auffüllen mit UP (Stahl)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_20">
+            <field name="code1">138</field>
+            <field name="code2">MAG</field>
+            <field name="beschreibung">Metall-Aktivgasschweißen mit metallpulvergefüllter Drahtelektrode</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_21">
+            <field name="code1">141</field>
+            <field name="code2">WIG</field>
+            <field name="beschreibung">Wolfram-Inertgasschweißen mit Massivdraht- oder Massivstabzusatz</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_22">
+            <field name="code1">141/111</field>
+            <field name="code2">WIG/E</field>
+            <field name="beschreibung">Wurzel WIG, Auffüllen mit E (Stahl, Cu, Ni)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_23">
+            <field name="code1">141/111/121</field>
+            <field name="code2">WIG/E/UP</field>
+            <field name="beschreibung">Wurzel WIG, Auffüllen mit UP und UP</field>
+        </record>
+        
+        <record model="welding.process_iso4063" id="welding_process_iso4063_24">
+            <field name="code1">141/121</field>
+            <field name="code2">WIG/UP</field>
+            <field name="beschreibung">Wurzel WIG, Auffüllen mit UP (Stahl, Ni)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_25">
+            <field name="code1">141/131</field>
+            <field name="code2">WIG/MIG</field>
+            <field name="beschreibung">Wurzel WIG, Auffüllen mit MIG (Al, Cu, Ni, Ti)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_26">
+            <field name="code1">141/135</field>
+            <field name="code2">WIG/MAG</field>
+            <field name="beschreibung">Wurzel WIG, Auffüllen mit MAG (Stahl, Ni)</field>
+        </record>
+                <record model="welding.process_iso4063" id="welding_iso4063_27">
+            <field name="code1">141/135/121</field>
+            <field name="code2">WIG/MAG/UP</field>
+            <field name="beschreibung">Wurzel WIG, Auffüllen mit MAG und UP</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_28">
+            <field name="code1">141/136</field>
+            <field name="code2">WIG/MAG</field>
+            <field name="beschreibung">Wurzel WIG, Auffüllen mit MAG (Stahl)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_29">
+            <field name="code1">142</field>
+            <field name="code2">WIG</field>
+            <field name="beschreibung">Wolfram-Inertgasschweißen ohne Schweißzusatz</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_30">
+            <field name="code1">143</field>
+            <field name="code2">WIG</field>
+            <field name="beschreibung">Wolfram-Inertgasschweißen mit Fülldraht- oder Füllstabzusatz</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_31">
+            <field name="code1">145</field>
+            <field name="code2">WIG</field>
+            <field name="beschreibung">WIG-Schweißen mit redutzierenden Gasanteil und Massivzusatz (Draht/Stab)</field>
+        </record>
+         <record model="welding.process_iso4063" id="welding_process_iso4063_32">
+            <field name="code1">146</field>
+            <field name="code2">WIG</field>
+            <field name="beschreibung">WIG-Schweißen mit redutzierenden Gasanteil und Füllzusatz (Draht/Stab)</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_33">
+            <field name="code1">147</field>
+            <field name="code2"> </field>
+            <field name="beschreibung">Wolfram-Schutzgasschweißen mit aktiven Gasanteilen im inerten Schutzgas</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_34">
+            <field name="code1">15</field>
+            <field name="code2">WPL</field>
+            <field name="beschreibung">Plasmaschweißen</field>
+        </record>
+         <record model="welding.process_iso4063" id="welding_process_iso4063_35">
+            <field name="code1">151</field>
+            <field name="code2"> </field>
+            <field name="beschreibung">Plasma-Metall-Inertgasschweißen</field>
+        </record>
+        <record model="welding.process_iso4063" id="welding_process_iso4063_36">
+            <field name="code1">152</field>
+            <field name="code2"> </field>
+            <field name="beschreibung">Pulver-Plasmalichtbogenschweißen </field>
+        </record>
+ </data>
+</tryton>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree sequence="sequence"  editable="1">
+    <field name="prob_nr"/>
+    <field name="bezeichnung"/>     
+    <field name="schweissposition"/>
+    <field name="film_nr"/>
+    <field name="bildgüte"/>
+    <field name="befund_100e"/>
+    <field name="befund_2011"/>
+    <field name="befund_2013"/>
+    <field name="befund_2016"/>
+    <field name="befund_300"/>
+    <field name="befund_401c"/>
+    <field name="befund_402d"/>
+    <field name="befund_5011f"/>
+    <field name="befund_5013f"/>
+    <field name="befund_507h"/>
+    <field name="ohne_befund"/>
+    <field name="bewertung1"/>
+</tree>
+

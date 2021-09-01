@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.wpqr_nr" id="welding_wpqr_nr_1">
+            <field name="beleg_pruf">0036/MUC/600004654-07 vom 8/9/2012 </field>
+            <field name="beleg_hersteller">ISO 15614-1 141/135 T BW 5.1 t20 D170 PC </field>
+        </record>
+        <record model="welding.wpqr_nr" id="welding_wpqr_nr_2">
+            <field name="beleg_pruf">0036/MUC/600005052/2B-08 vom 2/28/20 </field>
+            <field name="beleg_hersteller">ISO 15614-1 141/135 T BW 8.1 t40 D180 PC </field>
+            </record>
+        <record model="welding.wpqr_nr" id="welding_wpqr_nr_3">
+            <field name="beleg_pruf">0606-08 vom 12/17/2017 </field>
+            <field name="beleg_hersteller">ISO 15614-1 135 P BW 1.2 t16 PA </field>
+        </record>
+        <record model="welding.wpqr_nr" id="welding_wpqr_nr_4">
+            <field name="beleg_pruf">0607-07 vom 2/4/2007 </field>
+            <field name="beleg_hersteller">ISO 15614-6 141 P BW 31 t03 PA </field>
+        </record>
+        <record model="welding.wpqr_nr" id="welding_wpqr_nr_5">
+            <field name="beleg_pruf">0608-05 vom 8/6/2005 </field>
+            <field name="beleg_hersteller">ISO 15614-2 141 T BW 23.2 t03 D150 PH </field>
+        </record>
+        <record model="welding.wpqr_nr" id="welding_wpqr_nr_6">
+            <field name="beleg_pruf">PQR-013 vom 5/24/2007 </field>
+            <field name="beleg_hersteller">ASME PQR SMAW G 1/1 6Gu </field>
+        </record>
+        <record model="welding.wpqr_nr" id="welding_wpqr_nr_7">
+            <field name="beleg_pruf">PQR-014 vom 5/24/2015 </field>
+            <field name="beleg_hersteller">ASME PQR GTAWSMAW G 8/8 6Gu </field>
+        </record>
+
+ </data>
+</tryton>
+

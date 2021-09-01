@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        
+        <record model="ir.ui.view" id="welding_certification_configuration_view_form">
+            <field name="model">welding_certification.configuration</field>
+            <field name="type">form</field>
+            <field name="name">configuration_form</field>
+        </record>
+
+        <record model="ir.action.act_window"
+            id="act_welding_certification_configuration_form">
+            <field name="name">Welding Certification Configuration</field>
+            <field name="res_model">welding_certification.configuration</field>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_welding_certification_configuration_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="welding_certification_configuration_view_form"/>
+            <field name="act_window" ref="act_welding_certification_configuration_form"/>
+        </record>
+        <menuitem parent="menu_configuration"
+            action="act_welding_certification_configuration_form"
+            id="menu_welding_certification_configuration"
+            sequence="10" icon="tryton-list"/>
+        <record model="ir.ui.menu-res.group"
+            id="menu_welding_certification_configuration_configuration_group_welding_admin">
+            <field name="menu" ref="menu_welding_certification_configuration"/>
+            <field name="group" ref="group_schweißanweisung_wps_admin"/>
+        </record>
+
+
+    </data>
+</tryton>

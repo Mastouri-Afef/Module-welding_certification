@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+   <label name="hersteller"/>
+    <field name="hersteller"/>
+   <label name="wps"/>
+    <field name="wps"/>
+<label name="space"/>
+<newline/>
+   <label name="wpqr_nr"/>
+    <field name="wpqr_nr"/>
+   <label name="beleg_nr"/>
+    <field name="beleg_nr"/>
+<newline/>
+   <label name="regel"/>
+    <field name="regel"/>
+<newline/>
+   <label name="prufer"/>
+    <field name="prufer"/>
+   <label name="datum_schweissen"/>
+    <field name="datum_schweissen"/>
+<newline/>
+   <label name="anschrift"/>
+    <field name="anschrift"/>
+<newline/>
+
+<field name="prufergebnisse" colspan="4"
+                view_ids="welding_certification.ergebnisse_view_tree_sequence"/>
+<newline/>
+   <label name="index1"/>
+    <label name="index2"/>
+   <label name="index3"/>
+    <label name="index4"/>
+<newline/>
+
+<field name="querzugversuch" colspan="4"
+                view_ids="welding_certification.querzugversuch_view_tree_sequence"/>
+
+<field name="biegepruf1" colspan="4"
+                view_ids="welding_certification.wpqr_biege_view_tree_sequence"/>
+
+<newline/>
+<label name="mackroskopische"/>
+<field name="mackroskopische" colspan="3"/>
+<newline/>
+<label name="mickroskopische"/>
+<field name="mickroskopische" colspan="3"/>
+
+<newline/>
+
+<field name="Kerbschlabiegepruf1" colspan="4"
+                view_ids="welding_certification.kerbschlabiegeversuch_view_tree_sequence"/>
+
+<newline/>
+<button name="Print" string="Drucken"/>
+
+</form>

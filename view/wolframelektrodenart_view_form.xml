@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form >
+<label name="kurzzeichen"/>
+<field name="kurzzeichen"/>
+<label name="hauptoxide"/>
+<field name="hauptoxide"/>
+<label name="gehalt"/>
+<field name="gehalt"/>
+<label name="kennfarbe"/>
+<field name="kennfarbe"/>
+<label name="farbwert"/>
+<field name="farbwert"/>
+
+</form>

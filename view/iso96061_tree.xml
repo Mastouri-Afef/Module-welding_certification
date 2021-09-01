@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tree>
+    <field name="name_des_schweißers"/>   
+    <field name="gültigkeitsdauer"/>
+        <field name="state"/>
+    <button name="cancel" tree_invisible="1"/>
+    <button name="draft" tree_invisible="1"/>
+    <button name="confirm" tree_invisible="1"/>
+    <button name="done" tree_invisible="1"/>
+</tree>
+
+

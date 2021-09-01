@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+
+   <label name="title1"/>
+<newline/>
+   <label name="bereich"/>
+    <field name="bereich"/>
+   <label name="int_nr"/>
+    <field name="int_nr"/>
+<newline/>
+   <label name="beleg_hersteller"/>
+    <field name="beleg_hersteller"/>
+   <label name="prufer_prufstelle"/>
+    <field name="prufer_prufstelle"/>
+<newline/>
+   <label name="hersteller"/>
+    <field name="hersteller"/>
+   <label name="beleg_nr"/>
+    <field name="beleg_nr"/>
+   <label name="space"/>
+
+<newline/>
+   <label name="anschrift"/>
+    <field name="anschrift" colspan ="3"/>
+<newline/>
+   <label name="regel"/>
+    <field name="regel" colspan ="3"/>
+<newline/>
+   <label name="title2"/>
+<newline/>
+   <label name="schweißprocess"/>
+    <field name="schweißprocess"/>
+   <label name="schweißprocess_gel"/>
+    <field name="schweißprocess_gel"/>
+<newline/>
+   <label name="grundwerkstoff1"/>
+   <label name="gruppe1"/>
+   <label name="grundwerkstoff2"/>
+   <label name="nummer1"/>
+<newline/>
+   <label name="space1"/>
+   <field name="gruppe1"/>
+   <field name="grundwerkstoff1"/>
+   <field name="nummer1"/>
+
+<newline/>
+   <label name="space1"/>
+   <field name="gruppe2"/>
+   <field name="grundwerkstoff2"/>
+   <field name="nummer2"/>
+<newline/>
+   <label name="sonstige"/>
+   <field name="sonstige" colspan ="3"/>
+<newline/>
+   <label name="space1"/>
+   <field name="ort"/>
+   <field name="unterschrift"  colspan ="2"/>
+<newline/>
+   <label name="space1"/>
+   <label name="ort"/>
+   <label name="unterschrift"/>
+<newline/>
+   <label name="datum_ausstellung"/>
+   <field name="datum_ausstellung"/>
+   <label name="gultig_bis"/>
+   <field name="gultig_bis"/>
+
+<newline/>
+   <label name="space1"/>
+   <field name="index1"/>
+   <label name="formular"/>
+   <field name="formular"/>
+<newline/>
+   <label name="space1"/>
+   <field name="index2" colspan ="2"/>
+<newline/>
+   <label name="space1"/>
+   <field name="index3" colspan ="3"/>
+
+</form>

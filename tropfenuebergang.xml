@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.tropfenuebergang" id="welding_tropfenuebergang1">
+            <field name="code">D</field>
+            <field name="name">Werkstoffübergang im Kurzschluss</field>
+            <field name="beschreibung">Short-circuit transfer(dip transfer)</field>
+        </record>
+        <record model="welding.tropfenuebergang" id="welding_tropfenuebergang2">
+            <field name="code">G</field>
+            <field name="name">großtropfiger Werkstoffübergang</field>
+            <field name="beschreibung">Globular transfer</field>
+        </record>
+        <record model="welding.tropfenuebergang" id="welding_tropfenuebergang3">
+            <field name="code">S</field>
+            <field name="name">feintropfiger Werkstoffübergang</field>
+            <field name="beschreibung">Spray transfer </field>
+        </record>
+        <record model="welding.tropfenuebergang" id="welding_tropfenuebergang4">
+            <field name="code">P</field>
+            <field name="name">impulsgesteuerter Werkstoffübergang</field>
+            <field name="beschreibung"> Pulsed transfer</field>
+        </record>
+      
+    </data>
+</tryton>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+<label name="prüfstelle"/>
+<field name="prüfstelle"/>
+<label name="land"/>
+<field name="land"/>
+<label name="art"/>
+<field name="art"/>
+<label name="plz"/>
+<field name="plz"/>
+<label name="ort"/>
+<field name="ort"/>
+<label name="prüfer"/>
+<field name="prüfer"/>
+<label name="prüf_nr"/>
+<field name="prüf_nr"/>
+</form>

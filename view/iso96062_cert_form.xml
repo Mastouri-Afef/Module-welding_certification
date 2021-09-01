@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+<field name="title" colspan = "2"/>
+<newline/>
+<label name="Bezeichnung"/>
+<field name="Bezeichnung"/>
+<newline/>
+<label name="Bezeichnung2"/>
+<field name="Bezeichnung2"/>
+<newline/>
+<notebook colspan="2">
+        <page string="Schweisser Data" id="schweisser_data">
+
+<label name="wps_bezug"/>
+<field name="wps_bezug"/>
+<label name="pruf_pruff"/>
+<newline/>
+<label name="wps_bezug2"/>
+<field name="wps_bezug2"/>
+<field name="pruf_pruff"/>
+<newline/>
+<label name="pruf_nr_weitere"/>
+<field name="pruf_nr_weitere" colspan = "3"/>
+<newline/>
+<label name="Namedesschweisser"/>
+<field name="Namedesschweisser"/>
+<label name="Gebursdatum_und_ort"/>
+<field name="Gebursdatum_und_ort"/>
+<newline/>
+<label name="legitimation"/>
+<field name="legitimation"/>
+<label name="Art_der_legitimation"/>
+<field name="Art_der_legitimation"/>
+<newline/>
+<label name="Arbeitgeber"/>
+<field name="Arbeitgeber"/>
+<label name="Fachkunde"/>
+<field name="Fachkunde"/>
+<newline/>
+<label name="prufnorm"/>
+<field name="prufnorm"/>
+<label name="formular"/>
+<field name="formular"/>
+<newline/>
+<label name="Bemerkung"/>
+<field name="Bemerkung" colspan = "3"/>
+ </page>
+</notebook>
+<newline/>
+<notebook colspan="2">
+        <page string="Prozess und Material" id="process_material">
+<label name=""/>
+<label name="pruf1"/>
+<label name="pruf2"/>
+<label name="geltungs"/>
+<newline/>
+<label name="Schweißprozess"/>
+<field name="Schweißprozess"/>
+<field name="prufstuk_Geltungs"/>
+<field name="schweißprocess_Geltungs"/>
+<newline/>
+<label name="Produktform"/>
+<field name="Produktform"/>
+<label name=""/>
+<field name="produktform_Geltungs"/>
+<newline/>
+<label name="Nahtart"/>
+<field name="Nahtart"/>
+<field name="Nahtart2"/>
+<field name="Nahtart_Geltungs"/>
+<newline/>
+<label name="Werkstoffgruppen"/>
+<field name="Werkstoffgruppen"/>
+<field name="grundwerkstoffe"/>
+<field name="werkstoff_Geltungs"/>
+<newline/>
+<label name="Schweisszusatze"/>
+<field name="Schweisszusatze"/>
+<label name=""/>
+<field name="Schweisszusatze_Geltungs"/>                                                                           
+<newline/>
+<label name="bezeichnung"/>
+<field name="bezeichnung" colspan = "2"/>
+<newline/>
+<label name="schutzgaz"/>
+<field name="schutzgaz" colspan = "2"/>
+<field name="schutzgaz_gel"/>
+<newline/>
+<label name="hilfsstoffe"/>
+<field name="hilfsstoffe" colspan = "2"/>
+<newline/>
+<label name="Stromart_und_Polung"/>
+<field name="Stromart_und_Polung"/>
+<label name=""/>
+<field name="Stromart_und_Polung_gel"/>
+<newline/>
+<label name="Schweissnahteinzelheiten"/>
+<field name="Schweissnahteinzelheiten"/>
+<field name="Schweissnahteinzelheiten2"/>
+<field name="zelheiten_Geltungs"/>
+<newline/>
+<label name="werkstoffdicke"/>
+<field name="werkstoffdicke"/>
+<field name="werkstoffdicke_1"/>
+<field name="werkstoffdicke_g"/>
+<newline/>
+<label name="rohraussendurchmesser"/>
+<field name="rohraussendurchmesser"/>
+<field name="rohraussendurchmesser_1"/>
+<field name="rohraussendurchmesser_g"/>
+<newline/>
+<label name="position_al1"/>
+<field name="position_al1"/>
+<field name="Schweissposition_2"/>
+<field name="schweissposition_Geltungs"/>
+<newline/>
+<label name="Wurzel"/>
+<field name="Wurzel"/>
+ </page>
+</notebook>
+<newline/>
+<notebook colspan="2">
+        <page string="Zusätzliche Hinweise" id="Hinweise">
+ <field name="Dokument"/>
+<label name=" "/>
+ <field name="Hinweise"/>
+</page>
+</notebook>
+<newline/>
+<notebook colspan="2">
+        <page string="Prüfung" id="Prüfung">
+<label name="prufsart"/>
+<label name="prufsart2"/>
+<label name="prufsart3"/>
+<label name="prufstellle"/>
+<newline/>
+<label name="sichprufung"/>
+<field name="sichprufung_bestanden"/>
+<field name="sichprufung_nichgepruft1"/>
+<field name="prufstellle"/>
+<newline/>
+<label name="Durchprüfung"/>
+<field name="Durchprüfung_bestanden"/>
+<field name="Durchprüfung_nichgepruft1"/>
+<field name="Unterschrift_p"/>
+<newline/>
+<label name="Bruchprüfung"/>
+<field name="Bruchprüfung_bestanden"/>
+<field name="Bruchprüfung_nichgepruft1"/>
+<label name="Unterschrift_p"/>
+<newline/>
+<label name="Biegeprüfung"/>
+<field name="Biegeprüfung_bestanden"/>
+<field name="Biegeprüfung_nichgepruft1"/>
+<newline/>
+<label name="Kerbzugprüfung"/>
+<field name="Kerbzugprüfung_bestanden"/>
+<field name="Kerbzugprüfung_nichgepruft1"/>
+<newline/>
+<label name="Makprüfung"/>
+<field name="Markprüfung_bestanden"/>
+<field name="Markprüfung_nichgepruft1"/>
+<label name="ort"/>
+<newline/>
+
+<label name="zutsatzprüfungen"/>
+<field name="Zusatsprüfung_bestanden"/>
+<field name="Zusatsprüfung_nichgepruft1"/>
+<field name="ort"/>
+</page>
+</notebook>
+<newline/>
+<notebook colspan="2">
+        <page string="" id="Datums">
+
+<label name="datum_ausgabe"/>
+<field name="datum_ausgabe"/>
+<label name="datum_schweissen"/>
+<field name="datum_schweissen"/>
+<newline/>
+<label name="datum_prufung"/>
+<field name="datum_prufung"/>
+<label name="geltungs_bis"/>
+<field name="geltungs_bis"/>
+</page>
+</notebook>
+
+<label name="Bewertung2"/>
+<field name="Bewertung2"/>
+<newline/>
+<notebook colspan="2">
+        <page string="" id="Datums1">
+<field name="Datumms9_2" colspan="6"
+/>
+
+</page>
+</notebook>
+
+<notebook colspan="2">
+    <page string="" id="Datums1">
+<field name="Datumms9_3" colspan="6"
+/>
+
+</page>
+</notebook>
+
+</form>

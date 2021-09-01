@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form >
+    <label name="prob_nr"/>
+    <field name="prob_nr"/>
+    <label name="art_prüfung"/>
+    <field name="art_prüfung"/>
+    <label name="befund"/>
+    <field name="befund"/>
+    <label name="bewertung_info"/>
+    <field name="bewertung_info"/>
+</form>

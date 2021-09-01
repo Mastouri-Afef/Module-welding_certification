@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form  >
+<label name="durchmesser"/>
+<field name="durchmesser"/>
+<label name="toleranz"/>
+<field name="toleranz"/>
+<label name="dc_minus"/>
+<field name="dc_minus"/>
+<label name="dc_plus"/>
+<field name="dc_plus"/>
+<label name="ac"/>
+<field name="ac"/>
+
+</form>

@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_1">
+            <field name="durchmesser">0.25 mm</field>
+            <field name="toleranz">±0.02</field>
+            <field name="dc_minus">bis 15 A</field>
+            <field name="dc_plus">n.a.</field>
+            <field name="ac">bis 15 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_2">
+            <field name="durchmesser">0.30 mm</field>
+            <field name="toleranz">±0.02</field>
+            <field name="dc_minus">bis 15 A</field>
+            <field name="dc_plus">n.a.</field>
+            <field name="ac">bis 15 A</field>
+            </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_3">
+            <field name="durchmesser">0.50 mm</field>
+            <field name="toleranz">±0.05</field>
+            <field name="dc_minus">2-20 A</field>
+            <field name="dc_plus">n.a.</field>
+            <field name="ac">2-15 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_4">
+            <field name="durchmesser">1.0 mm</field>
+            <field name="toleranz">±0.05</field>
+            <field name="dc_minus">10-75 A</field>
+            <field name="dc_plus">n.a.</field>
+            <field name="ac">25-80 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_5">
+            <field name="durchmesser">1.5 mm</field>
+            <field name="toleranz">±0.05</field>
+            <field name="dc_minus">45-150 A</field>
+            <field name="dc_plus">10-20 A</field>
+            <field name="ac">40-115 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_6">
+            <field name="durchmesser">1.6 mm</field>
+            <field name="toleranz">±0.05</field>
+            <field name="dc_minus">45-150 A</field>
+            <field name="dc_plus">10-20 A</field>
+            <field name="ac">40-125 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_7">
+            <field name="durchmesser">2.0 mm</field>
+            <field name="toleranz">±0.05</field>
+            <field name="dc_minus">60-200 A</field>
+            <field name="dc_plus">15-25 A</field>
+            <field name="ac">60-150 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_8">
+            <field name="durchmesser">2.4 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">75-220 A</field>
+            <field name="dc_plus">15-30 A</field>
+            <field name="ac">60-175 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_9">
+            <field name="durchmesser">2.5 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">75-230 A</field>
+            <field name="dc_plus">17-30 A</field>
+            <field name="ac">60-175 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_10">
+            <field name="durchmesser">3.0 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">80-290 A</field>
+            <field name="dc_plus">20-35 A</field>
+            <field name="ac">70-210 A</field>
+        </record>
+        
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_11">
+            <field name="durchmesser">3.2 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">85-330 A</field>
+            <field name="dc_plus">20-35 A</field>
+            <field name="ac">75-250 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_12">
+            <field name="durchmesser">4.0 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">100-400 A</field>
+            <field name="dc_plus">35-50 A</field>
+            <field name="ac">85-310 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_13">
+            <field name="durchmesser">4.8 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">120-480 A</field>
+            <field name="dc_plus">50-70 A</field>
+            <field name="ac">90-340 A</field>
+        </record>
+       <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_14">
+            <field name="durchmesser">5.0 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">130-550 A</field>
+            <field name="dc_plus">50-70 A</field>
+            <field name="ac">90-390 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_15">
+            <field name="durchmesser">6.3 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">150-630 A</field>
+            <field name="dc_plus">65-100 A</field>
+            <field name="ac">115-450 A</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_16">
+            <field name="durchmesser">6.4 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">150-650 A</field>
+            <field name="dc_plus">70-125 A</field>
+            <field name="ac">-</field>
+        </record>
+        <record model="welding.wolframelektrodenart2_properties" id="welding_wolframelektrodenart2_properties_17">
+            <field name="durchmesser">8.0 mm</field>
+            <field name="toleranz">±0.1</field>
+            <field name="dc_minus">-</field>
+            <field name="dc_plus">-</field>
+            <field name="ac">-</field>
+        </record>
+ </data>
+</tryton>
+

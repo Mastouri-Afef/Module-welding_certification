@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree sequence="sequence">
+    <field name="Prob_nr"/>
+    <field name="Sch1"/>
+    <field name="Naht_breit"/>
+    <field name="Grenzwert_502"/>
+
+    <field name="Istwert_502"/>
+    <field name="Grenzwert_511"/>
+    <field name="Istwert_511"/>
+    <field name="Anzätze"/>
+
+    <field name="Nahtüber"/>
+    <field name="Bewertung1"/>
+    <field name="Wurzel_breit"/>
+    <field name="Grenzwert_504"/>
+
+   <field name="Istwert_504"/>
+    <field name="Wurzel_ausbildung"/>
+    <field name="Bewertung2"/>
+
+</tree>
+

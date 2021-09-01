@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form >
+    <label name="prob_nr"/>
+    <field name="prob_nr"/>
+    <label name="bezeichnung"/>
+    <field name="bezeichnung"/>
+    <label name="position"/>
+    <field name="position"/>
+    <label name="nahtbreite"/>
+    <field name="nahtbreite"/>
+    <label name="grenzwert_502"/>
+    <field name="grenzwert_502"/>
+    <label name="istwert_502"/>
+    <field name="istwert_502"/>    
+    <label name="grenzwert_511"/>
+    <field name="grenzwert_511"/>
+    <label name="istwert_511"/>
+    <field name="istwert_511"/>
+    <label name="anzätze"/>
+    <field name="anzätze"/>
+    <label name="nahtüber"/>
+    <field name="nahtüber"/>
+    <label name="bewertung1"/>
+    <field name="bewertung1"/>
+    <label name="wurzelbreite"/>
+    <field name="wurzelbreite"/>
+    <label name="grenzwert_504"/>
+    <field name="grenzwert_504"/>
+    <label name="istwert_504"/>
+    <field name="istwert_504"/>
+    <label name="wurzel_ausbildung"/>
+    <field name="wurzel_ausbildung"/>
+    <label name="bewertung2"/>
+    <field name="bewertung2"/>
+</form>

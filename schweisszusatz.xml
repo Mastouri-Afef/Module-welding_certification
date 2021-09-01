@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_1">
+            <field name="code">nm</field>
+            <field name="beschreibung">kein Zusatzwerkstoff</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_2">
+            <field name="code">nm/B</field>
+            <field name="beschreibung">141: kein Zusatzwerkstoff, 111: basich umhüllt</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_3">
+            <field name="code">nm/S</field>
+            <field name="beschreibung">141: kein Zusatzwerkstoff, 131,135: Massivdraht/-stab</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_4">
+            <field name="code">A</field>
+            <field name="beschreibung">sauer umhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_5">
+            <field name="code">B</field>
+            <field name="beschreibung">basisch umhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_6">
+            <field name="code">B</field>
+            <field name="beschreibung">basische Fülldrahtelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_7">
+            <field name="code">C</field>
+            <field name="beschreibung">zelluloseumhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_8">
+            <field name="code">M</field>
+            <field name="beschreibung">Metallpulver-Fülldrahtelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_9">
+            <field name="code">P</field>
+            <field name="beschreibung">rutile Fülldrahtelektrode – schnell erstarrend</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_10">
+            <field name="code">R</field>
+            <field name="beschreibung">rutile umhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_11">
+            <field name="code">R</field>
+            <field name="beschreibung">rutile Fülldrahtelektrode – langsam erstarrend</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_12">
+            <field name="code">RA</field>
+            <field name="beschreibung">rutilsauer umhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_13">
+            <field name="code">RB</field>
+            <field name="beschreibung">rutilbasisch umhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_14">
+            <field name="code">RC</field>
+            <field name="beschreibung">rutilzellulose umhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_15">
+            <field name="code">RR</field>
+            <field name="beschreibung">dick rutilumhüllte Stabelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_16">
+            <field name="code">S</field>
+            <field name="beschreibung">Massivdraht/-stab</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_17">
+            <field name="code">S/B</field>
+            <field name="beschreibung">135,141: Massivdraht/-stab, 111: basich umhüllt</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_18">
+            <field name="code">S/R</field>
+            <field name="beschreibung">135,141: Massivdraht/-stab, 111: rutil umhüllt</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_19">
+            <field name="code">S/RB</field>
+            <field name="beschreibung">135,141: Massivdraht/-stab, 111: rutilbasisch umhüllt</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_20">
+            <field name="code">S/P</field>
+            <field name="beschreibung">135,141: Massivdraht/-stab, 136: rutile Fülldrahtelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_21">
+            <field name="code">S/R</field>
+            <field name="beschreibung">135,141: Massivdraht/-stab, 136: rutile Fülldrahtelektrode</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_22">
+            <field name="code">V</field>
+            <field name="beschreibung">Fülldrahtelektrode – rutil oder basisch/fluorid</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_23">
+            <field name="code">W</field>
+            <field name="beschreibung">Fülldrahtelektrode – rutil oder basisch/fluorid, langsam erstarrend</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_24">
+            <field name="code">Y</field>
+            <field name="beschreibung">Fülldrahtelektrode – rutil oder basisch/fluorid, schnell erstarrend</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_25">
+            <field name="code">Z</field>
+            <field name="beschreibung">Fülldrahtelektrode – andere Arten</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_26">
+            <field name="code">hw</field>
+            <field name="beschreibung">artgleiches Schweißgut (homogeneous)</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_27">
+            <field name="code">sw</field>
+            <field name="beschreibung">artähnliches Schweißgut (semi-homogeneous)</field>
+        </record>
+        <record model="welding.schweißzusatz" id="welding_schweißzusatz_28">
+            <field name="code">nw</field>
+            <field name="beschreibung">artfremdes Schweißgut (non-homogeneous)</field>
+        </record>
+    </data>
+</tryton>

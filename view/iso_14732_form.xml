@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col = "6">
+  <field name="Title" colspan = "4"/>
+  <label name="space"/>
+  <newline/>
+        <label name="Bezeichnung"/>
+        <field name="Bezeichnung" colspan="3"/>
+        <newline/>
+        <label name="WPS_ID"/>
+        <field name="WPS_ID"/>
+        <label name="Beleg_nr"/>
+        <field name="Beleg_nr"/>
+
+<notebook col ="4">
+     <page string="Schweißinformationen" id="schweiss_data" col = "4" colspan ="4">
+
+
+        <label name="bediener"/>
+        <field name="bediener"/>
+        <field name="photo_bediener" widget="image"/>
+        <newline/>
+        <label name="geburts_ort"/>
+        <field name="geburts_ort"/>
+        <newline/>
+        <label name="leg"/>
+        <field name="leg"/>
+        <newline/>
+        <label name="art_leg"/>
+        <field name="art_leg"/>
+        <newline/>
+        <label name="Erstellt_Geändert_von"/>
+        <field name="Erstellt_Geändert_von"/>
+        <newline/>
+        <label name="Prufnorm"/>
+        <field name="Prufnorm"/>
+        <newline/>
+        <label name="Prüfung_der_Funktionskenntnisse"/>
+        <field name="Prüfung_der_Funktionskenntnisse"/>
+        <newline/>
+        <label name="Fachkunde"/>
+        <field name="Fachkunde"/>
+   </page>
+</notebook>
+  <newline/>
+<notebook col="4">
+    <page string="Prüfstück-Angaben" id="pruestuek_angaben">
+      <label name="Schweißprozesse_ISO"/>
+      <field name="Schweißprozesse_ISO"/>
+      <field name="Schweißprozesse_ISO_2"/>
+      <field name="Schweißprozesse_ISO_g"/>
+      <newline/>
+      <label name="Schweisseinrichtung1"/>
+      <field name="Schweisseinrichtung1"/>
+      <field name="Schweisseinrichtung2"/>
+      <field name="Schweisseinrichtung_g"/>
+      <newline/>
+      <label name="Schweiss_einheit"/>
+      <field name="Schweiss_einheit"/>
+      <label name=" "/>
+      <field name="Schweiss_einheit_g"/>
+      <newline/>
+      <label name="Details_1"/>
+      <field name="Details_1"/>
+      <newline/>
+      <label name="Direkte_oder_ferngesteurte_Sichtprüfung"/>
+      <field name="Direkte_oder_ferngesteurte_Sichtprüfung"/>
+      <label name=" "/>
+      <field name="Direkte_g"/>
+      <newline/>
+      <label name="Automatische_Kontrolle_der_Lichtbogenlänge"/>
+      <field name="Automatische_Kontrolle_der_Lichtbogenlänge"/>
+      <label name=" "/>
+      <field name="Automatische_g"/>
+      <newline/>
+      <label name="Automatisches_Nahtvervolgungssystem"/>
+      <field name="Automatisches_Nahtvervolgungssystem"/>
+      <label name=" "/>
+      <field name="Automatische_naht_g"/> 
+      <newline/>
+      <label name="Schweißposition_din"/>
+      <field name="Schweißposition_din"/>
+      <newline/>
+      <label name="Einzellagen_Mehrlagentechnik"/>
+      <field name="Einzellagen_Mehrlagentechnik"/>
+      <label name=" "/>
+      <field name="Einzellagen_Mehrlagentechnik_g"/>
+      <newline/>
+      <label name="Schweißbadsicherung"/>
+      <field name="Schweißbadsicherung"/>
+      <label name=" "/>
+      <field name="Schweißbadsicherung_g"/>
+      <newline/>
+      <label name="Schweißzusatzeinlagen"/>
+      <field name="Schweißzusatzeinlagen"/>
+      <label name=" "/>
+      <field name="Schweißzusatzeinlagen_g"/>
+      <newline/>
+      <label name="Details_2"/>
+      <field name="Details_2"/> 
+      <newline/>
+      <label name="Nahtsensor2_2"/>
+      <field name="Nahtsensor2_2"/>
+      <label name=" "/>
+      <field name="Nahtsensor2_g"/>
+      <newline/>
+      <label name="Automatische_Kontrolle_der_Lichtbogenlänge2"/>
+      <field name="Automatische_Kontrolle_der_Lichtbogenlänge2"/>
+      <label name=" "/>
+      <field name="Lichtbogenlänge_g_2"/>
+      <newline/>
+      <label name="Einzellagen_Mehrlagentechnik2"/>
+      <field name="Einzellagen_Mehrlagentechnik2"/>
+      <label name=" "/>
+      <field name="Einzellagen_Mehrlagentechnik_g_2"/>
+      <newline/>
+      <label name="Art_Schweisseinrichtung"/>
+      <field name="Art_Schweisseinrichtung"/>
+      <field name="Art_Schweisseinrichtung2"/>
+      <field name="Art_Schweisseinrichtung_g"/>
+   </page>
+</notebook>
+  <newline/>
+<notebook col="4">
+   <page string="Zusätzliche" id="Zusaetzliche">
+     <field name="hinweise"/>
+     <field name="hinweise_gel"/>
+
+   </page>
+</notebook>
+  <newline/>
+<notebook col = "4">
+        <page string="Der Qualifizierung liegt zugrunde" id="Qualifizierung">
+
+           <label name="Schweißverfahrenprüfung"/>
+           <field name="Schweißverfahrenprüfung"/>
+           <label name="Unterschrift_p"/>
+           <field name="Unterschrift_p"/>
+           <newline/>
+           <label name="Schweißtechnische"/>
+           <field name="Schweißtechnische"/>
+           <label name="prufstellle"/>
+           <field name="prufstellle"/>
+           <newline/>
+           <label name="Standardprüftück"/>
+           <field name="Standardprüftück"/>
+           <label name="Datum_Prufung"/>
+           <field name="Datum_Prufung"/>
+           <newline/>
+           <label name="Fertigungsprüfung"/>
+           <field name="Fertigungsprüfung"/>
+          <label name="Gultig_dauer"/>
+           <field name="Gultig_dauer"/>
+           <newline/>
+           <label name="Ergebnisse_der_Prüfung"/>
+           <label name="Title"/>
+           <label name="Datum_Ausgabe"/>
+           <field name="Datum_Ausgabe"/>
+           <newline/>
+           <label name="document_nr"/>
+           <field name="document_nr"/>
+           <label name="Datum_Schweissen"/>
+           <field name="Datum_Schweissen"/>
+           <newline/>
+           <label name="Ort"/>
+           <field name="Ort"/>
+           <label name="Gultig_bis"/>
+           <field name="Gultig_bis"/>
+
+        </page>
+</notebook>
+<newline/>
+
+<notebook col="4">
+        <page string="" id="Datums5">
+<field name="Datumms5_3" colspan="2"
+                view_ids="welding_certification.Datums_5_3_view_tree_sequence"/>
+
+<field name="Datumms5" colspan="2"
+                view_ids="welding_certification.Datums_5_view_tree_sequence"/>
+
+</page>
+</notebook>
+
+</form>
+

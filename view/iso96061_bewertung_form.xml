@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+    <notebook colspan ="3">
+        <page  id="schweiss_data">
+            <group id="right">
+                <label name="notice1"/>
+            </group>
+            <group id="center">
+                <label name=""/>
+            </group>
+            <group id="left">
+                <label name="pruefstelle"  />
+                <field name="pruefstelle" />
+            </group>
+            <newline/>
+            <group id="right">
+                <label name="notice2"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="notice3"/>
+            </group>
+            <group id="center">
+                <label name=""/>
+            </group>
+            <group id="left">
+                <label name=""/>
+            </group>
+            <newline/>
+            <group id="right">
+                <label name=""/>
+            </group>
+            <group id="center">
+                <label name=""/>
+            </group>
+            <group id="left">
+                <label name="bewertungs_id"  />
+                <field name="bewertungs_id" />
+            </group>
+            <newline/>
+            <group id="right">
+                <label name=""/>
+            </group>
+            <group id="center">
+                <label name="" string ="bewertungsbogen"/>
+            </group>
+            <group id="left">
+                <label name="prüf_nr_info"/>
+                <field name="prüf_nr_info"/>
+            </group>
+            <newline/>
+            <label name="notice5"/>
+            <field name="normes"/>
+            <label name="notice6"/>
+            <newline/>
+            <group id="right">
+                <label name="name_des_schweißers"/>
+                <field name="name_des_schweißers"/>
+            </group>
+            <group id="center">           
+                <label name="geburts_tag"/>
+                <field name="geburts_tag"/>
+            </group>     
+            <group id="center">                        
+                <label name="kartei"/>
+                <field name="kartei" colspan="-1"/>
+                <label name="pers_nr"/>
+                <field name="pers_nr" colspan="-1"/>
+            </group>                     
+        </page>
+    </notebook>
+    <newline/>
+    <notebook colspan ="3">
+        <page string="" id="schweiss_data">
+            <group id ="right">
+                <label name="title_bezeichnung"/>
+            </group>
+            <group id ="center">
+                <label name="title_norm"/>
+            </group>
+            <group id ="left">
+                <label name="title_pruef_nr"/>
+            </group>
+            <newline/>
+            <field name="bezeichnung_info"/>
+            <field name="norm_bezeichnung_info"/>
+            <field name="prüf_nr"/>
+            <newline/>
+            <field name="bezeichnung1"/>
+            <field name="norm1"/>
+            <field name="prüf_nr1"/>
+            <newline/>
+            <field name="bezeichnung2"/>
+            <field name="norm2"/>
+            <field name="prüf_nr2"/>
+            <newline/>
+            <field name="bezeichnung3"/>
+            <field name="norm3"/>
+            <field name="prüf_nr3"/>
+            <newline/>           
+            <group id ="right">
+                <label name="keine_stumpfnaht"/> 
+            </group>
+            <group id ="center">
+                <label name="unsichtbar"/>
+                <field name="unsichtbar"/>  
+            </group>
+            <group id ="left">
+                <label name="sichtprüfung_wurzel"/>
+            </group>
+            <newline/>           
+            <field name="decklages" colspan="3"
+                view_ids="welding_certification.bewertung_sichtprüfung_decklage_view_tree_sequence"/>
+            <newline/>           
+            <group id ="right">
+                <label name="keine_kehlnaht"/> 
+            </group>
+            <group id ="center">
+                <label name="unsichtbar2"/>
+                <field name="unsichtbar2"/>  
+            </group>
+            <group id ="left">
+                <label name="vorgaben"/>
+            </group>
+            <newline/> 
+            <field name="kehlnahts" colspan="2"
+                view_ids="welding_certification.bewertung_sichtprüfung_kehlnaht_view_tree_sequence"/>
+            <group id ="left">
+                <label name="bestätigung_gemäß"/>
+                <newline/>
+                <label name="din_en_iso"/> 
+                <newline/>
+                <label name="tabelle"/>
+                <newline/>
+                <field name="prüfungsbeauftrager"/>
+                <newline/>
+                <label name="text1"/>
+                <newline/>
+                <label name="text2"/>
+            </group>  
+            <newline/>
+            <newline/> 
+            <group id ="right">
+                <label name="keine_durchstrahlungsprüfung"/> 
+            </group>
+            <group id ="center">
+                <label name="unsichtbar3"/>
+                <field name="unsichtbar3"/>  
+            </group>
+            <group id ="left">
+                <label name=" "/>
+            </group>
+            <newline/>             
+            <field name="durchstrahlungsprüfungs" colspan="3"
+                view_ids="welding_certification.bewertung_durchstrahlungsprüfung_view_tree_sequence"/>
+            <newline/> 
+            <group id ="right">
+                <label name="keine_bruchprüfung"/> 
+            </group>
+            <group id ="center">
+                <label name="unsichtbar4"/>
+                <field name="unsichtbar4"/>  
+            </group>
+            <group id ="left">
+                <label name=" "/>
+            </group> 
+            <newline/>                       
+            <field name="bruchprüfungs" colspan="3"
+                view_ids="welding_certification.bewertung_bruchprüfung_view_tree_sequence"/>
+            <newline/>
+            <group id ="right">
+                <label name="keine_biegeprüfung"/> 
+                <field name="unsichtbar5" colspan="-1"/>  
+            </group>
+            <newline/>             
+            <field name="biegeprüfungs" colspan="1.5"
+                view_ids="welding_certification.bewertung_biegeprüfung_view_tree_sequence"/>
+            <field name="weiteres" colspan="2"
+                view_ids="welding_certification.bewertung_weitere_prufüng_view_tree_sequence"/>
+        </page>
+    </notebook>
+    <newline/>
+    <notebook colspan ="3">
+        <page string="" id="schweiss_data">
+            <group id="right">
+                <label name="fachkunde"/>
+                <field name="fachkunde" colspan="-1"/>
+            </group>
+            <group id="center">
+                <label name="gesamt"/>
+                <field name="gesamt" colspan="-1"/>
+            </group>
+            <group id="left">
+                <label name="text3"/>
+                <field name="text3" colspan="-1"/>
+                <field name="datum_info"/>
+            </group>
+            <newline/>
+            <group id="right">
+                <label name="index1"/>
+            </group>
+            <group id="left">
+                <label name="index2"/>
+            </group>
+            <group id="center">
+                <label name=""/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index3"/>
+            </group>
+            <group id="left">
+                <label name="index41"/>
+            </group>
+            <group id="center">
+                <label name="index42"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index4"/>
+            </group>
+            <group id="left">
+                <label name="index44"/>
+            </group>
+            <group id="center">
+                <label name="index45"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index43"/>
+            </group>
+            <group id="left">
+                <label name="index47"/>
+            </group>
+            <group id="center">
+                <label name="index48"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index46"/>
+            </group>
+            <group id="left">
+                <label name="index49"/>
+            </group>
+            <group id="center">
+                <label name="index491"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index5"/>
+            </group>
+            <group id="left">
+                <label name="index51"/>
+            </group>
+            <group id="center">
+                <label name="index52"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index53"/>
+            </group>
+            <group id="left">
+                <label name="index54"/>
+            </group>
+            <group id="center">
+                <label name="index55"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index56"/>
+            </group>
+            <group id="left">
+                <label name="index57"/>
+            </group>
+            <group id="center">
+                <label name="index58"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name="index59"/>
+            </group>
+            <group id="left">
+                <label name="index60"/>
+            </group>
+            <group id="center">
+                <label name="index61"/>
+            </group>
+            <newline/>
+            <group id="right"> 
+                <label name=" "/>
+            </group>
+            <group id="center">
+                <field name="about_normes"/>
+            </group> 
+            <newline/> 
+            <button name="print" string="Drucken" colspan ="3"/>                                   
+        </page>
+    </notebook>
+    <group col="4" colspan="6" id="state_buttons">
+        <label name="state"/>
+        <field name="state"/>
+        <group col="5" colspan="2" id="buttons">
+            <button name="cancel"/>
+            <button name="draft"/>
+            <button name="confirm"/>
+            <button name="done"/>
+        </group>
+    </group>   
+</form>

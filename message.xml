@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_party_code_unique">
+            <field name="text">The code on  Schweißanweisung Wps must be unique.</field>
+        </record>
+        <record model="ir.message" id="msg_schweißanweisung_code_unique">
+            <field name="text">Tha WPS-Nr of Schweißanweisung Wps must be unique by Geeigneter Schweisser</field>
+        </record>
+        <record model="ir.message" id="msg_code_gas_unique">
+            <field name="text">The code of Gas must be unique by name.</field>
+        </record>
+        <record model="ir.message" id="msg_mehrlageg_einlageg_not_empty">
+            <field name="text">Bitte füllen Sie das Feld "Mehrlagig/einlagig" aus.</field>
+        </record>
+        <record model="ir.message" id="msg_schweißnahteinzelheiten_unoccupied">
+            <field name="text">Bitte vergessen Sie nicht das Feld "Schweißnahteinzelheiten" auszufüllen. Sie finden das Feld unten.</field>
+        </record>
+        <record model="ir.message" id="delete_non_draft">
+          <field name="text">Schweißanweisung WPS "%(ws)s" can not be deleted because it is not in draft state.</field>
+        </record>   
+        <record model="ir.message" id="delete_non_draft_bewertung">
+          <field name="text">Bewertung "%(ws)s" can not be deleted because it is not in draft state.</field>
+        </record>    
+        <record model="ir.message" id="delete_bewertung_iso_5817_non_draft">
+          <field name="text">Bewertung Iso 5817 "%(ws)s" can not be deleted because it is not in draft state.</field>
+        </record>           
+    </data>
+</tryton>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+    <label name="bezeichnung"/>
+    <field name="bezeichnung"/>
+    <label name="norm"/>
+    <field name="norm"/>
+    <newline/>
+    <label name="werkstoffgruppe"/>
+    <field name="werkstoffgruppe"/>
+    <label name="handelsname"/>
+    <field name="handelsname"/>
+    <newline/>
+    <label name="hersteller"/>
+    <field name="hersteller"/>
+    <label name="eignung"/>
+    <field name="eignung"/>
+</form>

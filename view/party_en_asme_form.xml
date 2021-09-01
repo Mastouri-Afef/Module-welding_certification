@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+<notebook colspan ="4">
+     <page string=" " id="erste_group" col = "8">
+<label name="datum_ausstellung"/>
+<field name="datum_ausstellung"/>
+<label name="gultig_bis"/>
+<field name="gultig_bis"/>
+<newline/>
+<label name="bereich"/>
+<field name="bereich"/>
+<label name="pqr_nr"/>
+<field name="pqr_nr" colspan ="4"/>
+<newline/>
+<label name="pqr_nr_1"/>
+<field name="pqr_nr_1"/>
+<label name="plate_pipe"/>
+<field name="plate_pipe" colspan ="3"/>
+<newline/>
+<label name="bw_fw"/>
+<field name="bw_fw"/>
+<label name="formular"/>
+<field name="formular" colspan ="3"/>
+<newline/>
+<label name="qualification"/>
+<field name="qualification"/>
+<label name="dicke"/>
+<field name="dicke"/>
+<label name="wpqr_nr"/>
+<field name="wpqr_nr"/>
+<newline/>
+<label name="durchmesser"/>
+<field name="durchmesser"/>
+<label name="pqr_nr_des_hersteller"/>
+<field name="pqr_nr_des_hersteller" colspan ="3"/>
+
+     </page>
+</notebook>
+<newline/>
+<notebook colspan ="4">
+     <page string=" " id="general" col = "4">
+
+<label name="organisation"/>
+<field name="organisation"/>
+<label name="organisation_anschrift"/>
+<field name="organisation_anschrift"/>
+<newline/>
+<label name="procedure_qualification"/>
+<field name="procedure_qualification"/>
+<label name="Date"/>
+<field name="Date"/>
+<newline/>
+<label name="wps_nr"/>
+<field name="wps_nr"/>
+<newline/>
+<label name="welding_prozess"/>
+<field name="welding1"/>
+<field name="welding_prozess"/>
+<field name="welding2"/>
+<newline/>
+<label name="type"/>
+<field name="type"/>
+     </page>
+</notebook>
+<label name="space"/>
+
+<newline/>
+<notebook colspan ="4">
+     <page string="JOINTS(QW-402)" id="schweiss_data" col = "5">
+<field name="bild" widget="image"/>
+<newline/>
+<label name="bild"/>
+<label name="empfehlung"/>
+<field name="empfehlung"/>
+<label name="alle"/>
+<field name="alle"/>
+<newline/>
+<label name="sous_titre"/>
+     </page> 
+</notebook>
+<notebook colspan ="4">
+     <page string="BASE METALS(QW-403)" id="base_metal" col = "8">
+
+<label name="matrial22"/>
+<field name="matrial22"/>
+<field name="matrial4" colspan ="6"/>
+
+<newline/>
+
+<label name="type_grade1"/>
+<field name="type_grade1"/>
+
+<field name="type_grade1_1" colspan ="6"/>
+<newline/>
+  
+<label name="p_no"/>
+<field name="p_no"/>
+
+<label name="grou2"/>
+<field name="grou2"/>
+
+<label name="p_no1"/>
+<field name="p_no1"/>
+
+<label name="group_no1"/>
+<field name="group_no1"/>
+<newline/>
+<label name="thickness"/>
+<field name="thickness" colspan ="7"/>
+<newline/>
+<label name="diameter"/>
+<field name="diameter" colspan ="7"/>
+<newline/>
+<label name="max_thickness"/>
+<field name="max_thickness" colspan ="7"/>
+<newline/>
+<label name="other"/>
+<field name="other" colspan ="7"/>
+<newline/>
+<field name="other1" colspan ="8"/>
+<newline/>
+<field name="other2" colspan ="8"/>
+<newline/>
+<field name="other3" colspan ="8"/>
+<newline/>
+<field name="other4" colspan ="8"/>
+
+     </page>
+</notebook>
+<newline/>
+<notebook colspan ="2">
+     <page string="POSTWELD HEAT TREATMENT (QW-407)" id="postweld" col = "2">
+<label name="temperatur"/>
+<field name="temperatur"/>
+<newline/>
+<label name="time"/>
+<field name="time"/>
+<newline/>
+<label name="other_postweld"/>
+<field name="other_postweld"/>
+<newline/>
+<field name="other_postweld1" colspan ="2"/>
+<newline/>
+<field name="other_postweld2" colspan ="2"/>
+
+     </page>
+</notebook>
+<notebook colspan ="2">
+     <page string="ELECTRICAL CHARACTERISTICS(QW-409)" id="postweld" col = "2">
+<label name="current"/>
+<field name="current"/>
+<newline/>
+<label name="polarity"/>
+<field name="polarity"/>
+<newline/>
+<label name="amps"/>
+<field name="amps"/>
+<newline/>
+<label name="volt"/>
+<field name="volt"/>
+<newline/>
+<label name="tungsten"/>
+<field name="tungsten"/>
+<newline/>
+<label name="mode"/>
+<field name="mode"/>
+<newline/>
+<label name="heat"/>
+<field name="heat"/>
+<newline/>
+<label name="other_electrical"/>
+<field name="other_electrical"/>
+<newline/>
+<field name="other_electrical1" colspan ="2"/>
+
+     </page>
+</notebook>
+<newline/>
+<notebook colspan ="4">
+     <page string="GAS(QW-408)" id="gas" col = "4">
+<label name="flow_rate2"/>
+<newline/>
+<label name="organisation_anschrift"/>
+<label name="flow_rate3"/>
+<label name="schielding_"/>
+<label name="flow_rate1"/>
+<newline/>
+<label name="schielding"/>
+<field name="schielding_1"/>
+<field name="schielding_"/>
+<field name="flow_rate1"/>
+<newline/>
+<label name="trailing"/>
+<field name="trailing_1"/>
+<field name="trailing_"/>
+<field name="flow_rate2"/>
+<newline/>
+<label name="backing"/>
+<field name="backing_1"/>
+<field name="backing_"/>
+<field name="flow_rate3"/>
+<newline/>
+<label name="other_gas_"/>
+<field name="other_gas_" colspan ="3"/>
+     </page>
+</notebook>
+<newline/>
+<notebook colspan ="4">
+     <page string="FILLER METALS" id="gas" col = "4">
+<label name="fm1"/>
+<field name="fm1"/>
+<label name="fm2"/>
+<field name="fm2"/>
+<newline/>
+<label name="sfa_specification1"/>
+<field name="sfa_specification1"/>
+<field name="sfa_specification2" colspan ="2"/>
+<newline/>
+<label name="aws_classification1"/>
+<field name="aws_classification1"/>
+<field name="aws_classification2" colspan ="2"/>
+<newline/>
+<label name="filler_metal1"/>
+<field name="filler_metal1"/>
+<field name="filler_metal2" colspan ="2"/>
+<newline/>
+<label name="weld_metal1"/>
+<field name="weld_metal1"/>
+<field name="weld_metal2" colspan ="2"/>
+<newline/>
+<label name="size_filler1"/>
+<field name="size_filler1"/>
+<field name="size_filler2" colspan ="2"/>
+<newline/>
+<label name="flux_type1"/>
+<field name="flux_type1"/>
+<field name="flux_type2" colspan ="2"/>
+<newline/>
+<label name="weld_metal_thickness1"/>
+<field name="weld_metal_thickness1"/>
+<field name="weld_metal_thickness2" colspan ="2"/>
+<newline/>
+<label name="other_filler1"/>
+<field name="other_filler1"  colspan ="3"/>
+<field name="other_filler2" colspan ="4"/>
+     </page>
+</notebook>
+<newline/>
+<notebook colspan ="2">
+     <page string="POSITIONS (QW-405)" id="position" col = "4">
+<label name="position"/>
+<field name="position"/>
+<label name="position_of_groove"/>
+<field name="position_of_groove"/>
+<newline/>
+<label name="welding_prog"/>
+<field name="welding_prog"/>
+<newline/>
+<label name="other_position"/>
+<field name="other_position" colspan ="3"/>
+<newline/>
+<field name="other_position1" colspan ="4"/>
+     </page>
+</notebook>
+<notebook colspan ="2">
+     <page string="PREHEAT (QW-406)" id="preheat" col = "2">
+
+<label name="preheat_temp"/>
+<field name="preheat_temp"/>
+<newline/>
+<label name="interpass_temp"/>
+<field name="interpass_temp"/>
+<newline/>
+<label name="other_preheat"/>
+<field name="other_preheat"/>
+<newline/>
+<field name="other_preheat1" colspan ="2"/>
+     </page>
+</notebook>
+<notebook colspan ="4">
+     <page string="TECHNIQUE (QW-410)" id="technique" col = "4">
+
+<label name="travel_speed"/>
+<field name="travel_speed"/>
+<newline/>
+<label name="waeve_bead"/>
+<field name="waeve_bead"/>
+<newline/>
+<label name="oscillation"/>
+<field name="oscillation"/>
+<newline/>
+<label name="multipass"/>
+<field name="multipass"/>
+<newline/>
+<label name="multi_elektrode"/>
+<field name="multi_elektrode"/>
+<newline/>
+<label name="other_technique"/>
+<field name="other_technique"/>
+<newline/>
+<field name="other_technique1" colspan ="2"/>
+     </page>
+</notebook>
+<newline/>
+<label name="qw483"/>
+<field name="qw483"/>
+
+</form>

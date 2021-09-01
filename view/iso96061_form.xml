@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+    <field name="title"/>
+    <field name="logo_company"/>
+    <newline/>
+    <label name="bezeichnung1"/>
+    <field name="bezeichnung1" colspan="3"/>
+    <newline/>
+    <label name=" "/>
+    <field name="bezeichnung2" colspan="3"/>
+    <newline/>
+    <label name="wps_bezug"/>
+    <field name="wps_bezug"/>
+    <label name="prüfer_prüfstelle_beleg_nr"/>
+    <newline/>
+    <label name=" "/>
+    <field name="wps_bezug1"/>
+    <field name="prüfer_prüfstelle_beleg_nr"/>
+    <newline/>
+    <label name="weitere_beleg_nr"/>
+    <field name="weitere_beleg_nr" colspan="3"/>
+    <notebook colspan="4">
+        <page string="Schweißperson Data " id="schweisser_data" col ="3">
+            <label name="name_des_schweißers"/>
+            <field name="name_des_schweißers"/> 
+            <field name="photo2" widget="image"/>
+            <newline/>
+            <label name="legitimation"/>
+            <field name="legitimation"/>
+            <newline/>
+            <label name="art_der_legitimation"/>
+            <field name="art_der_legitimation"/>
+            <newline/>
+            <label name="gebursdatum_und_ort"/>
+            <field name="gebursdatum_und_ort"/>
+            <newline/>
+            <label name="arbeitgeber"/>
+            <field name="arbeitgeber"/>
+            <newline/>
+            <label name="vorschrift_prüfnorm"/>
+            <field name="vorschrift_prüfnorm" colspan="2"/>
+            <newline/>
+            <label name="bemerkung"/>
+            <field name="bemerkung" colspan="2"/>
+            <newline/>
+            <label name="fachkunde"/>
+            <field name="fachkunde"/>
+        </page>
+    </notebook>
+    <notebook  colspan="4">
+        <page string="Prozess und Material" id="prozess_materiel">
+            <label name=""/>
+            <label name="prüfstück"/>
+            <label name="schweißprocess_prüfstuk"/>
+            <label name="geltungsbereich"/>
+            <newline/>
+            <label name="schweißprozess"/>
+            <field name="schweißprozess"/>
+            <field name="schweißprocess_prüfstuk"/>
+            <field name="schweißprocess_geltungs"/>
+            <newline/>
+            <label name="artdeswerkstoff"/>
+            <field name="artdeswerkstoff" colspan="2"/>
+            <field name="artdeswerkstoff_geltungs"/>
+            <newline/>
+            <label name="produktform"/>
+            <field name="produktform"/>
+            <label name=" "/>
+            <field name="produktform_geltungs"/>
+            <newline/>
+            <label name="nahtart"/>
+            <field name="nahtart"/>
+            <field name="nahtart2"/>
+            <field name="nahtart_geltungs"/>
+            <newline/>
+            <label name="werkstoffgruppe"/>
+            <field name="werkstoffgruppe"/>
+            <label name=" "/>
+            <field name="werkstoffgruppe_geltungs"/>
+            <newline/>
+            <label name="grundwerkstoff"/>
+            <field name="grundwerkstoff"  colspan="2"/>
+            <newline/>
+            <label name="werkstoffgruppe_schweisszusatz_info"/>
+            <field name="werkstoffgruppe_schweisszusatz_info"/>
+            <label name=" "/>
+            <field name="werkstoffgruppe_schweisszusatz_geltungs"/>
+            <newline/>
+            <label name="schweisszusatz"/>
+            <field name="schweisszusatz"/>
+            <label name=" "/>
+            <field name="schweisszusatz_geltungs"/>
+            <newline/>
+            <label name="bezeichnung"/>
+            <field name="bezeichnung"  colspan="2"/>
+            <newline/>
+            <label name="schutzgaz"/>
+            <field name="schutzgaz"  colspan="2"/>
+            <newline/>
+            <label name="hilfsstoffe"/>
+            <field name="hilfsstoffe"  colspan="2"/>
+            <newline/>
+            <label name="stromart_und_polung"/>
+            <field name="stromart_und_polung"/>
+            <newline/>
+            <label name="werkstoffdicke"/>
+            <field name="werkstoffdicke"/>
+            <field name="werkstoffdicke_stück"/>
+            <field name="werkstoffdicke_geltungs"/>
+            <newline/>
+            <label name="dicke_des_schweißgutes"/>
+            <field name="dicke_des_schweißgutes"/>
+            <field name="dicke_des_schweißgutes_stück"/>
+            <field name="dicke_des_schweißgutes_geltungs"/>
+            <newline/>
+            <label name="wurzel"/>
+            <field name="wurzel"/>
+            <newline/>
+            <label name="rohraußendurchmesser"/>
+            <field name="rohraußendurchmesser"/>
+            <field name="rohraussendurchmesser_stück"/>
+            <field name="rohraußendurchmesser_geltungs"/>
+            <newline/>
+            <label name="schweisspos"/>
+            <field name="schweisspos"/>
+            <field name="schweißposition"/>
+            <field name="schweißposition_geltungs"/>
+            <newline/>
+            <label name="schweißnahteinzelheiten"/>
+            <field name="schweißnahteinzelheiten"/>
+            <label name=" "/>
+            <field name="schweissnahteinzelheiten_geltungs"/>
+            <newline/>
+            <label name="mehrlageg_einlageg"/>
+            <field name="mehrlageg_einlageg"/>
+            <label name=" "/>
+            <field name="mehrlageg_einlageg_geltungs"/>
+            <newline/>
+            <label name="abmessungen_des_prüfstücks"/>
+            <field name="abmessungen_des_prüfstücks"/>
+            <newline/>
+            <label name="erganzende"/>
+            <field name="erganzende" colspan = "3" />
+            <newline/>
+            <label name="hinweise"/>
+            <field name="hinweise"/>
+            <field name="hinweise_data"/>
+        </page>
+    </notebook>
+    <notebook  colspan="4">
+        <page string="Zusätzliche Hinweise" id="Prufungsart">
+            <label name="prüfungsart"/>
+            <label name="ausgeführt"/>
+            <label name="nichtgeprüft"/>
+            <newline/>
+            <label name="sichtprüfung"/>
+            <field name="sichtprüfung_aus_und_bestanden"/>
+            <field name="sichtprüfung_nich_geprüft"/>
+            <newline/>
+            <label name="durchstrahlungsprüfung"/>
+            <field name="durchstrahlungsprüfung_aus_und_bestanden"/>
+            <field name="durchstrahlungsprüfung_nich_geprüft"/>
+            <newline/>
+            <label name="bruchprüfung"/>
+            <field name="bruchprüfung_aus_und_bestanden"/>
+            <field name="bruchprüfung_nich_geprüft"/>
+            <newline/>
+            <label name="biegeprufüng"/>
+            <field name="biegeprufüng_aus_und_bestanden"/>
+            <field name="biegeprufüng_nich_geprüft"/>
+            <newline/>
+            <label name="kerbzugprüfung"/>
+            <field name="kerbzugprüfung_aus_und_bestanden"/>
+            <field name="kerbzugprüfung_nich_geprüft"/>
+            <newline/>
+            <label name="makroskopiche_untersuchungen"/>
+            <field name="makro_unter_aus_und_bestanden"/>
+            <field name="makro_unter_nich_geprüft"/>
+            <newline/>
+            <label name="zusatzprüfungen"/>
+            <field name="zusatzprüfungen_aus_und_bestanden"/>
+            <field name="zusatzprüfungen_nich_geprüft"/>
+        </page>
+    </notebook>
+    <notebook  colspan="4">
+        <page string="" id="datum_des_schweissens" col="6">
+            <label name="pruefstelle"/>
+            <field name="pruefstelle"/>    
+            <label name="unterschrift"/>
+            <field name="unterschrift"/>
+            <label name="ort"/>
+            <field name="ort"/>
+            <label name="datum_ausgabe"/>
+            <field name="datum_ausgabe"/>
+            <label name="datum_schweissens"/>
+            <field name="datum_schweissens"/>
+            <label name="datum_prüfung"/>
+            <field name="datum_prüfung"/>
+            <label name="gültigkeitsdauer_info"/>
+            <field name="gültigkeitsdauer_info"/>
+            <label name="gültigkeitsdauer"/>
+            <field name="gültigkeitsdauer"/>
+        </page>
+    </notebook>
+    <notebook  colspan="4">
+        <page string="Datums und Unterschrift" id="Unterschrift">
+            <field name="lines_qualifikation" colspan="4"/>
+            <field name="lines_welding" colspan="4"/>
+        </page>
+    </notebook>
+    <newline/>
+    <label name="bewertung"/>
+    <field name="bewertung" string ="bewertungsbogen"/>
+    <group col="4" colspan="6" id="state_buttons">
+        <label name="state"/>
+        <field name="state"/>
+        <group col="5" colspan="2" id="buttons">
+            <button name="cancel"/>
+            <button name="draft"/>
+            <button name="confirm"/>
+            <button name="done"/>
+        </group>
+    </group>
+</form>
+

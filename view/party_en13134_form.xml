@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+<label name="hersteller"/>
+<label name="prufer_prufstelle"/>
+<newline/>
+<field name="hersteller"/>
+<field name="prufer_prufstelle"/>
+<label name="space"/>
+<newline/>
+<field name="hersteller1"/>
+<field name="prufer1"/>
+<newline/>
+<label name="beleg1_title"/>
+<label name="beleg2_title"/>
+<newline/>
+<label name="beleg1"/>
+<label name="beleg2"/>
+<newline/>
+<field name="beleg1"/>
+<field name="beleg2"/>
+<newline/>
+<label name="Part2_title"/>
+<newline/>
+<field name="method11"/>
+<label name="method11"/>
+<newline/>
+<label name="geltungsbereich2"/>
+<label name="method1_"/>
+<newline/>
+<field name="method21"/>
+<label name="method21"/>
+<newline/>
+<field name="method31"/>
+<label name="method31"/>
+<newline/>
+<label name="streichen"/>
+<newline/>
+<label name="bei_a_oder_b"/>
+<field name="bei_a_oder_b"/>
+<newline/>
+<label name="geltungsbereich"/>
+<field name="geltungsbereich"/>
+<newline/>
+<label name="geltungsbereich2"/>
+<field name="geltungsbereich2"/>
+<newline/>
+<label name="geltungsbereich3"/>
+<field name="geltungsbereich3"/>
+<newline/>
+<label name="beleg_dok" colspan = "2"/>
+<newline/>
+<field name="beleg_dok" colspan = "2"/>
+<newline/>
+<field name="beleg_dok2" colspan = "2"/>
+<newline/>
+<label name="hermit" colspan = "2"/>
+<newline/>
+<field name="hermit" colspan = "2"/>
+<newline/>
+<label name="name_vertreters"/>
+<label name="name_vertreters1"/>
+<newline/>
+<field name="unterschrift2"/>
+<field name="unterschrift"/>
+<newline/>
+<field name="datum1"/>
+<field name="datum_ausstellung"/>
+<newline/>
+<label name="datum1"/>
+<label name="datum1"/>
+<newline/>
+</form>
+

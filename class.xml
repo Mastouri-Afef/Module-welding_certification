@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.class" id="welding_class1">
+            <field name="cpinfo">QL B</field>
+            <field name="beschreibung">Bewertungsgruppe B (hoch) der Unregelmäßigkeiten</field>
+            <field name="ct"> </field>
+            <field name="prufumfang"> </field>
+        </record>
+        <record model="welding.class" id="welding_class2">
+            <field name="cpinfo">QL C</field>
+            <field name="beschreibung">Bewertungsgruppe C mittel) der Unregelmäßigkeiten</field>
+            <field name="ct"> </field>
+            <field name="prufumfang"> </field>
+        </record>
+        <record model="welding.class" id="welding_class3">
+            <field name="cpinfo">QL D</field>
+            <field name="beschreibung">Bewertungsgruppe D (niedrig) der Unregelmäßigkeiten</field>
+            <field name="ct"> </field>
+            <field name="prufumfang"> </field>
+        </record>
+        <record model="welding.class" id="welding_class4">
+           <field name="cpinfo"> </field>
+            <field name="beschreibung">-</field>
+            <field name="ct"> </field>
+            <field name="prufumfang"> </field>
+        </record>
+        <record model="welding.class" id="welding_class5">
+           <field name="cpinfo">CP A</field>
+            <field name="beschreibung">in der DIN EN 15085-3 definierte Sondergüte</field>
+            <field name="ct">CT 1</field>
+            <field name="prufumfang">100%VT + 100%ZFP(RT/UT + MT/PT)</field>
+        </record>
+        <record model="welding.class" id="welding_class6">
+           <field name="cpinfo">CP B</field>
+            <field name="beschreibung">Bewertungsgruppe B (hoch) der Unregelmäßigkeiten</field>
+            <field name="ct">CT 2</field>
+            <field name="prufumfang">100%VT + 10%ZFP(RT/UT + MT/PT)</field>
+        </record>
+        <record model="welding.class" id="welding_class7">
+            <field name="cpinfo">CP C1</field>
+            <field name="beschreibung">Bewertungsgruppe C (mittel) der Unregelmäßigkeiten</field>
+            <field name="ct">CT 2</field>
+            <field name="prufumfang">100%VT + 100%ZFP(MT/PT)</field>
+        </record>
+        <record model="welding.class" id="welding_class8">
+            <field name="cpinfo">CP C2</field>
+            <field name="beschreibung">Bewertungsgruppe C (mittel) der Unregelmäßigkeiten</field>
+            <field name="ct">CT 3</field>
+            <field name="prufumfang">100%SP(eingewiesener Sichtprüfer)</field>
+        </record>
+        <record model="welding.class" id="welding_class9">
+            <field name="cpinfo">CP C3</field>
+            <field name="beschreibung">Bewertungsgruppe C (mittel) der Unregelmäßigkeiten</field>
+            <field name="ct">CT 4</field>
+            <field name="prufumfang">100%SP(Werkerselbstprüfung)</field>
+        </record>
+        <record model="welding.class" id="welding_class10">
+            <field name="cpinfo">CP D</field>
+            <field name="beschreibung">Bewertungsgruppe D (niedrig) der Unregelmäßigkeiten</field>
+            <field name="ct">CT 4</field>
+            <field name="prufumfang">100%SP(Werkerselbstprüfung)</field>
+        </record>
+        <record model="welding.class" id="welding_class11">
+            <field name="cpinfo">BK 1</field>
+            <field name="beschreibung">BauteiLklassen BK 1 mit hoher Sicherheitsbedeutung</field>
+            <field name="ct"> </field>
+            <field name="prufumfang">entspricht der Bewertungsgruppe B(hoch)</field>
+        </record>
+        <record model="welding.class" id="welding_class12">
+            <field name="cpinfo">BK 2</field>
+            <field name="beschreibung">BauteiLklassen BK 2 mit mittlerer Sicherheitsbedeutung</field>
+            <field name="ct"> </field>
+            <field name="prufumfang">entspricht der Bewertungsgruppe B(hoch)</field>
+        </record>
+        <record model="welding.class" id="welding_class13">
+            <field name="cpinfo">BK 3</field>
+            <field name="beschreibung">BauteiLklassen BK 3 mit geringer Sicherheitsbedeutung</field>
+            <field name="ct"> </field>
+            <field name="prufumfang">entspricht der Bewertungsgruppe C(mittel)</field>
+        </record>
+        <record model="welding.class" id="welding_class14">
+             <field name="cpinfo">BK 4</field>
+            <field name="beschreibung">BauteiLklassen BK 4 nach Vereinbarung (DIN 2303)</field>
+            <field name="ct"> </field>
+            <field name="prufumfang">entspricht der Bewertungsgruppe D(niedrig)</field>
+        </record>
+      
+    </data>
+</tryton>

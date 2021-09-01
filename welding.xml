@@ -1,0 +1,619 @@
+<!--
+ The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. 
+-->
+<tryton>
+<data>
+<record model="res.group" id="group_schweißanweisung_wps_admin">
+            <field name="name">Schweißanweisung WPS Administration</field>
+        </record>
+        <record model="res.user-res.group" id="user_admin_schweißanweisung_wps_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_schweißanweisung_wps_admin"/>
+        </record>
+
+
+        <record model="ir.ui.icon" id="company_icon">
+            <field name="name">Business_logo</field>
+            <field name="path">icons/Business_logo.svg</field>
+        </record>
+<record model="ir.ui.view" id="wps_schweißanweisung_view_form">
+<field name="model">welding.schweißanweisung_wps</field>
+<field name="type">form</field>
+<field name="name">wps_schweißanweisung_form</field>
+</record>
+<record model="ir.ui.view" id="wps_schweißanweisung_view_tree">
+<field name="model">welding.schweißanweisung_wps</field>
+<field name="type">tree</field>
+<field name="name">wps_schweißanweisung_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_wps_schweißanweisung_form">
+<field name="name">Schweißanweisung WPS</field>
+<field name="res_model">welding.schweißanweisung_wps</field>
+</record>
+
+        <record model="ir.action.act_window.view" id="act_wps_schweißanweisung_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="wps_schweißanweisung_view_tree"/>
+            <field name="act_window" ref="act_wps_schweißanweisung_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_wps_schweißanweisung_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="wps_schweißanweisung_view_form"/>
+            <field name="act_window" ref="act_wps_schweißanweisung_form"/>
+        </record>
+        
+                <menuitem name="Welding Certification" sequence="10" id="menu_wps" icon="Business_logo"/>
+        <menuitem name="Schweißanweisung WPS" parent="menu_wps" sequence="10" action="act_wps_schweißanweisung_form" id="menu_wps_schweissanweisung_form"/>
+        <menuitem name="Configuration" parent="menu_wps" id="menu_configuration" sequence="0" icon="tryton-settings"/>
+        <record model="ir.ui.menu-res.group"
+            id="menu_configuration_group_welding_certification_admin">
+            <field name="menu" ref="menu_configuration"/>
+            <field name="group" ref="group_schweißanweisung_wps_admin"/>
+        </record>
+        
+                <record model="ir.sequence.type" id="sequence_type_welding">
+            <field name="name">Welding Certification</field>
+        </record>
+        <record model="ir.sequence.type-res.group"
+            id="sequence_type_welding_group_admin">
+            <field name="sequence_type" ref="sequence_type_welding"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group"
+            id="sequence_type_welding_group_welding_admin">
+            <field name="sequence_type" ref="sequence_type_welding"/>
+            <field name="group" ref="group_schweißanweisung_wps_admin"/>
+        </record>
+        <record model="ir.sequence" id="sequence_welding">
+            <field name="name">Welding Certification</field>
+            <field name="sequence_type" ref="sequence_type_welding"/>
+        </record>
+        --------
+                <record model="ir.action.act_window.domain" id="act_schweißanweisung_wps_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_wps_schweißanweisung_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_schweißanweisung_wps_domain_confirmed">
+            <field name="name">Confirmed</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'confirmed')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_wps_schweißanweisung_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_schweißanweisung_wps_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="act_window" ref="act_wps_schweißanweisung_form"/>
+        </record>
+        <record model="ir.model.button" id="schweißanweisung_wps_cancel_button">
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+            <field name="confirm">Are you sure you want to cancel the Schweißanweisung WPS?</field>
+            <field name="help">Cancel the Schweißanweisung Wps</field>
+            <field name="model" search="[('model', '=', 'welding.schweißanweisung_wps')]"/>
+        </record>
+        <record model="ir.model.button" id="schweißanweisung_wps_confirm_button">
+            <field name="name">confirm</field>
+            <field name="string">Validate</field>
+            <field name="help">confirm you data?</field>
+            <field name="model" search="[('model', '=', 'welding.schweißanweisung_wps')]"/>
+        </record>
+<!--
+ iso 96061
+-->
+<record model="ir.ui.view" id="test_cert_view_form">
+<field name="model">welding.iso96061</field>
+<field name="type">form</field>
+<field name="name">iso96061_form</field>
+</record>
+<record model="ir.ui.view" id="test_cert_view_tree">
+<field name="model">welding.iso96061</field>
+<field name="type">tree</field>
+<field name="name">iso96061_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_iso96061_form">
+<field name="name">Prüfungsbescheinigung nach EN ISO 9606-1</field>
+<field name="res_model">welding.iso96061</field>
+</record>
+
+<menuitem name="EN ISO 9606-1" parent="menu_wps" action="act_iso96061_form" sequence="20" id="menu_iso_96061_form"/>
+              <record model="ir.action.act_window.domain" id="act_iso96061_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_iso96061_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_iso96061_domain_confirmed">
+            <field name="name">Confirmed</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'confirmed')]"
+                pyson="1"/>
+            <field name="act_window" ref="act_iso96061_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_iso96061_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="act_window" ref="act_iso96061_form"/>
+        </record>
+        <record model="ir.model.button" id="iso96061_cancel_button">
+            <field name="name">cancel</field>
+            <field name="string">Cancel</field>
+            <field name="confirm">Are you sure you want to cancel the Schweißanweisung WPS?</field>
+            <field name="help">Cancel the Schweißanweisung Wps</field>
+            <field name="model" search="[('model', '=', 'welding.iso96061')]"/>
+        </record>
+        <record model="ir.model.button" id="iso96061_confirm_button">
+            <field name="name">confirm</field>
+            <field name="string">Validate</field>
+            <field name="help">confirm you data?</field>
+            <field name="model" search="[('model', '=', 'welding.iso96061')]"/>
+        </record>
+        
+        
+        
+        
+<record model="ir.ui.view" id="schweißprozesse_view_form">
+<field name="model">welding.schweißprozesse</field>
+<field name="type">form</field>
+<field name="name">schweißprozesse_view_form</field>
+</record>
+<record model="ir.ui.view" id="schweißprozesse_view_tree">
+<field name="model">welding.schweißprozesse</field>
+<field name="type">tree</field>
+<field name="name">schweißprozesse_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_schweißprozesse">
+<field name="name">schweißprozess(e)</field>
+<field name="res_model">welding.schweißprozesse</field>
+</record>
+<record model="ir.action.act_window.view" id="act_schweißprozesse_view_tree">
+<field name="view" ref="schweißprozesse_view_tree" />
+<field name="act_window" ref="act_schweißprozesse" />
+</record>
+<record model="ir.action.act_window.view" id="act_schweißprozesse_view_form">
+<field name="view" ref="schweißprozesse_view_form" />
+<field name="act_window" ref="act_schweißprozesse" />
+</record>
+
+<record model="ir.ui.view" id="werkstoffgruppe_schweißzusatz_view_form">
+<field name="model">welding.werkstoffgruppe_schweißzusatz</field>
+<field name="type">form</field>
+<field name="name">werkstoffgruppe_schweißzusatz_form</field>
+</record>
+<record model="ir.ui.view" id="werkstoffgruppe_schweißzusatz_view_tree">
+<field name="model">welding.werkstoffgruppe_schweißzusatz</field>
+<field name="type">tree</field>
+<field name="name">werkstoffgruppe_schweißzusatz_tree</field>
+</record>
+
+<record model="ir.action.act_window" id="act_werkstoffgruppe_schweißzusatz">
+<field name="name">Werkstoffgruppe Schweißzusatz</field>
+<field name="res_model">welding.werkstoffgruppe_schweißzusatz</field>
+</record>
+<record model="ir.action.act_window.view" id="act_werkstoffgruppe_schweißzusatz_view_tree">
+<field name="view" ref="werkstoffgruppe_schweißzusatz_view_tree" />
+<field name="act_window" ref="act_werkstoffgruppe_schweißzusatz" />
+</record>
+<record model="ir.action.act_window.view" id="act_werkstoffgruppe_schweißzusatz_view_form">
+<field name="view" ref="werkstoffgruppe_schweißzusatz_view_form" />
+<field name="act_window" ref="act_werkstoffgruppe_schweißzusatz" />
+</record>
+
+
+<record model="ir.ui.view" id="prüfstellle_view_tree">
+<field name="model">welding.pruefstelle</field>
+<field name="type">tree</field>
+<field name="name">pruefstelle_tree</field>
+</record>
+
+<record model="ir.ui.view" id="hinweise1_view_tree">
+<field name="model">welding.hinweise</field>
+<field name="type">tree</field>
+<field name="name">hinweise_tree</field>
+</record>
+
+
+<record model="ir.ui.view" id="schweißfolgen_properties_view_tree">
+<field name="model">welding.schweißfolgen_properties</field>
+<field name="type">tree</field>
+<field name="name">schweißfolgen_properties_tree</field>
+</record>
+
+<record model="ir.ui.view" id="skizze_view_tree">
+<field name="model">welding.bilds_properties</field>
+<field name="type">tree</field>
+<field name="name">skizze_tree</field>
+</record>
+-->
+<record model="ir.ui.view" id="skizze_2_view_tree">
+<field name="model">welding.bilds_properties</field>
+<field name="type">tree</field>
+<field name="name">skizze2_tree</field>
+</record>
+
+<record model="ir.ui.view" id="list_gaz_view_form">
+<field name="model">welding.list_gas_mischgase</field>
+<field name="type">form</field>
+<field name="name">list_gas_mischgase_form</field>
+</record>
+<record model="ir.ui.view" id="list_gaz_view_tree">
+<field name="model">welding.list_gas_mischgase</field>
+<field name="type">tree</field>
+<field name="name">list_gas_mischgase_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_list_gas_mischgase">
+<field name="name">List gas und mischgase</field>
+<field name="res_model">welding.list_gas_mischgase</field>
+</record>
+<record model="ir.action.act_window.view" id="act_list_gas_mischgase_view_tree">
+<field name="view" ref="list_gaz_view_tree" />
+<field name="act_window" ref="act_list_gas_mischgase" />
+</record>
+<record model="ir.action.act_window.view" id="act_list_gas_mischgase_view_form">
+<field name="view" ref="list_gaz_view_form" />
+<field name="act_window" ref="act_list_gas_mischgase" />
+</record>
+
+<record model="ir.ui.view" id="schweisszusatz_view_form">
+<field name="model">welding.schweißzusatz</field>
+<field name="type">form</field>
+<field name="name">schweisszusatz_form</field>
+</record>
+<record model="ir.ui.view" id="schweisszusatz_view_tree">
+<field name="model">welding.schweißzusatz</field>
+<field name="type">tree</field>
+<field name="name">schweisszusatz_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_schweisszusatz">
+<field name="name">Schweißzusatz</field>
+<field name="res_model">welding.schweißzusatz</field>
+</record>
+<record model="ir.action.act_window.view" id="act_schweisszusatz_view_tree">
+<field name="view" ref="schweisszusatz_view_tree" />
+<field name="act_window" ref="act_schweisszusatz" />
+</record>
+<record model="ir.action.act_window.view" id="act_schweisszusatz_view_form">
+<field name="view" ref="schweisszusatz_view_form" />
+<field name="act_window" ref="act_schweisszusatz" />
+</record>
+
+<record model="ir.ui.view" id="schweisszusatz2_view_tree">
+<field name="model">welding.schweisszusatz2</field>
+<field name="type">tree</field>
+<field name="name">schweisszusatz2_tree</field>
+</record>
+
+<record model="ir.ui.view" id="nahtnr_view_tree">
+<field name="model">welding.naht_nr</field>
+<field name="type">tree</field>
+<field name="name">nahtnr_tree</field>
+</record>
+<record model="ir.ui.view" id="schweißposition_view_tree">
+<field name="model">welding.schweißposition</field>
+<field name="type">tree</field>
+<field name="name">position_view_tree</field>
+</record>
+
+<record model="ir.ui.view" id="schweißposition_iso_6947_view_form">
+<field name="model">welding.schweissposition_iso6947</field>
+<field name="type">form</field>
+<field name="name">schweißposition_iso_6947_form</field>
+</record>
+<record model="ir.ui.view" id="schweißposition_iso_6947_view_tree">
+<field name="model">welding.schweissposition_iso6947</field>
+<field name="type">tree</field>
+<field name="name">schweißposition_iso_6947_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_schweißposition_iso_6947">
+<field name="name">Schweißposition ISO 6947</field>
+<field name="res_model">welding.schweissposition_iso6947</field>
+</record>
+<record model="ir.action.act_window.view" id="act_schweißposition_iso_6947_view_tree">
+<field name="view" ref="schweißposition_iso_6947_view_tree" />
+<field name="act_window" ref="act_schweißposition_iso_6947" />
+</record>
+<record model="ir.action.act_window.view" id="act_schweißposition_iso_6947_view_form">
+<field name="view" ref="schweißposition_iso_6947_view_form" />
+<field name="act_window" ref="act_schweißposition_iso_6947" />
+</record>
+
+<record model="ir.ui.view" id="szi_view_form">
+<field name="model">welding.szi_data</field>
+<field name="type">form</field>
+<field name="name">szi_view_form</field>
+</record>
+<record model="ir.ui.view" id="szi_view_tree">
+<field name="model">welding.szi_data</field>
+<field name="type">tree</field>
+<field name="name">szi_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_szi">
+<field name="name">SZI</field>
+<field name="res_model">welding.szi_data</field>
+</record>
+<record model="ir.action.act_window.view" id="act_szi_view_tree">
+<field name="view" ref="szi_view_tree"/>
+<field name="act_window" ref="act_szi"/>
+</record>
+<record model="ir.action.act_window.view" id="act_szi_view_form">
+<field name="view" ref="szi_view_form"/>
+<field name="act_window" ref="act_szi"/>
+</record>
+
+<record model="ir.ui.view" id="erzeugniss_view_tree">
+<field name="model">welding.erzeugnis</field>
+<field name="type">tree</field>
+<field name="name">erzeugnis_tree</field>
+</record>
+<record model="ir.ui.view" id="iso96061_qualifikation_datumms_form">
+<field name="model">welding.iso96061.qualifikation_datumms</field>
+<field name="type">form</field>
+<field name="name">iso96061_qualifikation_datumms_form</field>
+</record>
+<record model="ir.ui.view" id="iso96061_qualifikation_datumms_tree">
+ <field name="model">welding.iso96061.qualifikation_datumms</field>
+<field name="type">tree</field>
+<field name="name">iso96061_qualifikation_datumms_tree</field>
+</record>
+
+<record model="ir.ui.view" id="iso96061_datumms_view_form">
+<field name="model">welding.iso96061.datumms</field>
+<field name="type">form</field>
+<field name="name">iso96061_datumms_form</field>
+</record>
+<record model="ir.ui.view" id="iso96061_datumms_view_tree">
+ <field name="model">welding.iso96061.datumms</field>
+<field name="type">tree</field>
+<field name="name">iso96061_datumms_tree</field>
+</record>
+
+
+<record model="ir.ui.view" id="wolframelektrodenart2_view_form">
+<field name="model">welding.wolframelektrodenart2_properties</field>
+<field name="type">form</field>
+<field name="name">wolframelektrodenart2_view_form</field>
+</record>
+<record model="ir.ui.view" id="wolframelektrodenart2_view_tree">
+<field name="model">welding.wolframelektrodenart2_properties</field>
+<field name="type">tree</field>
+<field name="name">wolframelektrodenart2_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_wolframelektrodenart2">
+<field name="name">wolframelektrodenart2</field>
+<field name="res_model">welding.wolframelektrodenart2_properties</field>
+</record>
+<record model="ir.action.act_window.view" id="act_wolframelektrodenart2_view_tree">
+<field name="view" ref="wolframelektrodenart2_view_tree" />
+<field name="act_window" ref="act_wolframelektrodenart2" />
+</record>
+<record model="ir.action.act_window.view" id="act_wolframelektrodenart2_view_form">
+<field name="view" ref="wolframelektrodenart2_view_form" />
+<field name="act_window" ref="act_wolframelektrodenart2" />
+</record>
+
+<record model="ir.ui.view" id="process_iso_4063_view_form">
+<field name="model">welding.process_iso4063</field>
+<field name="type">form</field>
+<field name="name">process_iso_4063_view_form</field>
+</record>
+<record model="ir.ui.view" id="process_iso_4063_view_tree">
+<field name="model">welding.process_iso4063</field>
+<field name="type">tree</field>
+<field name="name">process_iso_4063_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_process_iso_4063">
+<field name="name">process_iso_4063</field>
+<field name="res_model">welding.process_iso4063</field>
+</record>
+<record model="ir.action.act_window.view" id="act_process_iso_4063_view_tree">
+<field name="view" ref="process_iso_4063_view_tree" />
+<field name="act_window" ref="act_process_iso_4063" />
+</record>
+<record model="ir.action.act_window.view" id="act_process_iso_4063_view_form">
+<field name="view" ref="process_iso_4063_view_form" />
+<field name="act_window" ref="act_process_iso_4063" />
+</record>
+
+<record model="ir.ui.view" id="wpqr_view_form">
+<field name="model">welding.wpqr_nr</field>
+<field name="type">form</field>
+<field name="name">wpqr_view_form</field>
+</record>
+<record model="ir.ui.view" id="wpqr_view_tree">
+<field name="model">welding.wpqr_nr</field>
+<field name="type">tree</field>
+<field name="name">wpqr_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_wpqr">
+<field name="name">wpqr</field>
+<field name="res_model">welding.wpqr_nr</field>
+</record>
+<record model="ir.action.act_window.view" id="act_wpqr_view_tree">
+<field name="view" ref="wpqr_view_tree" />
+<field name="act_window" ref="act_wpqr" />
+</record>
+<record model="ir.action.act_window.view" id="act_wpqr_view_form">
+<field name="view" ref="wpqr_view_form" />
+<field name="act_window" ref="act_wpqr" />
+</record>
+
+
+
+<record model="ir.ui.view" id="wolframelektrodenart_view_form">
+<field name="model">welding.wolframelektrodenart_data</field>
+<field name="type">form</field>
+<field name="name">wolframelektrodenart_view_form</field>
+</record>
+<record model="ir.ui.view" id="wolframelektrodenart_view_tree">
+<field name="model">welding.wolframelektrodenart_data</field>
+<field name="type">tree</field>
+<field name="name">wolframelektrodenart_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_wolframelektrodenart">
+<field name="name">wolframelektrodenart</field>
+<field name="res_model">welding.wolframelektrodenart_data</field>
+</record>
+<record model="ir.action.act_window.view" id="act_wolframelektrodenart_view_tree">
+<field name="view" ref="wolframelektrodenart_view_tree" />
+<field name="act_window" ref="act_wolframelektrodenart" />
+</record>
+<record model="ir.action.act_window.view" id="act_wolframelektrodenart_view_form">
+<field name="view" ref="wolframelektrodenart_view_form" />
+<field name="act_window" ref="act_wolframelektrodenart" />
+</record>
+
+<record model="ir.ui.view" id="tropfenuebergang_view_form">
+<field name="model">welding.tropfenuebergang</field>
+<field name="type">form</field>
+<field name="name">tropfenuebergang_view_form</field>
+</record>
+<record model="ir.ui.view" id="tropfenuebergang_view_tree">
+<field name="model">welding.tropfenuebergang</field>
+<field name="type">tree</field>
+<field name="name">tropfenuebergang_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_tropfenuebergang">
+<field name="name">Tropfenuebergang</field>
+<field name="res_model">welding.tropfenuebergang</field>
+</record>
+<record model="ir.action.act_window.view" id="act_tropfenuebergang_view_tree">
+<field name="view" ref="tropfenuebergang_view_tree" />
+<field name="act_window" ref="act_tropfenuebergang" />
+</record>
+<record model="ir.action.act_window.view" id="act_tropfenuebergang_view_form">
+<field name="view" ref="tropfenuebergang_view_form" />
+<field name="act_window" ref="act_tropfenuebergang" />
+</record>
+
+    <record model="ir.ui.view" id="class_view_form">
+      <field name="model">welding.class</field>
+      <field name="type">form</field>
+      <field name="name">class_view_form</field>
+    </record>
+<record model="ir.ui.view" id="class_view_tree">
+<field name="model">welding.class</field>
+<field name="type">tree</field>
+<field name="name">class_view_tree</field>
+</record>
+     <record model="ir.action.act_window" id="act_class">
+      <field name="name">Class</field>
+      <field name="res_model">welding.class</field>
+     </record>
+     <record model="ir.action.act_window.view" id="act_class_view_tree">
+       <field name="view" ref="class_view_tree" />
+       <field name="act_window" ref="act_class" />
+     </record>
+     <record model="ir.action.act_window.view" id="act_class_view_form">
+        <field name="view" ref="class_view_form" />
+        <field name="act_window" ref="act_class" />
+     </record>
+
+
+<record model="ir.ui.view" id="grundwerkstoff_view_form">
+<field name="model">welding.grundwerkstoff_properties</field>
+<field name="type">form</field>
+<field name="name">grundwerkstoff_view_form</field>
+</record>
+<record model="ir.ui.view" id="grundwerkstoff_view_tree">
+<field name="model">welding.grundwerkstoff_properties</field>
+<field name="type">tree</field>
+<field name="name">grundwerkstoff_view_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_grundwerkstoff">
+<field name="name">Grundwerkstoff</field>
+<field name="res_model">welding.grundwerkstoff_properties</field>
+</record>
+<record model="ir.action.act_window.view" id="act_grundwerkstoff_view_tree">
+<field name="view" ref="grundwerkstoff_view_tree" />
+<field name="act_window" ref="act_grundwerkstoff" />
+</record>
+<record model="ir.action.act_window.view" id="act_grundwerkstoff_view_form">
+<field name="view" ref="grundwerkstoff_view_form" />
+<field name="act_window" ref="act_grundwerkstoff" />
+</record>
+
+<record model="ir.ui.view" id="einzelheiten_view_form">
+<field name="model">welding.schweißanweisung_wps.einzelheiten_schweißenn</field>
+<field name="type">form</field>
+<field name="name">Einzelheiten_Schweissen_form</field>
+</record>
+<record model="ir.ui.view" id="einzelheiten_view_tree">
+ <field name="model">welding.schweißanweisung_wps.einzelheiten_schweißenn</field>
+<field name="type">tree</field>
+<field name="name">Einzelheiten_Schweissen_tree</field>
+</record>
+
+        <record model="ir.ui.view" id="einzelheiten_view_tree_sequence">
+            <field name="model">welding.schweißanweisung_wps.einzelheiten_schweißenn</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">Einzelheiten_Schweissen_tree_sequence</field>
+        </record>
+
+        
+<!--Drucken Iso 96061  
+<record model="ir.ui.view" id="test_cert_view_form">
+<field name="model">welding.iso96061</field>
+<field name="type">form</field>
+<field name="name">iso96061_form</field>
+</record>
+<record model="ir.ui.view" id="test_cert_view_tree">
+<field name="model">welding.iso96061</field>
+<field name="type">tree</field>
+<field name="name">iso96061_tree</field>
+</record>
+<record model="ir.action.act_window" id="act_certs_form">
+<field name="name">Prüfungsbescheinigung nach EN ISO 9606-1</field>
+<field name="res_model">welding.iso96061</field>
+</record>
+
+<menuitem name="Prüfungsbescheinigung nach EN ISO 9606-1" sequence="0" action="act_certs_form" id="menu_iso_g_form"/>
+<menuitem name="ISO 9606-1" sequence="0" id="menu_iso_g_form"
+            icon="Business_logo"/>
+-->
+
+<!-- DRUCKEN Schweißanweisung WPS FORMULAR  -->
+
+
+ <record model="ir.action.report" id="report_schweißanweisung">
+<field name="name">Schweißanweisung WPS</field>
+<field name="model">welding.schweißanweisung_wps</field>
+<field name="report_name">welding.zertifikat_wps</field>
+<field name="report">welding_certification/reports/schweißanweisung_wps_report.pdf</field>
+<field name="extension">pdf</field>
+</record>
+<record model="ir.action.keyword" id="report_schweißanweisung_wps">
+<field name="keyword">form_print</field>
+<field name="model">welding.schweißanweisung_wps,-1</field>
+<field name="action" ref="report_schweißanweisung"/>
+</record>
+<!--  -->
+
+<!-- DRUCKEN ISO_96061 FORMULAR -->
+
+
+ <record model="ir.action.report" id="report_iso96061">
+<field name="name">Prüfungsbescheinigung nach EN ISO 9606-1</field>
+<field name="model">welding.iso96061</field>
+<field name="report_name">welding.zertifikat_iso96061</field>
+<field name="report">welding_certification/reports/iso_96061_report.pdf</field>
+<field name="extension">pdf</field>
+</record>
+<record model="ir.action.keyword" id="report_prüfungsbescheinigung_iso96061">
+<field name="keyword">form_print</field>
+<field name="model">welding.iso96061,-1</field>
+<field name="action" ref="report_iso96061"/>
+</record>
+<!--  -->
+
+</data>
+</tryton>

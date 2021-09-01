@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6">
+
+    <field name="title" colspan="4"/>
+    <label name="space"/>
+    <newline/>
+    <field name="subtitle1" colspan="4"/>
+    <newline/>
+    <field name="subtitle2" colspan="4"/>
+    <newline/>
+<notebook colspan="4">
+        <page string=" " id="Description" col = "6">
+
+    <label name="operator_name"/>
+    <field name="operator_name"/>
+    <label name="identification"/>
+    <field name="identification"/>
+    <label name="stamp"/>
+    <field name="stamp"/>
+    <newline/>
+    <label name="blech_rohr"/>
+    <field name="blech_rohr"/>
+    <label name="nahtart"/>
+    <field name="nahtart"/>
+    <newline/>
+    <label name="bezeichnung"/>
+    <field name="bezeichnung" colspan="5"/>
+    <newline/>
+    <label name="test_description"/>
+    <newline/>
+    <label name="wps"/>
+    <field name="wps"/>
+    <label name="test_coupon"/>
+    <field name="test_coupon"/>
+    <label name="production_weld"/>
+    <field name="production_weld"/>
+    <newline/>
+    <label name="uns"/>
+    <field name="uns" colspan="3"/>
+    <label name="thickness"/>
+    <field name="thickness"/>
+    <newline/>
+    <label name="base_metal"/>
+    <field name="base_metal"/>
+    <label name="to_p_number"/>
+    <field name="to_p_number"/>
+    <label name="position"/>
+    <field name="position"/>
+    <newline/>
+    <label name="pipe"/>
+    <field name="pipe"/>
+    <label name="plate"/>
+    <field name="plate"/>
+    <label name="value_diameter"/>
+    <field name="value_diameter"/>
+    <newline/>
+    <label name="filler_metal"/>
+    <field name="filler_metal" colspan="4"/>
+        <newline/>
+    <label name="sfa"/>
+    <field name="sfa" colspan="3"/>
+    <label name="filler_metal_classification"/>
+    <field name="filler_metal_classification"/>
+  </page>
+</notebook> 
+
+<notebook colspan="4">
+        <page string="Testing Variables and Qualification Limits When Using Automatic Welding Equipment" id="Description" col = "3">
+
+    <label name="welding_variable"/>
+    <label name="actuel_value"/>
+    <label name="range_qualified"/>
+        <newline/>
+    <label name="type_welding"/>
+    <field name="type_welding"/>
+    <field name="type_welding_gel"/>
+        <newline/>
+    <label name="welding_process"/>
+    <field name="welding_process"/>
+    <field name="welding_process_gel"/>
+        <newline/>
+    <label name="filler_used"/>
+    <field name="filler_used"/>
+    <field name="filler_used_range"/>
+
+        <newline/>
+    <label name="type_laser"/>
+    <field name="type_laser"/>
+    <field name="type_laser_range"/>
+
+        <newline/>
+    <label name="continuous_drive"/>
+    <field name="continuous_drive"/>
+    <field name="continuous_drive_range"/>
+
+        <newline/>
+    <label name="vacuum"/>
+    <field name="vacuum"/>
+    <field name="vacuum_range"/>
+
+  </page>
+</notebook>
+<notebook colspan="4">
+        <page string="Testing Variables and Qualification Limits When Using Machine Welding Equipment" id="Description1" col = "3">
+
+    <label name="welding_variable2"/>
+    <label name="actuel_value"/>
+    <label name="range_qualified"/>
+        <newline/>
+    <label name="type_welding_machine"/>
+    <field name="type_welding_machine"/>
+    <field name="range_qualified_welding_machine"/>
+        <newline/>
+    <label name="welding_process_machine"/>
+    <field name="welding_process_machine"/>
+    <field name="welding_process_machine_gel"/>
+        <newline/>
+    <label name="direct_remote_visual_comtrole"/>
+    <field name="direct_remote_visual_comtrole"/>
+    <field name="direct_remote_visual_comtrole_range"/>
+        <newline/>
+    <label name="automatic_arc_voltage"/>
+    <field name="automatic_arc_voltage"/>
+    <field name="automatic_arc_voltage_range"/>
+        <newline/>
+    <label name="automatic_joint_tracking"/>
+    <field name="automatic_joint_tracking"/>
+    <field name="automatic_joint_tracking_range"/>
+        <newline/>
+    <label name="position"/>
+    <field name="position"/>
+    <field name="position_range"/>
+        <newline/>
+    <label name="comsumable_insert"/>
+    <field name="comsumable_insert"/>
+    <field name="comsumable_insert_range"/>
+        <newline/>
+    <label name="backing"/>
+    <field name="backing"/>
+    <field name="backing_range"/>
+        <newline/>
+    <label name="single_multiple_passes"/>
+    <field name="single_multiple_passes"/>
+    <field name="single_multiple_passes_range"/>
+  </page>
+</notebook>
+
+<notebook colspan="4">
+        <page string="RESULTS" id="Description1" col = "6">
+    <label name="visual_completed_weld"/>
+    <field name="visual_completed_weld" colspan="3"/>
+        <newline/>
+    <label name="transverse_face"/>
+    <field name="transverse_face"/>
+
+    <label name="longitudinal_bends"/>
+    <field name="longitudinal_bends"/>
+
+    <label name="side_bends"/>
+    <field name="side_bends"/>
+        <newline/>
+    <label name="pipe_bends"/>
+    <field name="pipe_bends"/>
+        <newline/>
+    <label name="plate_bends"/>
+    <field name="plate_bends"/>
+        <newline/>
+    <label name="pipe_specimen"/>
+    <field name="pipe_specimen"/>
+
+    <label name="plate_specimen"/>
+    <field name="plate_specimen"/>
+
+<field name="Tab_res" colspan = "6"
+                view_ids="welding_certification.wopq_results_view_tree_sequence"/>
+
+        <newline/>
+
+    <label name="alternativ_volumetric"/>
+    <field name="alternativ_volumetric" colspan = "2"/>
+    <label name="r_t"/>
+    <field name="r_t"/>
+        <newline/>
+    <label name="Fillet_welt"/>
+    <field name="Fillet_welt" colspan = "2"/>
+    <label name="u_t"/>
+    <field name="u_t"/>
+        <newline/>
+    <label name="fillet_weld_plate"/>
+    <field name="fillet_weld_plate"/>
+    <label name="fillet_weld_pipe"/>
+    <field name="fillet_weld_pipe"/>
+        <newline/>
+    <label name="macro_exam"/>
+    <field name="macro_exam" colspan = "5"/>
+        <newline/>
+    <label name="fillet_size"/>
+    <field name="fillet_size" colspan = "5"/>
+        <newline/>
+    <label name="other_test"/>
+    <field name="other_test" colspan = "5"/>
+        <newline/>
+    <label name="convacity"/>
+    <field name="convacity" colspan = "5"/>
+        <newline/>
+    <label name="film_evaluated"/>
+    <field name="film_evaluated" colspan = "2"/>
+    <label name="company"/>
+    <field name="company"/>
+        <newline/>
+    <label name="mecanical_test"/>
+    <field name="mecanical_test" colspan = "2"/>
+    <label name="labo_no"/>
+    <field name="labo_no"/>
+        <newline/>
+    <label name="supervised_by"/>
+    <field name="supervised_by" colspan = "5"/>
+
+        <newline/>
+    <label name="index" colspan = "6"/>
+        <newline/>
+    <label name="organization"/>
+    <field name="organization" colspan = "2"/>
+        <newline/>
+    <label name="certified_by"/>
+    <field name="certified_by" colspan = "2"/>
+    <label name="date"/>
+    <field name="date"/>
+        <newline/>
+    <label name="letzte_prufung"/>
+    <field name="letzte_prufung" colspan = "2"/>
+    <label name="gultig_bis"/>
+    <field name="gultig_bis"/>
+        <newline/>
+ <label name="next_termin"/>
+    <field name="next_termin" colspan = "2"/>
+        <newline/>
+<label name="ruhende_prüfung"/>
+    <field name="ruhende_prüfung"/>
+ <label name="prufung_archivieren"/>
+    <field name="prufung_archivieren"/>
+  </page>
+</notebook>
+
+
+</form>

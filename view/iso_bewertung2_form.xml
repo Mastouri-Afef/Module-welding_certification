@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="6" >
+<notebook colspan ="3">
+     <page string="Bewertungsbogen" id="schweiss_data">
+
+<label name="notice1"/>
+<label name="prufstelle"/>
+<field name="prufstelle"/>
+  <newline/>
+<label name="notice2"/>
+  <newline/>
+<label name="notice3"/>
+  <newline/>
+<label name="notice4"/>
+  <newline/>
+<label name="spc"/>
+<label name="notice5"/>
+<field name="normes"/>
+<label name="notice6"/>
+  <newline/>
+<label name="Name"/>
+<field name="Name"/>
+<label name="Geburts_tag"/>
+<field name="Geburts_tag"/>
+<label name="Kartei"/>
+<field name="Kartei"/>
+<label name="Pers_Nr"/>
+<field name="Pers_Nr"/>
+</page>
+</notebook>
+  <newline/>
+<notebook colspan ="3">
+     <page string="" id="schweiss_data">
+
+<label name="Title_bezeichnung"/>
+<label name="Title_Norm"/>
+<label name="Title_pruf_nr"/>
+<newline/>
+<field name="Bezeichnung01"/>
+<field name="Norm0"/>
+<field name="Prufn_0"/>
+<newline/>
+<field name="Bezeichnung1"/>
+<field name="Norm1"/>
+<field name="Prufn_1"/>
+  <newline/>
+<field name="Bezeichnung2"/>
+<field name="Norm2"/>
+<field name="Prufn_2"/>
+  <newline/>
+<field name="Bezeichnung3"/>
+<field name="Norm3"/>
+<field name="Prufn_3"/>
+  <newline/>
+<field name="test_prufung_1" colspan="3"
+                view_ids="welding_certification.Bewertung_sichtprufung_view_tree_sequence"/>
+<newline/>
+<field name="prufung2_1" colspan="3"
+                view_ids="welding_certification.Kehlnaht_Sichprufung_view_tree_sequence"/>
+<newline/>
+<field name="Durch_tab_1" colspan="3"
+                view_ids="welding_certification.Durch_prufung_view_tree_sequence"/>
+<newline/>
+<field name="Bruch_tab_1" colspan="3"
+                view_ids="welding_certification.Bruch_Bewertung_view_tree_sequence"/>
+ <newline/>
+<field name="Biege_tab_1" colspan="1.5"
+                view_ids="welding_certification.Biege_prufung_view_tree_sequence"/>
+<field name="Weitere_tab_1" colspan="2"
+                view_ids="welding_certification.Weitere_prufung_view_tree_sequence"/>
+</page>
+</notebook>
+<label name="space2"/>
+  <newline/>
+<notebook colspan ="3">
+<page string="" id="schweiss_data">
+
+<label name="Fachkunde"/>
+<field name="Fachkunde"/>
+<label name="gesamt"/>
+<field name="gesamt"/>
+<label name="spc"/>
+<label name="spc"/>
+<label name="spc"/>
+<label name="spc"/>
+  <newline/>
+<label name="spc"/>
+<label name="spc"/>
+<label name="spc"/>
+<label name="spc"/>
+  <newline/>
+
+<label name="ligne"/>
+<label name="spc"/>
+<label name="ligne"/>
+
+  <newline/>
+<label name="spc"/>
+<label name="text1"/>
+<label name="spc"/>
+<label name="text3"/>
+  <newline/>
+<label name="index1"/>
+<label name="index2"/>
+  <newline/>
+<label name="index3"/>
+  <newline/>
+<label name="index4"/>
+<label name="index41"/>
+<label name="index42"/>
+  <newline/>
+<label name="index43"/>
+<label name="index44"/>
+<label name="index45"/>
+  <newline/>
+<label name="index46"/>
+<label name="index47"/>
+<label name="index48"/>
+  <newline/>
+<label name="spc"/>
+<label name="index49"/>
+<label name="index491"/>
+  <newline/>
+<label name="index5"/>
+<label name="index51"/>
+<label name="index52"/>
+  <newline/>
+<label name="index53"/>
+<label name="index54"/>
+<label name="index55"/>
+  <newline/>
+<label name="index56"/>
+<label name="index57"/>
+<label name="index58"/>
+  <newline/>
+<label name="index59"/>
+<label name="index60"/>
+<label name="index61"/>
+<!-- exemple of Button
+<button name="ISO_Normes" string="EN ISO 5817/EN ISO 10042"/>
+-->
+<field name="About_normes"/>
+</page>
+</notebook>
+
+</form>

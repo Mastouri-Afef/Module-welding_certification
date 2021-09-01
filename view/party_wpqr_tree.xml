@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="hersteller"/>
+    <field name="datum_schweissen"/>
+    <field name="datum_bis"/>
+    <field name="prufer_prufstelle1"/>
+</tree>
+
+

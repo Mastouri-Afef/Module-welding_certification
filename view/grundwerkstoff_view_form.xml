@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form >
+<label name="bezeichnung"/>
+<field name="bezeichnung"/>
+<label name="norm"/>
+<field name="norm"/>
+<label name="nummer"/>
+<field name="nummer"/>
+<label name="werkstoffgruppe"/>
+<field name="werkstoffgruppe"/>
+<label name="archiv"/>
+<field name="archiv"/>
+<label name="name_din"/>
+<field name="name_din"/>
+<label name="bem_wnr"/>
+<field name="bem_wnr"/>
+<label name="tens_strength"/>
+<field name="tens_strength"/>
+<label name="wsart"/>
+<field name="wsart"/>
+
+</form>

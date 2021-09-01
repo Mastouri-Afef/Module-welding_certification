@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="welding.werkstoffgruppe_schweißzusatz" id="welding_werkstoffgruppe_schweißzusatz_1">
+            <field name="wsgr">FM1</field>
+            <field name="szw_zum_schweißen_von">unlegierte Stähle und Feinkornstähle</field>
+            <field name="beispiele_normen">EN ISO 2560, 14341, 636, 14171, 17632</field>
+        </record>
+        <record model="welding.werkstoffgruppe_schweißzusatz" id="welding_werkstoffgruppe_schweißzusatz_2">
+            <field name="wsgr">FM2</field>
+            <field name="szw_zum_schweißen_von">hochfeste Stähle</field>
+            <field name="beispiele_normen">EN ISO 18275, 16834, 26304, 26304, 18276</field>
+        </record>
+        <record model="welding.werkstoffgruppe_schweißzusatz" id="welding_werkstoffgruppe_schweißzusatz_3">
+            <field name="wsgr">FM3</field>
+            <field name="szw_zum_schweißen_von">warmfeste Stähle Cr  3,75%</field>
+            <field name="beispiele_normen">EN ISO 3580,21952, 24598, 17634</field>
+        </record>
+ </data>
+</tryton>
+
